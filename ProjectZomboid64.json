@@ -48,7 +48,6 @@
     "-XX:G1NewSizePercent=40",
     "-XX:+AlwaysPreTouch",
     "-XX:+DisableExplicitGC",
-    "-Dgraal.MitigateSpeculativeExecutionAttacks=None",
     "-XX:-OmitStackTraceInFastThrow"
   ]
 }
