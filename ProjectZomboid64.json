@@ -30,6 +30,7 @@
     "-Djava.library.path=linux64/:natives/",
     "-Djava.security.egd=file:/dev/urandom",
     "-Dgraal.CompilerConfiguration=community",
+    "-Dgraal.MitigateSpeculativeExecutionAttacks=None",
     "-XX:-OmitStackTraceInFastThrow"
   ]
 }
