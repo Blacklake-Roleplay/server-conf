@@ -29,7 +29,7 @@
     "-Dzomboid.znetlog=1",
     "-Djava.library.path=linux64/:natives/",
     "-Djava.security.egd=file:/dev/urandom",
-    "-XX:+UseZGC",
+    "-Dgraal.CompilerConfiguration=community",
     "-XX:-OmitStackTraceInFastThrow"
   ]
 }
