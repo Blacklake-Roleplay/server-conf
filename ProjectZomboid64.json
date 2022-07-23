@@ -34,7 +34,6 @@
     "-XX:+UnlockExperimentalVMOptions",
     "-XX:MaxGCPauseMillis=200",
     "-Dgraal.CompilerConfiguration=enterprise",
-    "-XX:UseAdaptiveGCBoundary",
     "-XX:MaxTenuringThreshold=1",
     "-XX:+PerfDisableSharedMem",
     "-XX:SurvivorRatio=32",
