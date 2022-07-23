@@ -33,7 +33,7 @@
     "-XX:+ParallelRefProcEnabled",
     "-XX:+UnlockExperimentalVMOptions",
     "-XX:MaxGCPauseMillis=200",
-    "-Dgraal.CompilerConfiguration=enterprise",
+    "-Dgraal.CompilerConfiguration=community",
     "-XX:MaxTenuringThreshold=1",
     "-XX:+PerfDisableSharedMem",
     "-XX:SurvivorRatio=32",
