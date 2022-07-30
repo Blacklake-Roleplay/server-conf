@@ -22,7 +22,7 @@ function SpawnRegions()
 
 		{ name = "Ekron, KY", file = "media/maps/Ekron, KY/spawnpoints.lua" },
 
-		{ name - "Preston Army Depot, KY", file = "media/maps/Preston Army Depot, KY/spawnpoints.lua" },
+		{ name = "Preston Army Depot, KY", file = "media/maps/Preston Army Depot, KY/spawnpoints.lua" },
 
 		{ name = "STEVSpawn", file = "media/maps/STEVSpawn/spawnpoints.lua" },
 
