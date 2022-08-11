@@ -49,6 +49,6 @@
     "-XX:+AlwaysPreTouch",
     "-XX:+DisableExplicitGC",
     "-XX:-OmitStackTraceInFastThrow",
-    "-xx:-UseLinuxPosixThreadCPUClocks"
+    "-XX:-UseLinuxPosixThreadCPUClocks"
   ]
 }
