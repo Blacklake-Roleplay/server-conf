@@ -48,6 +48,7 @@
     "-XX:G1NewSizePercent=40",
     "-XX:+AlwaysPreTouch",
     "-XX:+DisableExplicitGC",
-    "-XX:-OmitStackTraceInFastThrow"
+    "-XX:-OmitStackTraceInFastThrow",
+    "-xx:-UseLinuxPosixThreadCPUClocks"
   ]
 }
