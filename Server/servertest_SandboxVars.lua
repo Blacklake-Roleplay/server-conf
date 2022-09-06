@@ -341,7 +341,7 @@ SandboxVars = {
     -- 2 = Low
     -- 3 = Normal
     -- 4 = High
-    BloodLevel = 3,
+    BloodLevel = 4,
     -- Governs how quickly clothing degrades, becomes dirty, and bloodied.
     -- 1 = Disabled
     -- 2 = Slow
@@ -531,17 +531,17 @@ SandboxVars = {
     },
     ZombieConfig = {
         -- Set by the "Zombie Count" population option. 4.0 = Insane, Very High = 3.0, 2.0 = High, 1.0 = Normal, 0.35 = Low, 0.0 = None. Minimum=0.00 Maximum=4.00 Default=1.00
-        PopulationMultiplier = 0.9,
+        PopulationMultiplier = 1.5,
         -- Adjusts the desired population at the start of the game. Minimum=0.00 Maximum=4.00 Default=1.00
-        PopulationStartMultiplier = 0.8,
+        PopulationStartMultiplier = 0.5,
         -- Adjusts the desired population on the peak day. Minimum=0.00 Maximum=4.00 Default=1.50
-        PopulationPeakMultiplier = 1.0,
+        PopulationPeakMultiplier = 1.50,
         -- The day when the population reaches it's peak. Minimum=1 Maximum=365 Default=28
         PopulationPeakDay = 28,
         -- The number of hours that must pass before zombies may respawn in a cell. If zero, spawning is disabled. Minimum=0.00 Maximum=8760.00 Default=72.00
         RespawnHours = 512.0,
         -- The number of hours that a chunk must be unseen before zombies may respawn in it. Minimum=0.00 Maximum=8760.00 Default=16.00
-        RespawnUnseenHours = 256.0,
+        RespawnUnseenHours = 16.0,
         -- The fraction of a cell's desired population that may respawn every RespawnHours. Minimum=0.00 Maximum=1.00 Default=0.10
         RespawnMultiplier = 0.1,
         -- The number of hours that must pass before zombies migrate to empty parts of the same cell. If zero, migration is disabled. Minimum=0.00 Maximum=8760.00 Default=12.00
@@ -549,7 +549,7 @@ SandboxVars = {
         -- The distance a zombie will try to walk towards the last sound it heard. Minimum=10 Maximum=1000 Default=100
         FollowSoundDistance = 100,
         -- The size of groups real zombies form when idle. Zero means zombies don't form groups. Groups don't form inside buildings or forest zones. Minimum=0 Maximum=1000 Default=20
-        RallyGroupSize = 20,
+        RallyGroupSize = 5,
         -- The distance real zombies travel to form groups when idle. Minimum=5 Maximum=50 Default=20
         RallyTravelDistance = 20,
         -- The distance between zombie groups. Minimum=5 Maximum=25 Default=15
@@ -631,7 +631,7 @@ SandboxVars = {
     },
     MoarCanOpeners = {
         InjurePlayer = true,
-        PoisonResult = true,
+        PoisonResult = false,
         SpillResult = true,
         SmallBladeStrengthLevel = 3,
         LongBladeStrengthLevel = 7,
@@ -659,11 +659,11 @@ SandboxVars = {
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Strength = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Sprinting = 1.0,
+        Sprinting = 1.2,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Lightfoot = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Nimble = 1.0,
+        Nimble = 1.2,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Sneak = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
@@ -679,15 +679,15 @@ SandboxVars = {
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Spear = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Maintenance = 1.0,
+        Maintenance = 1.2,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Woodwork = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Cooking = 1.0,
+        Cooking = 1.5,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Farming = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Doctor = 1.0,
+        Doctor = 1.5,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Electricity = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
@@ -699,11 +699,11 @@ SandboxVars = {
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Aiming = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Reloading = 1.0,
+        Reloading = 1.2,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Fishing = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Trapping = 1.0,
+        Trapping = 1.2,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         PlantScavenging = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
