@@ -261,7 +261,7 @@ SandboxVars = {
     -- 1 = Never
     -- 2 = Once
     -- 3 = Sometimes
-    Helicopter = 3,
+    Helicopter = 1,
     -- How often zombie attracting metagame events like distant gunshots will occur.
     -- 1 = Never
     -- 2 = Sometimes
@@ -277,7 +277,7 @@ SandboxVars = {
     -- 4 = Often
     GeneratorSpawning = 3,
     -- How much fuel is consumed per in-game hour. Minimum=0.00 Maximum=100.00 Default=1.00
-    GeneratorFuelConsumption = 0.5,
+    GeneratorFuelConsumption = 0.1,
     -- Increase/decrease probability of discovering randomized safe houses on the map: either burnt out, containing loot stashes, dead survivor bodies etc.
     -- 1 = Never
     -- 2 = Extremely Rare
