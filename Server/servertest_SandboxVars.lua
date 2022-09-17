@@ -341,7 +341,7 @@ SandboxVars = {
     -- 2 = Low
     -- 3 = Normal
     -- 4 = High
-    BloodLevel = 4,
+    BloodLevel = 2,
     -- Governs how quickly clothing degrades, becomes dirty, and bloodied.
     -- 1 = Disabled
     -- 2 = Slow
