@@ -659,27 +659,27 @@ SandboxVars = {
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Strength = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Sprinting = 1.2,
+        Sprinting = 1.5,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Lightfoot = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Nimble = 1.2,
+        Nimble = 1.5,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Sneak = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Axe = 1.0,
+        Axe = 1.5,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Blunt = 1.0,
+        Blunt = 1.5,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        SmallBlunt = 1.0,
+        SmallBlunt = 1.5,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         LongBlade = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        SmallBlade = 1.0,
+        SmallBlade = 1.5,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Spear = 1.0,
+        Spear = 1.5,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Maintenance = 1.2,
+        Maintenance = 1.5,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Woodwork = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
@@ -689,7 +689,7 @@ SandboxVars = {
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Doctor = 1.5,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Electricity = 1.0,
+        Electricity = 1.5,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         MetalWelding = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
@@ -697,13 +697,13 @@ SandboxVars = {
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Tailoring = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Aiming = 1.0,
+        Aiming = 1.2,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Reloading = 1.2,
+        Reloading = 1.5,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Fishing = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Trapping = 1.2,
+        Trapping = 1.5,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         PlantScavenging = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
