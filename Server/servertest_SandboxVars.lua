@@ -1,14 +1,16 @@
 SandboxVars = {
     VERSION = 4,
-    -- Changing this sets the "Population Multiplier" advanced option.
+    -- Changing this sets the "Population Multiplier" advanced option. Default=Normal
     -- 1 = Insane
     -- 2 = Very High
     -- 3 = High
     -- 4 = Normal
     -- 5 = Low
     Zombies = 4,
+    -- Default=Urban Focused
     -- 1 = Urban Focused
     Distribution = 1,
+    -- Default=1 Hour
     -- 1 = 15 Minutes
     -- 2 = 30 Minutes
     -- 3 = 1 Hour
@@ -36,6 +38,7 @@ SandboxVars = {
     -- 25 = 23 Hours
     DayLength = 6,
     StartYear = 1,
+    -- Default=July
     -- 1 = January
     -- 2 = February
     -- 3 = March
@@ -49,6 +52,7 @@ SandboxVars = {
     -- 11 = November
     StartMonth = 8,
     StartDay = 31,
+    -- Default=9 AM
     -- 1 = 7 AM
     -- 2 = 9 AM
     -- 3 = 12 PM
@@ -58,6 +62,7 @@ SandboxVars = {
     -- 7 = 12 AM
     -- 8 = 2 AM
     StartTime = 3,
+    -- Default=0-30 Days
     -- 1 = Instant
     -- 2 = 0-30 Days
     -- 3 = 0-2 Months
@@ -66,6 +71,7 @@ SandboxVars = {
     -- 6 = 0-5 Years
     -- 7 = 2-6 Months
     WaterShut = 2,
+    -- Default=0-30 Days
     -- 1 = Instant
     -- 2 = 0-30 Days
     -- 3 = 0-2 Months
@@ -78,70 +84,79 @@ SandboxVars = {
     WaterShutModifier = 14,
     -- Minimum=-1 Maximum=2147483647 Default=14
     ElecShutModifier = 14,
+    -- Default=Rare
     -- 1 = Extremely Rare
     -- 2 = Rare
     -- 3 = Normal
     -- 4 = Common
     FoodLoot = 2,
+    -- Default=Rare
     -- 1 = Extremely Rare
     -- 2 = Rare
     -- 3 = Normal
     -- 4 = Common
     CannedFoodLoot = 2,
+    -- Default=Rare
     -- 1 = Extremely Rare
     -- 2 = Rare
     -- 3 = Normal
     -- 4 = Common
     LiteratureLoot = 2,
-    -- Seeds, Nails, Saws, Fishing Rods, various tools, etc...
+    -- Seeds, Nails, Saws, Fishing Rods, various tools, etc... Default=Rare
     -- 1 = Extremely Rare
     -- 2 = Rare
     -- 3 = Normal
     -- 4 = Common
     SurvivalGearsLoot = 2,
+    -- Default=Rare
     -- 1 = Extremely Rare
     -- 2 = Rare
     -- 3 = Normal
     -- 4 = Common
     MedicalLoot = 2,
+    -- Default=Rare
     -- 1 = Extremely Rare
     -- 2 = Rare
     -- 3 = Normal
     -- 4 = Common
     WeaponLoot = 2,
+    -- Default=Rare
     -- 1 = Extremely Rare
     -- 2 = Rare
     -- 3 = Normal
     -- 4 = Common
     RangedWeaponLoot = 2,
+    -- Default=Rare
     -- 1 = Extremely Rare
     -- 2 = Rare
     -- 3 = Normal
     -- 4 = Common
     AmmoLoot = 2,
+    -- Default=Rare
     -- 1 = Extremely Rare
     -- 2 = Rare
     -- 3 = Normal
     -- 4 = Common
     MechanicsLoot = 2,
+    -- Default=Rare
     -- 1 = Extremely Rare
     -- 2 = Rare
     -- 3 = Normal
     -- 4 = Common
     OtherLoot = 2,
-    -- Controls the global temperature.
+    -- Controls the global temperature. Default=Normal
     -- 1 = Very Cold
     -- 2 = Cold
     -- 3 = Normal
     -- 4 = Hot
     Temperature = 3,
-    -- Controls how often it rains.
+    -- Controls how often it rains. Default=Normal
     -- 1 = Very Dry
     -- 2 = Dry
     -- 3 = Normal
     -- 4 = Rainy
     Rain = 3,
-    -- Number of days until 100% growth.
+    -- Number of days until 100% growth. Default=Normal (100 Days)
     -- 1 = Very Fast (20 Days)
     -- 2 = Fast (50 Days)
     -- 3 = Normal (100 Days)
@@ -155,13 +170,13 @@ SandboxVars = {
     ZombieAttractionMultiplier = 1.0,
     -- Governs whether cars are locked, need keys to start etc.
     VehicleEasyUse = false,
-    -- Controls the speed of plant growth.
+    -- Controls the speed of plant growth. Default=Normal
     -- 1 = Very Fast
     -- 2 = Fast
     -- 3 = Normal
     -- 4 = Slow
     Farming = 4,
-    -- Controls the time it takes for food to break down in a composter.
+    -- Controls the time it takes for food to break down in a composter. Default=2 Weeks
     -- 1 = 1 Week
     -- 2 = 2 Weeks
     -- 3 = 3 Weeks
@@ -170,25 +185,26 @@ SandboxVars = {
     -- 6 = 8 Weeks
     -- 7 = 10 Weeks
     CompostTime = 2,
-    -- How fast character's hunger, thirst and fatigue will decrease.
+    -- How fast character's hunger, thirst and fatigue will decrease. Default=Normal
     -- 1 = Very Fast
     -- 2 = Fast
     -- 3 = Normal
     -- 4 = Slow
     StatsDecrease = 2,
-    -- Controls the abundance of fish and general forage.
+    -- Controls the abundance of fish and general forage. Default=Normal
     -- 1 = Very Poor
     -- 2 = Poor
     -- 3 = Normal
     -- 4 = Abundant
     NatureAbundance = 3,
+    -- Default=Sometimes
     -- 1 = Never
     -- 2 = Extremely Rare
     -- 3 = Rare
     -- 4 = Sometimes
     -- 5 = Often
     Alarm = 3,
-    -- How frequently homes and buildings will be discovered locked
+    -- How frequently homes and buildings will be discovered locked Default=Very Often
     -- 1 = Never
     -- 2 = Extremely Rare
     -- 3 = Rare
@@ -199,19 +215,19 @@ SandboxVars = {
     StarterKit = false,
     -- Nutritional value of food affects the player's condition.
     Nutrition = true,
-    -- Define how fast the food will spoil inside or outside fridge.
+    -- Define how fast the food will spoil inside or outside fridge. Default=Normal
     -- 1 = Very Fast
     -- 2 = Fast
     -- 3 = Normal
     -- 4 = Slow
     FoodRotSpeed = 4,
-    -- Define how much a fridge will be effective.
+    -- Define how much a fridge will be effective. Default=Normal
     -- 1 = Very Low
     -- 2 = Low
     -- 3 = Normal
     -- 4 = High
     FridgeFactor = 4,
-    -- Items will respawn in already-looted containers in towns and trailer parks. Items will not respawn in player-made containers.
+    -- Items will respawn in already-looted containers in towns and trailer parks. Items will not respawn in player-made containers. Default=None
     -- 1 = None
     -- 2 = Every Day
     -- 3 = Every Week
@@ -225,7 +241,7 @@ SandboxVars = {
     HoursForWorldItemRemoval = 24.0,
     -- If true, any items *not* in WorldItemRemovalList will be removed.
     ItemRemovalListBlacklistToggle = false,
-    -- This will affect starting world erosion and food spoilage.
+    -- This will affect starting world erosion and food spoilage. Default=0
     -- 1 = 0
     -- 2 = 1
     -- 3 = 2
@@ -239,38 +255,38 @@ SandboxVars = {
     -- 11 = 10
     -- 12 = 11
     TimeSinceApo = 1,
-    -- Will influence how much water the plant will lose per day and their ability to avoid disease.
+    -- Will influence how much water the plant will lose per day and their ability to avoid disease. Default=Normal
     -- 1 = Very High
     -- 2 = High
     -- 3 = Normal
     -- 4 = Low
     PlantResilience = 3,
-    -- Controls the yield of plants when harvested.
+    -- Controls the yield of plants when harvested. Default=Normal
     -- 1 = Very Poor
     -- 2 = Poor
     -- 3 = Normal
     -- 4 = Abundant
     PlantAbundance = 3,
-    -- Recovery from being tired from performing actions
+    -- Recovery from being tired from performing actions Default=Normal
     -- 1 = Very Fast
     -- 2 = Fast
     -- 3 = Normal
     -- 4 = Slow
     EndRegen = 3,
-    -- How regularly helicopters pass over the event zone.
+    -- How regularly helicopters pass over the event zone. Default=Once
     -- 1 = Never
     -- 2 = Once
     -- 3 = Sometimes
     Helicopter = 1,
-    -- How often zombie attracting metagame events like distant gunshots will occur.
+    -- How often zombie attracting metagame events like distant gunshots will occur. Default=Sometimes
     -- 1 = Never
     -- 2 = Sometimes
     MetaEvent = 2,
-    -- Governs night-time metagame events during the player's sleep.
+    -- Governs night-time metagame events during the player's sleep. Default=Never
     -- 1 = Never
     -- 2 = Sometimes
     SleepingEvent = 1,
-    -- Increase/decrease the chance of electrical generators spawning on the map.
+    -- Increase/decrease the chance of electrical generators spawning on the map. Default=Sometimes
     -- 1 = Extremely Rare
     -- 2 = Rare
     -- 3 = Sometimes
@@ -278,26 +294,28 @@ SandboxVars = {
     GeneratorSpawning = 3,
     -- How much fuel is consumed per in-game hour. Minimum=0.00 Maximum=100.00 Default=1.00
     GeneratorFuelConsumption = 0.1,
-    -- Increase/decrease probability of discovering randomized safe houses on the map: either burnt out, containing loot stashes, dead survivor bodies etc.
+    -- Increase/decrease probability of discovering randomized safe houses on the map: either burnt out, containing loot stashes, dead survivor bodies etc. Default=Rare
     -- 1 = Never
     -- 2 = Extremely Rare
     -- 3 = Rare
     -- 4 = Sometimes
     -- 5 = Often
     SurvivorHouseChance = 3,
+    -- Default=Rare
     -- 1 = Never
     -- 2 = Extremely Rare
     -- 3 = Rare
     -- 4 = Sometimes
     -- 5 = Often
     VehicleStoryChance = 3,
+    -- Default=Rare
     -- 1 = Never
     -- 2 = Extremely Rare
     -- 3 = Rare
     -- 4 = Sometimes
     -- 5 = Often
     ZoneStoryChance = 3,
-    -- Impacts on how often a looted map will have annotations marked on it by a deceased survivor.
+    -- Impacts on how often a looted map will have annotations marked on it by a deceased survivor. Default=Sometimes
     -- 1 = Never
     -- 2 = Extremely Rare
     -- 3 = Rare
@@ -306,24 +324,24 @@ SandboxVars = {
     AnnotatedMapChance = 4,
     -- Adds free points during character creation. Minimum=-100 Maximum=100 Default=0
     CharacterFreePoints = 3,
-    -- Gives player-built constructions extra hit points so they are more resistant to zombie damage.
+    -- Gives player-built constructions extra hit points so they are more resistant to zombie damage. Default=Normal
     -- 1 = Very Low
     -- 2 = Low
     -- 3 = Normal
     -- 4 = High
     ConstructionBonusPoints = 3,
-    -- Governs the ambient lighting at night.
+    -- Governs the ambient lighting at night. Default=Normal
     -- 1 = Pitch Black
     -- 2 = Dark
     -- 3 = Normal
     NightDarkness = 3,
-    -- Governs the time from dusk to dawn.
+    -- Governs the time from dusk to dawn. Default=Normal
     -- 1 = Always Night
     -- 2 = Long
     -- 3 = Normal
     -- 4 = Short
     NightLength = 3,
-    -- Increase and decrease the impact injuries have on your body, and their healing time.
+    -- Increase and decrease the impact injuries have on your body, and their healing time. Default=Normal
     -- 1 = Low
     -- 2 = Normal
     InjurySeverity = 2,
@@ -331,18 +349,18 @@ SandboxVars = {
     BoneFracture = true,
     -- How long before zombie bodies disappear. Minimum=-1.00 Maximum=2147483647.00 Default=216.00
     HoursForCorpseRemoval = 216.0,
-    -- Governs impact that nearby decaying bodies has on the player's health and emotions.
+    -- Governs impact that nearby decaying bodies has on the player's health and emotions. Default=Normal
     -- 1 = None
     -- 2 = Low
     -- 3 = Normal
     DecayingCorpseHealthImpact = 3,
-    -- How much blood is sprayed on floor and walls.
+    -- How much blood is sprayed on floor and walls. Default=Normal
     -- 1 = None
     -- 2 = Low
     -- 3 = Normal
     -- 4 = High
     BloodLevel = 2,
-    -- Governs how quickly clothing degrades, becomes dirty, and bloodied.
+    -- Governs how quickly clothing degrades, becomes dirty, and bloodied. Default=Normal
     -- 1 = Disabled
     -- 2 = Slow
     -- 3 = Normal
@@ -352,11 +370,11 @@ SandboxVars = {
     DaysForRottenFoodRemoval = -1,
     -- If enabled, generators will work on exterior tiles, allowing for example to power gas pump.
     AllowExteriorGenerator = true,
-    -- Controls the maximum intensity of fog.
+    -- Controls the maximum intensity of fog. Default=Normal
     -- 1 = Normal
     -- 2 = Moderate
     MaxFogIntensity = 1,
-    -- Controls the maximum intensity of rain.
+    -- Controls the maximum intensity of rain. Default=Normal
     -- 1 = Normal
     -- 2 = Moderate
     MaxRainFxIntensity = 1,
@@ -364,31 +382,31 @@ SandboxVars = {
     EnableSnowOnGround = true,
     -- When enabled certain melee weapons will be able to strike multiple zombies in one hit.
     MultiHitZombies = false,
-    -- Chance of being bitten when a zombie attacks from behind.
+    -- Chance of being bitten when a zombie attacks from behind. Default=High
     -- 1 = Low
     -- 2 = Medium
     RearVulnerability = 2,
     -- Disable to walk unimpeded while melee attacking.
     AttackBlockMovements = true,
     AllClothesUnlocked = false,
-    -- Governs how frequently cars are discovered on the map
+    -- Governs how frequently cars are discovered on the map Default=Low
     -- 1 = None
     -- 2 = Very Low
     -- 3 = Low
     -- 4 = Normal
     CarSpawnRate = 3,
-    -- Governs the chances of finding vehicles with gas in the tank.
+    -- Governs the chances of finding vehicles with gas in the tank. Default=Low
     -- 1 = Low
     -- 2 = Normal
     ChanceHasGas = 1,
-    -- Governs how full gas tanks will be in discovered cars.
+    -- Governs how full gas tanks will be in discovered cars. Default=Low
     -- 1 = Very Low
     -- 2 = Low
     -- 3 = Normal
     -- 4 = High
     -- 5 = Very High
     InitialGas = 2,
-    -- Governs how full gas tanks in fuel station will be, initially.
+    -- Governs how full gas tanks in fuel station will be, initially. Default=Normal
     -- 1 = Empty
     -- 2 = Very Low
     -- 3 = Low
@@ -399,25 +417,26 @@ SandboxVars = {
     FuelStationGas = 5,
     -- How gas-hungry vehicles on the map are. Minimum=0.00 Maximum=100.00 Default=1.00
     CarGasConsumption = 1.0,
+    -- Default=Rare
     -- 1 = Never
     -- 2 = Extremely Rare
     -- 3 = Rare
     -- 4 = Sometimes
     -- 5 = Often
     LockedCar = 3,
-    -- General condition of vehicles discovered on the map
+    -- General condition of vehicles discovered on the map Default=Low
     -- 1 = Very Low
     -- 2 = Low
     -- 3 = Normal
     -- 4 = High
     CarGeneralCondition = 1,
-    -- Governs the amount of damage dealt to vehicles that crash.
+    -- Governs the amount of damage dealt to vehicles that crash. Default=Normal
     -- 1 = Very Low
     -- 2 = Low
     -- 3 = Normal
     -- 4 = High
     CarDamageOnImpact = 3,
-    -- Damage received by the player from the car in a collision.
+    -- Damage received by the player from the car in a collision. Default=None
     -- 1 = None
     -- 2 = Low
     -- 3 = Normal
@@ -425,7 +444,7 @@ SandboxVars = {
     DamageToPlayerFromHitByACar = 1,
     -- Enable or disable traffic jams that spawn on the main roads of the map.
     TrafficJam = true,
-    -- How frequently cars will be discovered with an alarm.
+    -- How frequently cars will be discovered with an alarm. Default=Extremely Rare
     -- 1 = Never
     -- 2 = Extremely Rare
     -- 3 = Rare
@@ -436,7 +455,7 @@ SandboxVars = {
     PlayerDamageFromCrash = true,
     -- How many in-game hours before a wailing siren shuts off. Minimum=0.00 Maximum=168.00 Default=0.00
     SirenShutoffHours = 0.0,
-    --  Governs whether player can discover a car that has been maintained and cared for after the infection struck.
+    --  Governs whether player can discover a car that has been maintained and cared for after the infection struck. Default=Low
     -- 1 = Low
     -- 2 = Normal
     RecentlySurvivorVehicles = 1,
@@ -448,27 +467,27 @@ SandboxVars = {
         MapAllKnown = true,
     },
     ZombieLore = {
-        -- Controls the zombie movement rate.
+        -- Controls the zombie movement rate. Default=Fast Shamblers
         -- 1 = Sprinters
         -- 2 = Fast Shamblers
         -- 3 = Shamblers
         Speed = 2,
-        -- Controls the damage zombies inflict per attack.
+        -- Controls the damage zombies inflict per attack. Default=Normal
         -- 1 = Superhuman
         -- 2 = Normal
         -- 3 = Weak
         Strength = 2,
-        -- Controls the difficulty to kill zombies.
+        -- Controls the difficulty to kill zombies. Default=Normal
         -- 1 = Tough
         -- 2 = Normal
         -- 3 = Fragile
         Toughness = 2,
-        -- Controls how the zombie virus spreads.
+        -- Controls how the zombie virus spreads. Default=Blood + Saliva
         -- 1 = Blood + Saliva
         -- 2 = Saliva Only
         -- 3 = Everyone's Infected
         Transmission = 2,
-        -- Controls how quickly the infection takes effect.
+        -- Controls how quickly the infection takes effect. Default=2-3 Days
         -- 1 = Instant
         -- 2 = 0-30 Seconds
         -- 3 = 0-1 Minutes
@@ -476,19 +495,19 @@ SandboxVars = {
         -- 5 = 2-3 Days
         -- 6 = 1-2 Weeks
         Mortality = 5,
-        -- Controls how quickly corpses rise as zombies.
+        -- Controls how quickly corpses rise as zombies. Default=0-1 Minutes
         -- 1 = Instant
         -- 2 = 0-30 Seconds
         -- 3 = 0-1 Minutes
         -- 4 = 0-12 Hours
         -- 5 = 2-3 Days
         Reanimate = 3,
-        -- Controls zombie intelligence.
+        -- Controls zombie intelligence. Default=Basic Navigation
         -- 1 = Navigate + Use Doors
         -- 2 = Navigate
         -- 3 = Basic Navigation
         Cognition = 3,
-        -- Controls which zombies can crawl under vehicles.
+        -- Controls which zombies can crawl under vehicles. Default=Often
         -- 1 = Crawlers Only
         -- 2 = Extremely Rare
         -- 3 = Rare
@@ -496,21 +515,21 @@ SandboxVars = {
         -- 5 = Often
         -- 6 = Very Often
         CrawlUnderVehicle = 5,
-        -- Controls how long zombies remember players after seeing or hearing.
+        -- Controls how long zombies remember players after seeing or hearing. Default=Normal
         -- 1 = Long
         -- 2 = Normal
         -- 3 = Short
         Memory = 2,
-        -- Controls the effects of decomposition over time.
+        -- Controls the effects of decomposition over time. Default=Slows + Weakens
         -- 1 = Slows + Weakens
         -- 2 = Slows
         -- 3 = Weakens
         Decomp = 1,
-        -- Controls zombie vision radius.
+        -- Controls zombie vision radius. Default=Normal
         -- 1 = Eagle
         -- 2 = Normal
         Sight = 2,
-        -- Controls zombie hearing radius.
+        -- Controls zombie hearing radius. Default=Normal
         -- 1 = Pinpoint
         -- 2 = Normal
         Hearing = 2,
@@ -518,7 +537,7 @@ SandboxVars = {
         ThumpNoChasing = false,
         -- Governs whether or not zombies can destroy player constructions and defences.
         ThumpOnConstruction = true,
-        -- Governs whether zombies are more active during the day, or whether they act more nocturnally.  Active zombies will use the speed set in the "Speed" setting. Inactive zombies will be slower, and tend not to give chase.
+        -- Governs whether zombies are more active during the day, or whether they act more nocturnally.  Active zombies will use the speed set in the "Speed" setting. Inactive zombies will be slower, and tend not to give chase. Default=Both
         -- 1 = Both
         -- 2 = Night
         ActiveOnly = 1,
@@ -535,7 +554,7 @@ SandboxVars = {
         -- Adjusts the desired population at the start of the game. Minimum=0.00 Maximum=4.00 Default=1.00
         PopulationStartMultiplier = 0.5,
         -- Adjusts the desired population on the peak day. Minimum=0.00 Maximum=4.00 Default=1.50
-        PopulationPeakMultiplier = 1.50,
+        PopulationPeakMultiplier = 1.5,
         -- The day when the population reaches it's peak. Minimum=1 Maximum=365 Default=28
         PopulationPeakDay = 28,
         -- The number of hours that must pass before zombies may respawn in a cell. If zero, spawning is disabled. Minimum=0.00 Maximum=8760.00 Default=72.00
@@ -618,6 +637,7 @@ SandboxVars = {
         SpawnShotgunSuppressors = false,
         SpawnRevolverSuppressors = false,
         SpawnAmmoCans = true,
+        -- Default=Rare
         -- 1 = Extremely Rare
         -- 2 = Rare
         -- 3 = Normal
@@ -625,9 +645,11 @@ SandboxVars = {
         LootSuppressor = 2,
     },
     FuelAPI = {
-        FuelTransferSpeed = 2,
-        BarrelDefaultQuantity = "400",
-        CanPickupFullBarrel = 1,
+        -- Minimum=100.00 Maximum=5000.00 Default=400.00
+        BarrelMaxCapacity = 400.0,
+        -- Minimum=0.00 Maximum=1.00 Default=0.50
+        BarrelRandomQuantityPercent = 0.5,
+        BarrelCanPickupFull = false,
     },
     MoarCanOpeners = {
         InjurePlayer = true,
@@ -644,12 +666,11 @@ SandboxVars = {
     },
     STR = {
         CustomZones = true,
-        VanillaZones = false,
         LootZones = true,
         CustomVehicleZones = true,
-        CustomVehicles = true,
-        VanillaVehicles = true,
+        EnableSTEV = true,
         STEVOnly = false,
+        TrueSTEV = true,
         ZombieOverrides = false,
         VehicleOverrides = false,
     },
@@ -759,7 +780,7 @@ SandboxVars = {
         -- Minimum=1.67 Maximum=100.00 Default=1.67
         Sneak_3 = 4.2222,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Axe_0 = 0.50,
+        Axe_0 = 0.5,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Axe_1 = 2.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
@@ -767,7 +788,7 @@ SandboxVars = {
         -- Minimum=1.67 Maximum=100.00 Default=1.67
         Axe_3 = 2.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Blunt_0 = 0.50,
+        Blunt_0 = 0.5,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Blunt_1 = 2.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
@@ -775,7 +796,7 @@ SandboxVars = {
         -- Minimum=1.67 Maximum=100.00 Default=1.67
         Blunt_3 = 2.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        SmallBlunt_0 = 0.50,
+        SmallBlunt_0 = 0.5,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         SmallBlunt_1 = 2.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
@@ -783,7 +804,7 @@ SandboxVars = {
         -- Minimum=1.67 Maximum=100.00 Default=1.67
         SmallBlunt_3 = 2.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        LongBlade_0 = 0.50,
+        LongBlade_0 = 0.5,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         LongBlade_1 = 2.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
@@ -791,7 +812,7 @@ SandboxVars = {
         -- Minimum=1.67 Maximum=100.00 Default=1.67
         LongBlade_3 = 2.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        SmallBlade_0 = 0.50,
+        SmallBlade_0 = 0.5,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         SmallBlade_1 = 2.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
@@ -799,7 +820,7 @@ SandboxVars = {
         -- Minimum=1.67 Maximum=100.00 Default=1.67
         SmallBlade_3 = 2.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Spear_0 = 0.50,
+        Spear_0 = 0.5,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Spear_1 = 2.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
@@ -807,7 +828,7 @@ SandboxVars = {
         -- Minimum=1.67 Maximum=100.00 Default=1.67
         Spear_3 = 2.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Maintenance_0 = 0.50,
+        Maintenance_0 = 0.5,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Maintenance_1 = 2.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
@@ -950,6 +971,16 @@ SandboxVars = {
         -- Minimum=10 Maximum=10000 Default=700
         Nimble_interval = 700,
     },
+    UndeadSurvivor = {
+        -- Minimum=0.00 Maximum=100.00 Default=0.04
+        StalkerChance = 0.04,
+        -- Minimum=0.00 Maximum=100.00 Default=0.04
+        NomadChance = 0.04,
+        -- Minimum=0.00 Maximum=100.00 Default=0.04
+        PrepperChance = 0.04,
+        -- Minimum=0.00 Maximum=100.00 Default=0.04
+        HeadhunterChance = 0.04,
+    },
     RoleplayChat = {
         ToggleOOC = false,
         ToggleLOOC = false,
@@ -967,5 +998,33 @@ SandboxVars = {
         whisperRange = 2,
         -- Minimum=1 Maximum=64 Default=48
         shoutRange = 48,
+    },
+    MoreBuilds = {
+        -- Minimum=1 Maximum=10000 Default=1200
+        MaxWaterWallStorageAmount = 1200,
+        BuildingPermission = 1,
+    },
+    BLTRandomZombies = {
+        -- Minimum=0.00 Maximum=100.00 Default=2.00
+        Crawler = 2.0,
+        -- Minimum=0.00 Maximum=100.00 Default=15.00
+        Shambler = 15.0,
+        -- Minimum=0.00 Maximum=100.00 Default=78.00
+        FastShambler = 78.0,
+        -- Minimum=0.00 Maximum=100.00 Default=5.00
+        Sprinter = 5.0,
+        -- Minimum=0.00 Maximum=100.00 Default=0.00
+        Fragile = 0.0,
+        -- Minimum=0.00 Maximum=100.00 Default=100.00
+        NormalTough = 100.0,
+        -- Minimum=0.00 Maximum=100.00 Default=0.00
+        Tough = 0.0,
+        -- Minimum=0.00 Maximum=100.00 Default=0.00
+        Smart = 0.0,
+        -- Minimum=1000 Maximum=60000 Default=7500
+        Frequency = 7500,
+    },
+    MoreBuildPluss = {
+        BuildingPermission = 1,
     },
 }
