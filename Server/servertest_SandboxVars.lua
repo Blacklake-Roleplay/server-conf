@@ -169,7 +169,7 @@ SandboxVars = {
     -- 2 = Cold
     -- 3 = Normal
     -- 4 = Hot
-    Temperature = 3,
+    Temperature = 4,
     -- Controls how often it rains. Default=Normal
     -- 1 = Very Dry
     -- 2 = Dry
@@ -197,7 +197,7 @@ SandboxVars = {
     -- 2 = Fast
     -- 3 = Normal
     -- 4 = Slow
-    Farming = 4,
+    Farming = 3,
     -- Controls the time it takes for food to break down in a composter. Default=2 Weeks
     -- 1 = 1 Week
     -- 2 = 2 Weeks
@@ -381,7 +381,7 @@ SandboxVars = {
     -- 2 = Low
     -- 3 = Normal
     -- 4 = High
-    BloodLevel = 2,
+    BloodLevel = 3,
     -- Governs how quickly clothing degrades, becomes dirty, and bloodied. Default=Normal
     -- 1 = Disabled
     -- 2 = Slow
@@ -389,7 +389,7 @@ SandboxVars = {
     ClothingDegradation = 2,
     FireSpread = false,
     -- Number of in-game days before rotten food is removed from the map. -1 means rotten food is never removed. Minimum=-1 Maximum=2147483647 Default=-1
-    DaysForRottenFoodRemoval = -1,
+    DaysForRottenFoodRemoval = 150,
     -- If enabled, generators will work on exterior tiles, allowing for example to power gas pump.
     AllowExteriorGenerator = true,
     -- Controls the maximum intensity of fog. Default=Normal
@@ -494,9 +494,9 @@ SandboxVars = {
     -- Default=In and around bodies
     -- 1 = In and around bodies
     -- 2 = In bodies only
-    MaggotSpawn = 1,
+    MaggotSpawn = 2,
     -- The higher the value, the longer lightbulbs last before breaking. If 0, lightbulbs will never break. Does not affect vehicle headlights. Minimum=0.00 Maximum=1000.00 Default=1.00
-    LightBulbLifespan = 1.0,
+    LightBulbLifespan = 0,
     Map = {
         AllowMiniMap = false,
         AllowWorldMap = true,
@@ -726,19 +726,19 @@ SandboxVars = {
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Sneak = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Axe = 1.5,
+        Axe = 2.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Blunt = 1.5,
+        Blunt = 2.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        SmallBlunt = 1.5,
+        SmallBlunt = 2.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        LongBlade = 1.0,
+        LongBlade = 2.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        SmallBlade = 1.5,
+        SmallBlade = 2.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Spear = 1.5,
+        Spear = 2.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Maintenance = 1.5,
+        Maintenance = 2.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Woodwork = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
@@ -756,9 +756,9 @@ SandboxVars = {
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Tailoring = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Aiming = 1.2,
+        Aiming = 1.5,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Reloading = 1.5,
+        Reloading = 2.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Fishing = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
