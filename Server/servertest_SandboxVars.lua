@@ -6,7 +6,7 @@ SandboxVars = {
     -- 3 = High
     -- 4 = Normal
     -- 5 = Low
-    Zombies = 4,
+    Zombies = 3,
     -- Default=Urban Focused
     -- 1 = Urban Focused
     Distribution = 1,
@@ -36,7 +36,7 @@ SandboxVars = {
     -- 23 = 21 Hours
     -- 24 = 22 Hours
     -- 25 = 23 Hours
-    DayLength = 6,
+    DayLength = 3,
     StartYear = 1,
     -- Default=July
     -- 1 = January
@@ -50,8 +50,8 @@ SandboxVars = {
     -- 9 = September
     -- 10 = October
     -- 11 = November
-    StartMonth = 8,
-    StartDay = 31,
+    StartMonth = 7,
+    StartDay = 9,
     -- Default=9 AM
     -- 1 = 7 AM
     -- 2 = 9 AM
@@ -61,7 +61,7 @@ SandboxVars = {
     -- 6 = 9 PM
     -- 7 = 12 AM
     -- 8 = 2 AM
-    StartTime = 3,
+    StartTime = 2,
     -- Default=0-30 Days
     -- 1 = Instant
     -- 2 = 0-30 Days
@@ -86,7 +86,7 @@ SandboxVars = {
     ElecShutModifier = 14,
     -- Default=Rare
     -- 1 = None
-    -- 2 = Incredibly Rare
+    -- 2 = Insanely Rare
     -- 3 = Extremely Rare
     -- 4 = Rare
     -- 5 = Normal
@@ -94,7 +94,7 @@ SandboxVars = {
     FoodLoot = 4,
     -- Default=Rare
     -- 1 = None
-    -- 2 = Incredibly Rare
+    -- 2 = Insanely Rare
     -- 3 = Extremely Rare
     -- 4 = Rare
     -- 5 = Normal
@@ -102,7 +102,7 @@ SandboxVars = {
     CannedFoodLoot = 4,
     -- Default=Rare
     -- 1 = None
-    -- 2 = Incredibly Rare
+    -- 2 = Insanely Rare
     -- 3 = Extremely Rare
     -- 4 = Rare
     -- 5 = Normal
@@ -110,7 +110,7 @@ SandboxVars = {
     LiteratureLoot = 4,
     -- Seeds, Nails, Saws, Fishing Rods, various tools, etc... Default=Rare
     -- 1 = None
-    -- 2 = Incredibly Rare
+    -- 2 = Insanely Rare
     -- 3 = Extremely Rare
     -- 4 = Rare
     -- 5 = Normal
@@ -118,7 +118,7 @@ SandboxVars = {
     SurvivalGearsLoot = 4,
     -- Default=Rare
     -- 1 = None
-    -- 2 = Incredibly Rare
+    -- 2 = Insanely Rare
     -- 3 = Extremely Rare
     -- 4 = Rare
     -- 5 = Normal
@@ -126,7 +126,7 @@ SandboxVars = {
     MedicalLoot = 4,
     -- Default=Rare
     -- 1 = None
-    -- 2 = Incredibly Rare
+    -- 2 = Insanely Rare
     -- 3 = Extremely Rare
     -- 4 = Rare
     -- 5 = Normal
@@ -134,7 +134,7 @@ SandboxVars = {
     WeaponLoot = 4,
     -- Default=Rare
     -- 1 = None
-    -- 2 = Incredibly Rare
+    -- 2 = Insanely Rare
     -- 3 = Extremely Rare
     -- 4 = Rare
     -- 5 = Normal
@@ -142,7 +142,7 @@ SandboxVars = {
     RangedWeaponLoot = 4,
     -- Default=Rare
     -- 1 = None
-    -- 2 = Incredibly Rare
+    -- 2 = Insanely Rare
     -- 3 = Extremely Rare
     -- 4 = Rare
     -- 5 = Normal
@@ -150,7 +150,7 @@ SandboxVars = {
     AmmoLoot = 4,
     -- Default=Rare
     -- 1 = None
-    -- 2 = Incredibly Rare
+    -- 2 = Insanely Rare
     -- 3 = Extremely Rare
     -- 4 = Rare
     -- 5 = Normal
@@ -158,7 +158,7 @@ SandboxVars = {
     MechanicsLoot = 4,
     -- Default=Rare
     -- 1 = None
-    -- 2 = Incredibly Rare
+    -- 2 = Insanely Rare
     -- 3 = Extremely Rare
     -- 4 = Rare
     -- 5 = Normal
@@ -169,7 +169,7 @@ SandboxVars = {
     -- 2 = Cold
     -- 3 = Normal
     -- 4 = Hot
-    Temperature = 4,
+    Temperature = 3,
     -- Controls how often it rains. Default=Normal
     -- 1 = Very Dry
     -- 2 = Dry
@@ -181,11 +181,11 @@ SandboxVars = {
     -- 2 = Fast (50 Days)
     -- 3 = Normal (100 Days)
     -- 4 = Slow (200 Days)
-    ErosionSpeed = 4,
+    ErosionSpeed = 3,
     -- Number of days until 100% growth. -1 means no growth. Zero means use the Erosion Speed option. Maximum 36,500 (100 years). Minimum=-1 Maximum=36500 Default=0
-    ErosionDays = -1,
+    ErosionDays = 0,
     -- Modifies the base XP gain from actions by this number. Minimum=0.00 Maximum=1000.00 Default=1.00
-    XpMultiplier = 0.2,
+    XpMultiplier = 1.0,
     -- Determines if the XP multiplier affects passively levelled skills eg. Fitness and Strength.
     XpMultiplierAffectsPassive = false,
     -- Use this to multiply or reduce engine general loudness. Minimum=0.00 Maximum=100.00 Default=1.00
@@ -212,7 +212,7 @@ SandboxVars = {
     -- 2 = Fast
     -- 3 = Normal
     -- 4 = Slow
-    StatsDecrease = 2,
+    StatsDecrease = 3,
     -- Controls the abundance of fish and general forage. Default=Normal
     -- 1 = Very Poor
     -- 2 = Poor
@@ -225,7 +225,7 @@ SandboxVars = {
     -- 3 = Rare
     -- 4 = Sometimes
     -- 5 = Often
-    Alarm = 3,
+    Alarm = 4,
     -- How frequently homes and buildings will be discovered locked Default=Very Often
     -- 1 = Never
     -- 2 = Extremely Rare
@@ -242,13 +242,13 @@ SandboxVars = {
     -- 2 = Fast
     -- 3 = Normal
     -- 4 = Slow
-    FoodRotSpeed = 4,
+    FoodRotSpeed = 3,
     -- Define how much a fridge will be effective. Default=Normal
     -- 1 = Very Low
     -- 2 = Low
     -- 3 = Normal
     -- 4 = High
-    FridgeFactor = 4,
+    FridgeFactor = 3,
     -- Items will respawn in already-looted containers in towns and trailer parks. Items will not respawn in player-made containers. Default=None
     -- 1 = None
     -- 2 = Every Day
@@ -258,7 +258,7 @@ SandboxVars = {
     -- When > 0, loot will not respawn in zones that have been visited within this number of in-game hours. Minimum=0 Maximum=2147483647 Default=0
     SeenHoursPreventLootRespawn = 0,
     -- A comma-separated list of item types that will be removed after HoursForWorldItemRemoval hours.
-    WorldItemRemovalList = "Base.Vest,Base.Shirt,Base.Blouse,Base.Skirt,Base.Shoes,Base.Hat,Base.Glasses",
+    WorldItemRemovalList = "Base.Hat,Base.Glasses,Base.Maggots",
     -- Number of hours since an item was dropped on the ground before it is removed.  Items are removed the next time that part of the map is loaded.  Zero means items are not removed. Minimum=0.00 Maximum=2147483647.00 Default=24.00
     HoursForWorldItemRemoval = 24.0,
     -- If true, any items *not* in WorldItemRemovalList will be removed.
@@ -299,7 +299,7 @@ SandboxVars = {
     -- 1 = Never
     -- 2 = Once
     -- 3 = Sometimes
-    Helicopter = 1,
+    Helicopter = 2,
     -- How often zombie attracting metagame events like distant gunshots will occur. Default=Sometimes
     -- 1 = Never
     -- 2 = Sometimes
@@ -315,7 +315,7 @@ SandboxVars = {
     -- 4 = Often
     GeneratorSpawning = 3,
     -- How much fuel is consumed per in-game hour. Minimum=0.00 Maximum=100.00 Default=1.00
-    GeneratorFuelConsumption = 0.1,
+    GeneratorFuelConsumption = 1.0,
     -- Increase/decrease probability of discovering randomized safe houses on the map: either burnt out, containing loot stashes, dead survivor bodies etc. Default=Rare
     -- 1 = Never
     -- 2 = Extremely Rare
@@ -345,7 +345,7 @@ SandboxVars = {
     -- 5 = Often
     AnnotatedMapChance = 4,
     -- Adds free points during character creation. Minimum=-100 Maximum=100 Default=0
-    CharacterFreePoints = 3,
+    CharacterFreePoints = 0,
     -- Gives player-built constructions extra hit points so they are more resistant to zombie damage. Default=Normal
     -- 1 = Very Low
     -- 2 = Low
@@ -386,10 +386,10 @@ SandboxVars = {
     -- 1 = Disabled
     -- 2 = Slow
     -- 3 = Normal
-    ClothingDegradation = 2,
-    FireSpread = false,
+    ClothingDegradation = 3,
+    FireSpread = true,
     -- Number of in-game days before rotten food is removed from the map. -1 means rotten food is never removed. Minimum=-1 Maximum=2147483647 Default=-1
-    DaysForRottenFoodRemoval = 150,
+    DaysForRottenFoodRemoval = -1,
     -- If enabled, generators will work on exterior tiles, allowing for example to power gas pump.
     AllowExteriorGenerator = true,
     -- Controls the maximum intensity of fog. Default=Normal
@@ -407,7 +407,7 @@ SandboxVars = {
     -- Chance of being bitten when a zombie attacks from behind. Default=High
     -- 1 = Low
     -- 2 = Medium
-    RearVulnerability = 2,
+    RearVulnerability = 3,
     -- Disable to walk unimpeded while melee attacking.
     AttackBlockMovements = true,
     AllClothesUnlocked = false,
@@ -439,7 +439,7 @@ SandboxVars = {
     -- 6 = High
     -- 7 = Very High
     -- 8 = Full
-    FuelStationGas = 6,
+    FuelStationGas = 5,
     -- How gas-hungry vehicles on the map are. Minimum=0.00 Maximum=100.00 Default=1.00
     CarGasConsumption = 1.0,
     -- Default=Rare
@@ -454,7 +454,7 @@ SandboxVars = {
     -- 2 = Low
     -- 3 = Normal
     -- 4 = High
-    CarGeneralCondition = 1,
+    CarGeneralCondition = 2,
     -- Governs the amount of damage dealt to vehicles that crash. Default=Normal
     -- 1 = Very Low
     -- 2 = Low
@@ -494,13 +494,13 @@ SandboxVars = {
     -- Default=In and around bodies
     -- 1 = In and around bodies
     -- 2 = In bodies only
-    MaggotSpawn = 2,
+    MaggotSpawn = 1,
     -- The higher the value, the longer lightbulbs last before breaking. If 0, lightbulbs will never break. Does not affect vehicle headlights. Minimum=0.00 Maximum=1000.00 Default=1.00
-    LightBulbLifespan = 0,
+    LightBulbLifespan = 1.0,
     Map = {
         AllowMiniMap = false,
         AllowWorldMap = true,
-        MapAllKnown = true,
+        MapAllKnown = false,
     },
     ZombieLore = {
         -- Controls the zombie movement rate. Default=Fast Shamblers
@@ -522,7 +522,7 @@ SandboxVars = {
         -- 1 = Blood + Saliva
         -- 2 = Saliva Only
         -- 3 = Everyone's Infected
-        Transmission = 2,
+        Transmission = 1,
         -- Controls how quickly the infection takes effect. Default=2-3 Days
         -- 1 = Instant
         -- 2 = 0-30 Seconds
@@ -588,25 +588,25 @@ SandboxVars = {
     },
     ZombieConfig = {
         -- Set by the "Zombie Count" population option. 4.0 = Insane, Very High = 3.0, 2.0 = High, 1.0 = Normal, 0.35 = Low, 0.0 = None. Minimum=0.00 Maximum=4.00 Default=1.00
-        PopulationMultiplier = 1.5,
+        PopulationMultiplier = 1.0,
         -- Adjusts the desired population at the start of the game. Minimum=0.00 Maximum=4.00 Default=1.00
-        PopulationStartMultiplier = 0.5,
+        PopulationStartMultiplier = 1.0,
         -- Adjusts the desired population on the peak day. Minimum=0.00 Maximum=4.00 Default=1.50
         PopulationPeakMultiplier = 1.5,
         -- The day when the population reaches it's peak. Minimum=1 Maximum=365 Default=28
         PopulationPeakDay = 28,
         -- The number of hours that must pass before zombies may respawn in a cell. If zero, spawning is disabled. Minimum=0.00 Maximum=8760.00 Default=72.00
-        RespawnHours = 512.0,
+        RespawnHours = 72.0,
         -- The number of hours that a chunk must be unseen before zombies may respawn in it. Minimum=0.00 Maximum=8760.00 Default=16.00
         RespawnUnseenHours = 16.0,
         -- The fraction of a cell's desired population that may respawn every RespawnHours. Minimum=0.00 Maximum=1.00 Default=0.10
         RespawnMultiplier = 0.1,
         -- The number of hours that must pass before zombies migrate to empty parts of the same cell. If zero, migration is disabled. Minimum=0.00 Maximum=8760.00 Default=12.00
-        RedistributeHours = 48.0,
+        RedistributeHours = 12.0,
         -- The distance a zombie will try to walk towards the last sound it heard. Minimum=10 Maximum=1000 Default=100
         FollowSoundDistance = 100,
         -- The size of groups real zombies form when idle. Zero means zombies don't form groups. Groups don't form inside buildings or forest zones. Minimum=0 Maximum=1000 Default=20
-        RallyGroupSize = 5,
+        RallyGroupSize = 20,
         -- The distance real zombies travel to form groups when idle. Minimum=5 Maximum=50 Default=20
         RallyTravelDistance = 20,
         -- The distance between zombie groups. Minimum=5 Maximum=25 Default=15
@@ -614,456 +614,4 @@ SandboxVars = {
         -- How close members of a group stay to the group's leader. Minimum=1 Maximum=10 Default=3
         RallyGroupRadius = 3,
     },
-    ExpandedHotwire = {
-        AllowHotwire = true,
-        AllowHotwireBurglar = true,
-        -- Minimum=0 Maximum=10 Default=1
-        HotwireElectricity = 1,
-        -- Minimum=0 Maximum=10 Default=2
-        HotwireMechanics = 2,
-        -- Minimum=0 Maximum=2147483647 Default=200
-        HotwireBaseDuration = 200,
-        -- Minimum=-2147483647 Maximum=2147483647 Default=3
-        HotwireElectricityScalar = 3,
-        -- Minimum=-2147483647 Maximum=2147483647 Default=0
-        HotwireMechanicsScalar = 0,
-        AllowUnHotwire = true,
-        -- Minimum=0 Maximum=10 Default=1
-        UnHotwireElectricity = 1,
-        -- Minimum=0 Maximum=10 Default=2
-        UnHotwireMechanics = 2,
-        -- Minimum=0 Maximum=2147483647 Default=200
-        UnHotwireBaseDuration = 200,
-        -- Minimum=-2147483647 Maximum=2147483647 Default=3
-        UnHotwireElectricityScalar = 3,
-        -- Minimum=-2147483647 Maximum=2147483647 Default=0
-        UnHotwireMechanicsScalar = 0,
-        AllowKeyCrafting = true,
-        -- Minimum=0 Maximum=10 Default=2
-        KeyCraftingElectricity = 2,
-        -- Minimum=0 Maximum=10 Default=4
-        KeyCraftingMechanics = 4,
-        -- Minimum=0 Maximum=10 Default=6
-        KeyCraftingMetalWelding = 6,
-        -- Minimum=0 Maximum=2147483647 Default=2000
-        KeyCraftingBaseDuration = 2000,
-        -- Minimum=-2147483647 Maximum=2147483647 Default=1
-        KeyCraftingElectricityScalar = 1,
-        -- Minimum=-2147483647 Maximum=2147483647 Default=2
-        KeyCraftingMechanicsScalar = 2,
-        -- Minimum=-2147483647 Maximum=2147483647 Default=3
-        KeyCraftingMetalWeldingScalar = 3,
-    },
-    Firearms = {
-        SuppressorBreak = true,
-        ScrewdriverReq = false,
-        BottleSuppressorBreakChance = 1,
-        FlashlightSuppressorBreakChance = 2,
-        SuppressorEffectiveness22 = 3,
-        SuppressorEffectiveness9mm = 4,
-        SuppressorEffectiveness45 = 4,
-        SuppressorEffectiveness44 = 4,
-        SuppressorEffectiveness38 = 3,
-        SuppressorEffectiveness223 = 5,
-        SuppressorEffectiveness308 = 6,
-        SuppressorEffectivenessShotgunShells = 8,
-        SuppressorEffectivenessImprovised = 9,
-        SuppressorEffectivenessRevolver = 5,
-        SpawnSuppressors = true,
-        SpawnHandgunSuppressors = true,
-        SpawnRifleSuppressors = true,
-        SpawnShotgunSuppressors = false,
-        SpawnRevolverSuppressors = false,
-        SpawnAmmoCans = true,
-        -- Default=Incredibly Rare
-        -- 1 = None
-        -- 2 = Incredibly Rare
-        -- 3 = Extremely Rare
-        -- 4 = Rare
-        LootSuppressor = 2,
-    },
-    FuelAPI = {
-        -- Minimum=100.00 Maximum=5000.00 Default=400.00
-        BarrelMaxCapacity = 400.0,
-        -- Minimum=0.00 Maximum=1.00 Default=0.50
-        BarrelRandomQuantityPercent = 0.5,
-        BarrelCanPickupFull = false,
-    },
-    MoarCanOpeners = {
-        InjurePlayer = true,
-        PoisonResult = false,
-        SpillResult = true,
-        SmallBladeStrengthLevel = 3,
-        LongBladeStrengthLevel = 7,
-    },
-    NoDisassemblingPlease = {
-        NoDisassembling = true,
-        NoPickingUp = false,
-        AllowDestroySafehouse = 3,
-        AllowDestroyEverywhere = 1,
-    },
-    STR = {
-        CustomZones = true,
-        LootZones = true,
-        CustomVehicleZones = true,
-        EnableSTEV = true,
-        STEVOnly = false,
-        TrueSTEV = true,
-        ZombieOverrides = false,
-        VehicleOverrides = false,
-    },
-    UXPT = {
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Fitness = 1.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Strength = 1.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Sprinting = 1.5,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Lightfoot = 1.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Nimble = 1.5,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Sneak = 1.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Axe = 2.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Blunt = 2.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        SmallBlunt = 2.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        LongBlade = 2.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        SmallBlade = 2.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Spear = 2.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Maintenance = 2.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Woodwork = 1.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Cooking = 1.5,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Farming = 1.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Doctor = 1.5,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Electricity = 1.5,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        MetalWelding = 1.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Mechanics = 1.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Tailoring = 1.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Aiming = 1.5,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Reloading = 2.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Fishing = 1.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Trapping = 1.5,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        PlantScavenging = 1.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Other = 1.0,
-    },
-    UXPT_Advanced = {
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Fitness_0 = 1.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Fitness_1 = 1.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Fitness_2 = 1.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Fitness_3 = 1.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Strength_0 = 1.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Strength_1 = 1.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Strength_2 = 1.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Strength_3 = 1.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Sprinting_0 = 1.0,
-        -- Minimum=1.25 Maximum=100.00 Default=1.25
-        Sprinting_1 = 3.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Sprinting_2 = 3.6666,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Sprinting_3 = 4.2222,
-        -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Lightfoot_0 = 1.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Lightfoot_1 = 3.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Lightfoot_2 = 3.6666,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Lightfoot_3 = 4.2222,
-        -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Nimble_0 = 1.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Nimble_1 = 3.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Nimble_2 = 3.6666,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Nimble_3 = 4.2222,
-        -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Sneak_0 = 1.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Sneak_1 = 3.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Sneak_2 = 3.6666,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Sneak_3 = 4.2222,
-        -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Axe_0 = 0.5,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Axe_1 = 2.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Axe_2 = 2.3333,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Axe_3 = 2.6666,
-        -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Blunt_0 = 0.5,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Blunt_1 = 2.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Blunt_2 = 2.3333,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Blunt_3 = 2.6666,
-        -- Minimum=0.25 Maximum=100.00 Default=0.25
-        SmallBlunt_0 = 0.5,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        SmallBlunt_1 = 2.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        SmallBlunt_2 = 2.3333,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        SmallBlunt_3 = 2.6666,
-        -- Minimum=0.25 Maximum=100.00 Default=0.25
-        LongBlade_0 = 0.5,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        LongBlade_1 = 2.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        LongBlade_2 = 2.3333,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        LongBlade_3 = 2.6666,
-        -- Minimum=0.25 Maximum=100.00 Default=0.25
-        SmallBlade_0 = 0.5,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        SmallBlade_1 = 2.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        SmallBlade_2 = 2.3333,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        SmallBlade_3 = 2.6666,
-        -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Spear_0 = 0.5,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Spear_1 = 2.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Spear_2 = 2.3333,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Spear_3 = 2.6666,
-        -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Maintenance_0 = 0.5,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Maintenance_1 = 2.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Maintenance_2 = 2.6666,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Maintenance_3 = 3.2222,
-        -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Woodwork_0 = 0.25,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Woodwork_1 = 1.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Woodwork_2 = 1.3333,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Woodwork_3 = 1.6666,
-        -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Cooking_0 = 0.25,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Cooking_1 = 1.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Cooking_2 = 1.3333,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Cooking_3 = 1.6666,
-        -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Farming_0 = 0.25,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Farming_1 = 1.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Farming_2 = 1.3333,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Farming_3 = 1.6666,
-        -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Doctor_0 = 0.25,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Doctor_1 = 1.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Doctor_2 = 1.3333,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Doctor_3 = 1.6666,
-        -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Electricity_0 = 0.25,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Electricity_1 = 1.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Electricity_2 = 1.3333,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Electricity_3 = 1.6666,
-        -- Minimum=0.25 Maximum=100.00 Default=0.25
-        MetalWelding_0 = 0.25,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        MetalWelding_1 = 1.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        MetalWelding_2 = 1.3333,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        MetalWelding_3 = 1.6666,
-        -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Mechanics_0 = 0.25,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Mechanics_1 = 1.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Mechanics_2 = 1.3333,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Mechanics_3 = 1.6666,
-        -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Tailoring_0 = 0.5,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Tailoring_1 = 2.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Tailoring_2 = 2.6666,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Tailoring_3 = 3.2222,
-        -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Aiming_0 = 0.25,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Aiming_1 = 1.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Aiming_2 = 1.3333,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Aiming_3 = 1.6666,
-        -- Minimum=0.37 Maximum=1.00 Default=0.37
-        Aiming_level5mult = 0.37037,
-        -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Reloading_0 = 0.25,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Reloading_1 = 1.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Reloading_2 = 1.3333,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Reloading_3 = 1.6666,
-        -- Minimum=0.00 Maximum=4.00 Default=1.00
-        Reloading_Level5_LoadBulletsInMagazine_Xp = 1.0,
-        -- Minimum=0.00 Maximum=0.50 Default=0.20
-        Reloading_Level5_LoadBulletsInMagazine_Xp_Chance = 0.2,
-        -- Minimum=0.00 Maximum=4.00 Default=1.00
-        Reloading_Level5_InsertMagazine_Xp = 1.0,
-        -- Minimum=0.00 Maximum=1.00 Default=0.33
-        Reloading_Level5_InsertMagazine_Xp_Chance = 0.3333,
-        -- Minimum=0.00 Maximum=4.00 Default=1.00
-        Reloading_Level5_ReloadWeaponAction_Xp = 1.0,
-        -- Minimum=0.00 Maximum=1.00 Default=0.33
-        Reloading_Level5_ReloadWeaponAction_Xp_Chance = 0.3333,
-        -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Fishing_0 = 0.25,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Fishing_1 = 1.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Fishing_2 = 1.3333,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Fishing_3 = 1.6666,
-        -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Trapping_0 = 0.25,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Trapping_1 = 1.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Trapping_2 = 1.3333,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Trapping_3 = 1.6666,
-        -- Minimum=0.25 Maximum=100.00 Default=0.25
-        PlantScavenging_0 = 0.25,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        PlantScavenging_1 = 1.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        PlantScavenging_2 = 1.3333,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        PlantScavenging_3 = 1.6666,
-        -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Other_0 = 1.0,
-        -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Other_1 = 1.0,
-        -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Other_2 = 1.3333,
-        -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Other_3 = 1.6666,
-        Derandomize = true,
-        -- Minimum=10 Maximum=10000 Default=700
-        Fitness_interval = 700,
-        -- Minimum=10 Maximum=10000 Default=700
-        Strength_interval = 700,
-        -- Minimum=10 Maximum=10000 Default=700
-        Sprinting_interval = 700,
-        -- Minimum=10 Maximum=10000 Default=700
-        Nimble_interval = 700,
-    },
-    UndeadSurvivor = {
-        -- Minimum=0.00 Maximum=100.00 Default=0.04
-        StalkerChance = 0.04,
-        -- Minimum=0.00 Maximum=100.00 Default=0.04
-        NomadChance = 0.04,
-        -- Minimum=0.00 Maximum=100.00 Default=0.04
-        PrepperChance = 0.04,
-        -- Minimum=0.00 Maximum=100.00 Default=0.04
-        HeadhunterChance = 0.04,
-    },
-    RoleplayChat = {
-        ToggleOOC = false,
-        ToggleLOOC = false,
-        ToggleNameChange = false,
-        ToggleEmoteBuff = false,
-        -- Minimum=1 Maximum=32 Default=16
-        sayRange = 16,
-        -- Minimum=1 Maximum=16 Default=4
-        lowRange = 4,
-        -- Minimum=1 Maximum=32 Default=20
-        meRange = 20,
-        -- Minimum=1 Maximum=64 Default=48
-        meLongRange = 48,
-        -- Minimum=1 Maximum=2 Default=2
-        whisperRange = 2,
-        -- Minimum=1 Maximum=64 Default=48
-        shoutRange = 48,
-    },
-    MoreBuilds = {
-        -- Minimum=1 Maximum=10000 Default=1200
-        MaxWaterWallStorageAmount = 1200,
-        BuildingPermission = 1,
-    },
-    BLTRandomZombies = {
-        -- Minimum=0.00 Maximum=100.00 Default=2.00
-        Crawler = 2.0,
-        -- Minimum=0.00 Maximum=100.00 Default=15.00
-        Shambler = 15.0,
-        -- Minimum=0.00 Maximum=100.00 Default=78.00
-        FastShambler = 78.0,
-        -- Minimum=0.00 Maximum=100.00 Default=5.00
-        Sprinter = 5.0,
-        -- Minimum=0.00 Maximum=100.00 Default=0.00
-        Fragile = 0.0,
-        -- Minimum=0.00 Maximum=100.00 Default=100.00
-        NormalTough = 100.0,
-        -- Minimum=0.00 Maximum=100.00 Default=0.00
-        Tough = 0.0,
-        -- Minimum=0.00 Maximum=100.00 Default=0.00
-        Smart = 0.0,
-        -- Minimum=1000 Maximum=60000 Default=7500
-        Frequency = 7500,
-    },
-    MoreBuildPluss = {
-        BuildingPermission = 1,
-    },
 }
-
