@@ -20,7 +20,8 @@
     "java/sqlite-jdbc-3.27.2.1.jar",
     "java/trove-3.0.3.jar",
     "java/uncommons-maths-1.2.3.jar",
-    "java/commons-compress-1.18.jar"
+    "java/commons-compress-1.18.jar",
+    "zombie.SSROverride"
   ],
   "vmArgs": [
     "-Djava.awt.headless=true",
