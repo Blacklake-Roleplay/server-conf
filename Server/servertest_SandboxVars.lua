@@ -500,7 +500,7 @@ SandboxVars = {
     Map = {
         AllowMiniMap = false,
         AllowWorldMap = true,
-        MapAllKnown = false,
+        MapAllKnown = true,
     },
     ZombieLore = {
         -- Controls the zombie movement rate. Default=Fast Shamblers
@@ -570,7 +570,7 @@ SandboxVars = {
         -- Zombies that have not seen/heard player can attack doors and constructions while roaming.
         ThumpNoChasing = true,
         -- Governs whether or not zombies can destroy player constructions and defences.
-        ThumpOnConstruction = true,
+        ThumpOnConstruction = false,
         -- Governs whether zombies are more active during the day, or whether they act more nocturnally.  Active zombies will use the speed set in the "Speed" setting. Inactive zombies will be slower, and tend not to give chase. Default=Both
         -- 1 = Both
         -- 2 = Night
