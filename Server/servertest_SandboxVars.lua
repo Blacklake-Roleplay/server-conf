@@ -9,7 +9,7 @@ SandboxVars = {
     Zombies = 3,
     -- Default=Urban Focused
     -- 1 = Urban Focused
-    Distribution = 3,
+    Distribution = 1,
     -- Default=1 Hour
     -- 1 = 15 Minutes
     -- 2 = 30 Minutes
@@ -620,9 +620,9 @@ SandboxVars = {
         -- Minimum=0.00 Maximum=100.00 Default=0.04
         NomadChance = 0.01,
         -- Minimum=0.00 Maximum=100.00 Default=0.04
-        PrepperChance = 0.00,
+        PrepperChance = 0.0,
         -- Minimum=0.00 Maximum=100.00 Default=0.04
-        HeadhunterChance = 0.00,
+        HeadhunterChance = 0.0,
         -- Minimum=0.00 Maximum=100.00 Default=0.08
         AmazonaChance = 0.01,
     },
@@ -666,7 +666,7 @@ SandboxVars = {
         -- Minimum=100.00 Maximum=5000.00 Default=400.00
         BarrelMaxCapacity = 500.0,
         -- Minimum=0.00 Maximum=1.00 Default=0.50
-        BarrelRandomQuantityPercent = 0.00,
+        BarrelRandomQuantityPercent = 0.0,
         BarrelCanPickupFull = false,
     },
     MoreBuilds = {
