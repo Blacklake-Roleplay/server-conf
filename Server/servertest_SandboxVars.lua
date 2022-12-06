@@ -735,14 +735,12 @@ SandboxVars = {
         zedMusic = false,
         -- Minimum=0.00 Maximum=100.00 Default=1.00
         zedMusicChance = 1.0,
-        -- Minimum=0.00 Maximum=2.00 Default=1.00
+        -- Minimum=0.00 Maximum=2.00 Default=0.05
         cassetteWeight = 1.0,
-        -- Minimum=0.00 Maximum=2.00 Default=1.00
+        -- Minimum=0.00 Maximum=2.00 Default=0.10
         vinylWeight = 1.0,
         -- Minimum=0.00 Maximum=100.00 Default=1.00
         batteryUse = 1.0,
-        -- Minimum=0.00 Maximum=2.00 Default=1.00
-        vinylPower = 1.0,
         -- Minimum=0.00 Maximum=10.00 Default=2.40
         boomboxWeight = 2.4,
         cacheSpawn = true,
