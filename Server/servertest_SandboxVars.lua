@@ -721,18 +721,35 @@ SandboxVars = {
         -- Minimum=0 Maximum=100 Default=5
         ReduceStress = 5,
     },
-    MFTEOTW = {
-        cassettespawnA = true,
-        vinylspawnA = true,
-        -- Minimum=0.00 Maximum=10.00 Default=1.00
-        lootrarityfactorA = 1.0,
-        zombiedropA = false,
-        -- Minimum=0.10 Maximum=50.00 Default=1.00
-        zombiedroprateA = 1.0,
-        -- Minimum=0 Maximum=10 Default=1
-        cassetteDropNumberA = 1,
-        -- Minimum=0 Maximum=10 Default=1
-        vinylDropNumberA = 1,
+    MFTEOTWC = {
+        cassetteSpawn = true,
+        vinylSpawn = true,
+        -- Minimum=0 Maximum=10 Default=2
+        maxCassettes = 2,
+        -- Minimum=0 Maximum=10 Default=2
+        maxVinyls = 2,
+        -- Minimum=0.00 Maximum=20.00 Default=1.00
+        cassetteChance = 1.0,
+        -- Minimum=0.00 Maximum=20.00 Default=1.00
+        vinylChance = 1.0,
+        zedMusic = false,
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
+        zedMusicChance = 1.0,
+        -- Minimum=0.00 Maximum=2.00 Default=1.00
+        cassetteWeight = 1.0,
+        -- Minimum=0.00 Maximum=2.00 Default=1.00
+        vinylWeight = 1.0,
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
+        batteryUse = 1.0,
+        -- Minimum=0.00 Maximum=2.00 Default=1.00
+        vinylPower = 1.0,
+        -- Minimum=0.00 Maximum=10.00 Default=2.40
+        boomboxWeight = 2.4,
+        cacheSpawn = true,
+        -- Minimum=5 Maximum=100 Default=50
+        cacheQuantity = 50,
+        -- Minimum=0.00 Maximum=50.00 Default=1.00
+        cacheSpawnChance = 1.0,
     },
     MoreBuildPluss = {
         BuildingPermission = 1,
