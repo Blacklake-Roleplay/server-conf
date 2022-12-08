@@ -640,27 +640,27 @@ SandboxVars = {
         smallFenceWVeg = true,
         otherFenceVeg = true,
         -- Minimum=0 Maximum=3 Default=1
-        indoorChance = 3,
+        indoorChance = 0,
         -- Minimum=0 Maximum=3 Default=1
-        outdoorChance = 1,
+        outdoorChance = 0,
         -- Minimum=0 Maximum=3 Default=1
-        angleChance = 1,
+        angleChance = 0,
         -- Minimum=0 Maximum=3 Default=1
-        wallWChance = 1,
+        wallWChance = 0,
         -- Minimum=0 Maximum=3 Default=1
-        wallNChance = 1,
+        wallNChance = 0,
         -- Minimum=0 Maximum=3 Default=1
-        roofChance = 1,
+        roofChance = 0,
         -- Minimum=0 Maximum=3 Default=1
-        fenceChance = 1,
+        fenceChance = 0,
         -- Minimum=0 Maximum=3 Default=1
-        smallFenceAngleChance = 1,
+        smallFenceAngleChance = 0,
         -- Minimum=0 Maximum=3 Default=1
-        smallFenceNChance = 1,
+        smallFenceNChance = 0,
         -- Minimum=0 Maximum=3 Default=1
-        smallFenceWChance = 1,
+        smallFenceWChance = 0,
         -- Minimum=0 Maximum=3 Default=1
-        otherFenceChance = 1,
+        otherFenceChance = 0,
     },
     FuelAPI = {
         -- Minimum=100.00 Maximum=5000.00 Default=400.00
