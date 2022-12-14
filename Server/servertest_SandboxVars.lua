@@ -1084,4 +1084,22 @@ SandboxVars = {
         -- Minimum=-1.00 Maximum=9999.00 Default=1.00
         LifetimeMult = 5.0,
     },
+    MorePlushies = {
+        -- Minimum=1 Maximum=1000 Default=1
+        SpawnRate = 1,
+    },
+    NamedLiterature = {
+        -- Minimum=0 Maximum=1000000 Default=26280
+        TimeToForget = 26280,
+        -- Minimum=1 Maximum=100 Default=3
+        MaxTimesReadable = 3,
+        CanReadPassedMax = true,
+    },
+    UdderlySafeLogin = {
+        -- Minimum=1.00 Maximum=120.00 Default=20.00
+        SafeTime = 20.0,
+        -- Minimum=0.00 Maximum=1.00 Default=0.50
+        MovementMultiplier = 0.5,
+        UseInvisbiility = false,
+    },
 }
