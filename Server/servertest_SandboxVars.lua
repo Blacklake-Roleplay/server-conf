@@ -752,305 +752,302 @@ SandboxVars = {
     MoreBuildPluss = {
         BuildingPermission = 1,
     },
-   UXPT = {
-
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Fitness = 20.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Strength = 20.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Sprinting = 15.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Lightfoot = 1.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Nimble = 25.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Sneak = 15.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Axe = 1.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Blunt = 1.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       SmallBlunt = 1.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       LongBlade = 1.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       SmallBlade = 1.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Spear = 1.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Maintenance = 15.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Woodwork = 1.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Cooking = 1.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Farming = 1.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Doctor = 1.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Electricity = 1.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       MetalWelding = 1.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Mechanics = 1.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Tailoring = 1.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Aiming = 1.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Reloading = 1.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Fishing = 10.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Trapping = 10.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       PlantScavenging = 1.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Other = 1.0,
-   },
-
-   UXPT_Advanced = {
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Fitness_0 = 1.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Fitness_1 = 15.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Fitness_2 = 25.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Fitness_3 = 45.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Strength_0 = 1.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Strength_1 = 15.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Strength_2 = 25.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Strength_3 = 45.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Sprinting_0 = 1.0,
-       -- Minimum=1.25 Maximum=100.00 Default=1.25
-       Sprinting_1 = 15.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       Sprinting_2 = 25.0,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       Sprinting_3 = 45.0,
-       -- Minimum=0.25 Maximum=100.00 Default=0.25
-       Lightfoot_0 = 0.75,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Lightfoot_1 = 10.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       Lightfoot_2 = 17.5,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       Lightfoot_3 = 25.0,
-       -- Minimum=0.25 Maximum=100.00 Default=0.25
-       Nimble_0 = 10.0,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Nimble_1 = 15.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       Nimble_2 = 25.0,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       Nimble_3 = 45.0,
-       -- Minimum=0.25 Maximum=100.00 Default=0.25
-       Sneak_0 = 7.5,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Sneak_1 = 10.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       Sneak_2 = 17.5,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       Sneak_3 = 25.0,
-       -- Minimum=0.25 Maximum=100.00 Default=0.25
-       Axe_0 = 7.5,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Axe_1 = 10.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       Axe_2 = 17.5,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       Axe_3 = 25.0,
-       -- Minimum=0.25 Maximum=100.00 Default=0.25
-       Blunt_0 = 7.5,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Blunt_1 = 10.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       Blunt_2 = 17.5,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       Blunt_3 = 25.0,
-       -- Minimum=0.25 Maximum=100.00 Default=0.25
-       SmallBlunt_0 = 7.5,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       SmallBlunt_1 = 10.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       SmallBlunt_2 = 17.5,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       SmallBlunt_3 = 25.0,
-       -- Minimum=0.25 Maximum=100.00 Default=0.25
-       LongBlade_0 = 7.5,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       LongBlade_1 = 25.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       LongBlade_2 = 17.5,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       LongBlade_3 = 25.0,
-       -- Minimum=0.25 Maximum=100.00 Default=0.25
-       SmallBlade_0 = 7.5,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       SmallBlade_1 = 25.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       SmallBlade_2 = 17.5,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       SmallBlade_3 = 25.0,
-       -- Minimum=0.25 Maximum=100.00 Default=0.25
-       Spear_0 = 7.5,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Spear_1 = 10.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       Spear_2 = 17.5,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       Spear_3 = 25.0,
-       -- Minimum=0.25 Maximum=100.00 Default=0.25
-       Maintenance_0 = 7.5,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Maintenance_1 = 10.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       Maintenance_2 = 17.5,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       Maintenance_3 = 25.0,
-       -- Minimum=0.25 Maximum=100.00 Default=0.25
-       Woodwork_0 = 7.5,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Woodwork_1 = 10.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       Woodwork_2 = 17.5,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       Woodwork_3 = 25.0,
-       -- Minimum=0.25 Maximum=100.00 Default=0.25
-       Cooking_0 = 7.5,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Cooking_1 = 10.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       Cooking_2 = 17.5,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       Cooking_3 = 25.0,
-       -- Minimum=0.25 Maximum=100.00 Default=0.25
-       Farming_0 = 7.5,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Farming_1 = 10.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       Farming_2 = 17.5,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       Farming_3 = 25.0,
-       -- Minimum=0.25 Maximum=100.00 Default=0.25
-       Doctor_0 = 7.5,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Doctor_1 = 10.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       Doctor_2 = 17.5,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       Doctor_3 = 25.0,
-       -- Minimum=0.25 Maximum=100.00 Default=0.25
-       Electricity_0 = 7.5,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Electricity_1 = 10.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       Electricity_2 = 17.5,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       Electricity_3 = 25.0,
-       -- Minimum=0.25 Maximum=100.00 Default=0.25
-       MetalWelding_0 = 7.5,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       MetalWelding_1 = 10.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       MetalWelding_2 = 17.5,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       MetalWelding_3 = 25.0,
-       -- Minimum=0.25 Maximum=100.00 Default=0.25
-       Mechanics_0 = 7.5,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Mechanics_1 = 10.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       Mechanics_2 = 17.5,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       Mechanics_3 = 25.0,
-       -- Minimum=0.25 Maximum=100.00 Default=0.25
-       Tailoring_0 = 7.5,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Tailoring_1 = 10.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       Tailoring_2 = 17.5,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       Tailoring_3 = 25.0,
-       -- Minimum=0.25 Maximum=100.00 Default=0.25
-       Aiming_0 = 7.5,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Aiming_1 = 10.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       Aiming_2 = 17.5,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       Aiming_3 = 25.0,
-       -- Minimum=0.37 Maximum=1.00 Default=0.37
-       Aiming_level5mult = 0.37037,
-       -- Minimum=0.25 Maximum=100.00 Default=0.25
-       Reloading_0 = 7.5,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Reloading_1 = 10.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       Reloading_2 = 17.5,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       Reloading_3 = 25.0,
-       -- Minimum=0.00 Maximum=4.00 Default=1.00
-       Reloading_Level5_LoadBulletsInMagazine_Xp = 2.0,
-       -- Minimum=0.00 Maximum=0.50 Default=0.20
-       Reloading_Level5_LoadBulletsInMagazine_Xp_Chance = 0.25,
-       -- Minimum=0.00 Maximum=4.00 Default=1.00
-       Reloading_Level5_InsertMagazine_Xp = 2.0,
-       -- Minimum=0.00 Maximum=1.00 Default=0.33
-       Reloading_Level5_InsertMagazine_Xp_Chance = 0.4,
-       -- Minimum=0.00 Maximum=4.00 Default=1.00
-       Reloading_Level5_ReloadWeaponAction_Xp = 2.0,
-       -- Minimum=0.00 Maximum=1.00 Default=0.33
-       Reloading_Level5_ReloadWeaponAction_Xp_Chance = 0.4,
-       -- Minimum=0.25 Maximum=100.00 Default=0.25
-       Fishing_0 = 7.5,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Fishing_1 = 10.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       Fishing_2 = 17.5,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       Fishing_3 = 25.0,
-       -- Minimum=0.25 Maximum=100.00 Default=0.25
-       Trapping_0 = 7.5,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Trapping_1 = 10.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       Trapping_2 = 17.5,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       Trapping_3 = 25.0,
-       -- Minimum=0.25 Maximum=100.00 Default=0.25
-       PlantScavenging_0 = 7.5,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       PlantScavenging_1 = 10.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       PlantScavenging_2 = 17.5,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       PlantScavenging_3 = 1.6666,
-       -- Minimum=0.25 Maximum=100.00 Default=0.25
-       Other_0 = 7.5,
-       -- Minimum=1.00 Maximum=100.00 Default=1.00
-       Other_1 = 10.0,
-       -- Minimum=1.33 Maximum=100.00 Default=1.33
-       Other_2 = 17.5,
-       -- Minimum=1.67 Maximum=100.00 Default=1.67
-       Other_3 = 25.0,
-       Derandomize = true,
-       -- Minimum=10 Maximum=10000 Default=700
-       Fitness_interval = 750,
-       -- Minimum=10 Maximum=10000 Default=700
-       Strength_interval = 750,
-       -- Minimum=10 Maximum=10000 Default=700
-       Sprinting_interval = 750,
-       -- Minimum=10 Maximum=10000 Default=700
-       Nimble_interval = 750,
-
+    UXPT = {
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Fitness = 20.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Strength = 20.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Sprinting = 15.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Lightfoot = 1.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Nimble = 25.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Sneak = 15.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Axe = 1.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Blunt = 1.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        SmallBlunt = 1.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        LongBlade = 1.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        SmallBlade = 1.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Spear = 1.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Maintenance = 15.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Woodwork = 1.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Cooking = 1.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Farming = 1.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Doctor = 1.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Electricity = 1.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        MetalWelding = 1.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Mechanics = 1.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Tailoring = 1.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Aiming = 1.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Reloading = 1.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Fishing = 10.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Trapping = 10.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        PlantScavenging = 1.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Other = 1.0,
+    },
+    UXPT_Advanced = {
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Fitness_0 = 1.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Fitness_1 = 15.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Fitness_2 = 25.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Fitness_3 = 45.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Strength_0 = 1.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Strength_1 = 15.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Strength_2 = 25.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Strength_3 = 45.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Sprinting_0 = 1.0,
+        -- Minimum=1.25 Maximum=100.00 Default=1.25
+        Sprinting_1 = 15.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        Sprinting_2 = 25.0,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        Sprinting_3 = 45.0,
+        -- Minimum=0.25 Maximum=100.00 Default=0.25
+        Lightfoot_0 = 0.75,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Lightfoot_1 = 10.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        Lightfoot_2 = 17.5,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        Lightfoot_3 = 25.0,
+        -- Minimum=0.25 Maximum=100.00 Default=0.25
+        Nimble_0 = 10.0,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Nimble_1 = 15.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        Nimble_2 = 25.0,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        Nimble_3 = 45.0,
+        -- Minimum=0.25 Maximum=100.00 Default=0.25
+        Sneak_0 = 7.5,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Sneak_1 = 10.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        Sneak_2 = 17.5,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        Sneak_3 = 25.0,
+        -- Minimum=0.25 Maximum=100.00 Default=0.25
+        Axe_0 = 7.5,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Axe_1 = 10.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        Axe_2 = 17.5,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        Axe_3 = 25.0,
+        -- Minimum=0.25 Maximum=100.00 Default=0.25
+        Blunt_0 = 7.5,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Blunt_1 = 10.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        Blunt_2 = 17.5,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        Blunt_3 = 25.0,
+        -- Minimum=0.25 Maximum=100.00 Default=0.25
+        SmallBlunt_0 = 7.5,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        SmallBlunt_1 = 10.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        SmallBlunt_2 = 17.5,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        SmallBlunt_3 = 25.0,
+        -- Minimum=0.25 Maximum=100.00 Default=0.25
+        LongBlade_0 = 7.5,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        LongBlade_1 = 25.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        LongBlade_2 = 17.5,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        LongBlade_3 = 25.0,
+        -- Minimum=0.25 Maximum=100.00 Default=0.25
+        SmallBlade_0 = 7.5,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        SmallBlade_1 = 25.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        SmallBlade_2 = 17.5,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        SmallBlade_3 = 25.0,
+        -- Minimum=0.25 Maximum=100.00 Default=0.25
+        Spear_0 = 7.5,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Spear_1 = 10.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        Spear_2 = 17.5,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        Spear_3 = 25.0,
+        -- Minimum=0.25 Maximum=100.00 Default=0.25
+        Maintenance_0 = 7.5,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Maintenance_1 = 10.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        Maintenance_2 = 17.5,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        Maintenance_3 = 25.0,
+        -- Minimum=0.25 Maximum=100.00 Default=0.25
+        Woodwork_0 = 7.5,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Woodwork_1 = 10.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        Woodwork_2 = 17.5,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        Woodwork_3 = 25.0,
+        -- Minimum=0.25 Maximum=100.00 Default=0.25
+        Cooking_0 = 7.5,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Cooking_1 = 10.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        Cooking_2 = 17.5,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        Cooking_3 = 25.0,
+        -- Minimum=0.25 Maximum=100.00 Default=0.25
+        Farming_0 = 7.5,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Farming_1 = 10.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        Farming_2 = 17.5,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        Farming_3 = 25.0,
+        -- Minimum=0.25 Maximum=100.00 Default=0.25
+        Doctor_0 = 7.5,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Doctor_1 = 10.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        Doctor_2 = 17.5,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        Doctor_3 = 25.0,
+        -- Minimum=0.25 Maximum=100.00 Default=0.25
+        Electricity_0 = 7.5,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Electricity_1 = 10.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        Electricity_2 = 17.5,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        Electricity_3 = 25.0,
+        -- Minimum=0.25 Maximum=100.00 Default=0.25
+        MetalWelding_0 = 7.5,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        MetalWelding_1 = 10.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        MetalWelding_2 = 17.5,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        MetalWelding_3 = 25.0,
+        -- Minimum=0.25 Maximum=100.00 Default=0.25
+        Mechanics_0 = 7.5,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Mechanics_1 = 10.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        Mechanics_2 = 17.5,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        Mechanics_3 = 25.0,
+        -- Minimum=0.25 Maximum=100.00 Default=0.25
+        Tailoring_0 = 7.5,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Tailoring_1 = 10.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        Tailoring_2 = 17.5,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        Tailoring_3 = 25.0,
+        -- Minimum=0.25 Maximum=100.00 Default=0.25
+        Aiming_0 = 7.5,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Aiming_1 = 10.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        Aiming_2 = 17.5,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        Aiming_3 = 25.0,
+        -- Minimum=0.37 Maximum=1.00 Default=0.37
+        Aiming_level5mult = 0.37037,
+        -- Minimum=0.25 Maximum=100.00 Default=0.25
+        Reloading_0 = 7.5,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Reloading_1 = 10.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        Reloading_2 = 17.5,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        Reloading_3 = 25.0,
+        -- Minimum=0.00 Maximum=4.00 Default=1.00
+        Reloading_Level5_LoadBulletsInMagazine_Xp = 2.0,
+        -- Minimum=0.00 Maximum=0.50 Default=0.20
+        Reloading_Level5_LoadBulletsInMagazine_Xp_Chance = 0.25,
+        -- Minimum=0.00 Maximum=4.00 Default=1.00
+        Reloading_Level5_InsertMagazine_Xp = 2.0,
+        -- Minimum=0.00 Maximum=1.00 Default=0.33
+        Reloading_Level5_InsertMagazine_Xp_Chance = 0.4,
+        -- Minimum=0.00 Maximum=4.00 Default=1.00
+        Reloading_Level5_ReloadWeaponAction_Xp = 2.0,
+        -- Minimum=0.00 Maximum=1.00 Default=0.33
+        Reloading_Level5_ReloadWeaponAction_Xp_Chance = 0.4,
+        -- Minimum=0.25 Maximum=100.00 Default=0.25
+        Fishing_0 = 7.5,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Fishing_1 = 10.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        Fishing_2 = 17.5,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        Fishing_3 = 25.0,
+        -- Minimum=0.25 Maximum=100.00 Default=0.25
+        Trapping_0 = 7.5,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Trapping_1 = 10.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        Trapping_2 = 17.5,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        Trapping_3 = 25.0,
+        -- Minimum=0.25 Maximum=100.00 Default=0.25
+        PlantScavenging_0 = 7.5,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        PlantScavenging_1 = 10.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        PlantScavenging_2 = 17.5,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        PlantScavenging_3 = 1.6666,
+        -- Minimum=0.25 Maximum=100.00 Default=0.25
+        Other_0 = 7.5,
+        -- Minimum=1.00 Maximum=100.00 Default=1.00
+        Other_1 = 10.0,
+        -- Minimum=1.33 Maximum=100.00 Default=1.33
+        Other_2 = 17.5,
+        -- Minimum=1.67 Maximum=100.00 Default=1.67
+        Other_3 = 25.0,
+        Derandomize = true,
+        -- Minimum=10 Maximum=10000 Default=700
+        Fitness_interval = 750,
+        -- Minimum=10 Maximum=10000 Default=700
+        Strength_interval = 750,
+        -- Minimum=10 Maximum=10000 Default=700
+        Sprinting_interval = 750,
+        -- Minimum=10 Maximum=10000 Default=700
+        Nimble_interval = 750,
     },
     NoDisassemblingPlease = {
         NoDisassembling = true,
