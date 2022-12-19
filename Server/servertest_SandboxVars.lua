@@ -1059,6 +1059,7 @@ SandboxVars = {
         ToggleOOC = false,
         ToggleLOOC = false,
         ToggleNameChange = false,
+        characterCustomization = true,
         ToggleEmoteBuff = false,
         -- Minimum=1 Maximum=32 Default=16
         sayRange = 16,
