@@ -1,13 +1,13 @@
 function Spawnpoints()
         return {
             unemployed = {
-                { worldX = 1, worldY = 2, posX = 11, posY = 162, posZ = 0 }
+                { worldX = 1, worldY = 3, posX = 311, posY = 162, posZ = 0 }
             },
             fireofficer = {
-                { worldX = 311, worldY = 762, posX = 311, posY = 762, posZ = 0 }
+                { worldX = 1, worldY = 3, posX = 311, posY = 162, posZ = 0 }
             },
             policeofficer = {
-                { worldX = 311, worldY = 762, posX = 311, posY = 762, posZ = 0 }
+                { worldX = 1, worldY = 3, posX = 311, posY = 162, posZ = 0 }
             },
             parkranger = {
                 { worldX = 311, worldY = 762, posX = 311, posY = 762, posZ = 0 }
