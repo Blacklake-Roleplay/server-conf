@@ -185,7 +185,7 @@ SandboxVars = {
     -- Number of days until 100% growth. -1 means no growth. Zero means use the Erosion Speed option. Maximum 36,500 (100 years). Minimum=-1 Maximum=36500 Default=0
     ErosionDays = -1,
     -- Modifies the base XP gain from actions by this number. Minimum=0.00 Maximum=1000.00 Default=1.00
-    XpMultiplier = 0.1,
+    XpMultiplier = 1.0,
     -- Determines if the XP multiplier affects passively levelled skills eg. Fitness and Strength.
     XpMultiplierAffectsPassive = false,
     -- Use this to multiply or reduce engine general loudness. Minimum=0.00 Maximum=100.00 Default=1.00
@@ -370,7 +370,7 @@ SandboxVars = {
     -- Enable or disable broken limbs when survivors receive injuries from impacts, zombie damage and falls.
     BoneFracture = true,
     -- How long before zombie bodies disappear. Minimum=-1.00 Maximum=2147483647.00 Default=216.00
-    HoursForCorpseRemoval = 100.0,
+    HoursForCorpseRemoval = 216.0,
     -- Governs impact that nearby decaying bodies has on the player's health and emotions. Default=Normal
     -- 1 = None
     -- 2 = Low
@@ -522,7 +522,7 @@ SandboxVars = {
         -- 1 = Blood + Saliva
         -- 2 = Saliva Only
         -- 3 = Everyone's Infected
-        Transmission = 1,
+        Transmission = 4,
         -- Controls how quickly the infection takes effect. Default=2-3 Days
         -- 1 = Instant
         -- 2 = 0-30 Seconds
@@ -598,7 +598,7 @@ SandboxVars = {
         -- The number of hours that must pass before zombies may respawn in a cell. If zero, spawning is disabled. Minimum=0.00 Maximum=8760.00 Default=72.00
         RespawnHours = 0.0,
         -- The number of hours that a chunk must be unseen before zombies may respawn in it. Minimum=0.00 Maximum=8760.00 Default=16.00
-        RespawnUnseenHours = 16.0,
+        RespawnUnseenHours = 48.0,
         -- The fraction of a cell's desired population that may respawn every RespawnHours. Minimum=0.00 Maximum=1.00 Default=0.10
         RespawnMultiplier = 0.1,
         -- The number of hours that must pass before zombies migrate to empty parts of the same cell. If zero, migration is disabled. Minimum=0.00 Maximum=8760.00 Default=12.00
@@ -640,27 +640,27 @@ SandboxVars = {
         smallFenceWVeg = true,
         otherFenceVeg = true,
         -- Minimum=0 Maximum=3 Default=1
-        indoorChance = 0,
+        indoorChance = 3,
         -- Minimum=0 Maximum=3 Default=1
-        outdoorChance = 0,
+        outdoorChance = 1,
         -- Minimum=0 Maximum=3 Default=1
-        angleChance = 0,
+        angleChance = 1,
         -- Minimum=0 Maximum=3 Default=1
-        wallWChance = 0,
+        wallWChance = 1,
         -- Minimum=0 Maximum=3 Default=1
-        wallNChance = 0,
+        wallNChance = 1,
         -- Minimum=0 Maximum=3 Default=1
-        roofChance = 0,
+        roofChance = 1,
         -- Minimum=0 Maximum=3 Default=1
-        fenceChance = 0,
+        fenceChance = 1,
         -- Minimum=0 Maximum=3 Default=1
-        smallFenceAngleChance = 0,
+        smallFenceAngleChance = 1,
         -- Minimum=0 Maximum=3 Default=1
-        smallFenceNChance = 0,
+        smallFenceNChance = 1,
         -- Minimum=0 Maximum=3 Default=1
-        smallFenceWChance = 0,
+        smallFenceWChance = 1,
         -- Minimum=0 Maximum=3 Default=1
-        otherFenceChance = 0,
+        otherFenceChance = 1,
     },
     FuelAPI = {
         -- Minimum=100.00 Maximum=5000.00 Default=400.00
@@ -754,17 +754,17 @@ SandboxVars = {
     },
     UXPT = {
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Fitness = 20.0,
+        Fitness = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Strength = 20.0,
+        Strength = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Sprinting = 15.0,
+        Sprinting = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Lightfoot = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Nimble = 25.0,
+        Nimble = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Sneak = 15.0,
+        Sneak = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Axe = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
@@ -778,7 +778,7 @@ SandboxVars = {
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Spear = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Maintenance = 15.0,
+        Maintenance = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Woodwork = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
@@ -800,9 +800,9 @@ SandboxVars = {
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Reloading = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Fishing = 10.0,
+        Fishing = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Trapping = 10.0,
+        Trapping = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         PlantScavenging = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
@@ -812,242 +812,242 @@ SandboxVars = {
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Fitness_0 = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Fitness_1 = 15.0,
+        Fitness_1 = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Fitness_2 = 25.0,
+        Fitness_2 = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Fitness_3 = 45.0,
+        Fitness_3 = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Strength_0 = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Strength_1 = 15.0,
+        Strength_1 = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Strength_2 = 25.0,
+        Strength_2 = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Strength_3 = 45.0,
+        Strength_3 = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Sprinting_0 = 1.0,
         -- Minimum=1.25 Maximum=100.00 Default=1.25
-        Sprinting_1 = 15.0,
+        Sprinting_1 = 1.25,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Sprinting_2 = 25.0,
+        Sprinting_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Sprinting_3 = 45.0,
+        Sprinting_3 = 1.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Lightfoot_0 = 0.75,
+        Lightfoot_0 = 0.25,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Lightfoot_1 = 10.0,
+        Lightfoot_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Lightfoot_2 = 17.5,
+        Lightfoot_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Lightfoot_3 = 25.0,
+        Lightfoot_3 = 1.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Nimble_0 = 10.0,
+        Nimble_0 = 0.25,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Nimble_1 = 15.0,
+        Nimble_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Nimble_2 = 25.0,
+        Nimble_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Nimble_3 = 45.0,
+        Nimble_3 = 1.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Sneak_0 = 7.5,
+        Sneak_0 = 0.25,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Sneak_1 = 10.0,
+        Sneak_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Sneak_2 = 17.5,
+        Sneak_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Sneak_3 = 25.0,
+        Sneak_3 = 1.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Axe_0 = 7.5,
+        Axe_0 = 0.25,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Axe_1 = 10.0,
+        Axe_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Axe_2 = 17.5,
+        Axe_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Axe_3 = 25.0,
+        Axe_3 = 1.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Blunt_0 = 7.5,
+        Blunt_0 = 0.25,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Blunt_1 = 10.0,
+        Blunt_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Blunt_2 = 17.5,
+        Blunt_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Blunt_3 = 25.0,
+        Blunt_3 = 1.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        SmallBlunt_0 = 7.5,
+        SmallBlunt_0 = 0.25,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        SmallBlunt_1 = 10.0,
+        SmallBlunt_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        SmallBlunt_2 = 17.5,
+        SmallBlunt_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
-        SmallBlunt_3 = 25.0,
+        SmallBlunt_3 = 1.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        LongBlade_0 = 7.5,
+        LongBlade_0 = 0.25,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        LongBlade_1 = 25.0,
+        LongBlade_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        LongBlade_2 = 17.5,
+        LongBlade_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
-        LongBlade_3 = 25.0,
+        LongBlade_3 = 1.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        SmallBlade_0 = 7.5,
+        SmallBlade_0 = 0.25,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        SmallBlade_1 = 25.0,
+        SmallBlade_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        SmallBlade_2 = 17.5,
+        SmallBlade_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
-        SmallBlade_3 = 25.0,
+        SmallBlade_3 = 1.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Spear_0 = 7.5,
+        Spear_0 = 0.25,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Spear_1 = 10.0,
+        Spear_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Spear_2 = 17.5,
+        Spear_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Spear_3 = 25.0,
+        Spear_3 = 1.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Maintenance_0 = 7.5,
+        Maintenance_0 = 0.25,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Maintenance_1 = 10.0,
+        Maintenance_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Maintenance_2 = 17.5,
+        Maintenance_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Maintenance_3 = 25.0,
+        Maintenance_3 = 1.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Woodwork_0 = 7.5,
+        Woodwork_0 = 0.25,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Woodwork_1 = 10.0,
+        Woodwork_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Woodwork_2 = 17.5,
+        Woodwork_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Woodwork_3 = 25.0,
+        Woodwork_3 = 1.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Cooking_0 = 7.5,
+        Cooking_0 = 0.25,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Cooking_1 = 10.0,
+        Cooking_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Cooking_2 = 17.5,
+        Cooking_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Cooking_3 = 25.0,
+        Cooking_3 = 1.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Farming_0 = 7.5,
+        Farming_0 = 0.25,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Farming_1 = 10.0,
+        Farming_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Farming_2 = 17.5,
+        Farming_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Farming_3 = 25.0,
+        Farming_3 = 1.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Doctor_0 = 7.5,
+        Doctor_0 = 0.25,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Doctor_1 = 10.0,
+        Doctor_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Doctor_2 = 17.5,
+        Doctor_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Doctor_3 = 25.0,
+        Doctor_3 = 1.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Electricity_0 = 7.5,
+        Electricity_0 = 0.25,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Electricity_1 = 10.0,
+        Electricity_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Electricity_2 = 17.5,
+        Electricity_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Electricity_3 = 25.0,
+        Electricity_3 = 1.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        MetalWelding_0 = 7.5,
+        MetalWelding_0 = 0.25,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        MetalWelding_1 = 10.0,
+        MetalWelding_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        MetalWelding_2 = 17.5,
+        MetalWelding_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
-        MetalWelding_3 = 25.0,
+        MetalWelding_3 = 1.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Mechanics_0 = 7.5,
+        Mechanics_0 = 0.25,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Mechanics_1 = 10.0,
+        Mechanics_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Mechanics_2 = 17.5,
+        Mechanics_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Mechanics_3 = 25.0,
+        Mechanics_3 = 1.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Tailoring_0 = 7.5,
+        Tailoring_0 = 0.25,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Tailoring_1 = 10.0,
+        Tailoring_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Tailoring_2 = 17.5,
+        Tailoring_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Tailoring_3 = 25.0,
+        Tailoring_3 = 1.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Aiming_0 = 7.5,
+        Aiming_0 = 0.25,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Aiming_1 = 10.0,
+        Aiming_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Aiming_2 = 17.5,
+        Aiming_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Aiming_3 = 25.0,
+        Aiming_3 = 1.6666,
         -- Minimum=0.37 Maximum=1.00 Default=0.37
         Aiming_level5mult = 0.37037,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Reloading_0 = 7.5,
+        Reloading_0 = 0.25,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Reloading_1 = 10.0,
+        Reloading_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Reloading_2 = 17.5,
+        Reloading_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Reloading_3 = 25.0,
+        Reloading_3 = 1.6666,
         -- Minimum=0.00 Maximum=4.00 Default=1.00
-        Reloading_Level5_LoadBulletsInMagazine_Xp = 2.0,
+        Reloading_Level5_LoadBulletsInMagazine_Xp = 1.0,
         -- Minimum=0.00 Maximum=0.50 Default=0.20
-        Reloading_Level5_LoadBulletsInMagazine_Xp_Chance = 0.25,
+        Reloading_Level5_LoadBulletsInMagazine_Xp_Chance = 0.2,
         -- Minimum=0.00 Maximum=4.00 Default=1.00
-        Reloading_Level5_InsertMagazine_Xp = 2.0,
+        Reloading_Level5_InsertMagazine_Xp = 1.0,
         -- Minimum=0.00 Maximum=1.00 Default=0.33
-        Reloading_Level5_InsertMagazine_Xp_Chance = 0.4,
+        Reloading_Level5_InsertMagazine_Xp_Chance = 0.3333,
         -- Minimum=0.00 Maximum=4.00 Default=1.00
-        Reloading_Level5_ReloadWeaponAction_Xp = 2.0,
+        Reloading_Level5_ReloadWeaponAction_Xp = 1.0,
         -- Minimum=0.00 Maximum=1.00 Default=0.33
-        Reloading_Level5_ReloadWeaponAction_Xp_Chance = 0.4,
+        Reloading_Level5_ReloadWeaponAction_Xp_Chance = 0.3333,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Fishing_0 = 7.5,
+        Fishing_0 = 0.25,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Fishing_1 = 10.0,
+        Fishing_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Fishing_2 = 17.5,
+        Fishing_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Fishing_3 = 25.0,
+        Fishing_3 = 1.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Trapping_0 = 7.5,
+        Trapping_0 = 0.25,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Trapping_1 = 10.0,
+        Trapping_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Trapping_2 = 17.5,
+        Trapping_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Trapping_3 = 25.0,
+        Trapping_3 = 1.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        PlantScavenging_0 = 7.5,
+        PlantScavenging_0 = 0.25,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        PlantScavenging_1 = 10.0,
+        PlantScavenging_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        PlantScavenging_2 = 17.5,
+        PlantScavenging_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
         PlantScavenging_3 = 1.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-        Other_0 = 7.5,
+        Other_0 = 0.25,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Other_1 = 10.0,
+        Other_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
-        Other_2 = 17.5,
+        Other_2 = 1.3333,
         -- Minimum=1.67 Maximum=100.00 Default=1.67
-        Other_3 = 25.0,
+        Other_3 = 1.6666,
         Derandomize = true,
         -- Minimum=10 Maximum=10000 Default=700
-        Fitness_interval = 750,
+        Fitness_interval = 700,
         -- Minimum=10 Maximum=10000 Default=700
-        Strength_interval = 750,
+        Strength_interval = 700,
         -- Minimum=10 Maximum=10000 Default=700
-        Sprinting_interval = 750,
+        Sprinting_interval = 700,
         -- Minimum=10 Maximum=10000 Default=700
-        Nimble_interval = 750,
+        Nimble_interval = 700,
     },
     NoDisassemblingPlease = {
         NoDisassembling = true,
