@@ -717,9 +717,9 @@ SandboxVars = {
     },
     PocketKitten = {
         -- Minimum=0 Maximum=100 Default=12
-        ReduceBoredom = 12,
+        ReduceBoredom = 10,
         -- Minimum=0 Maximum=100 Default=12
-        ReduceUnhappiness = 12,
+        ReduceUnhappiness = 10,
         -- Minimum=0 Maximum=100 Default=5
         ReduceStress = 5,
     },
