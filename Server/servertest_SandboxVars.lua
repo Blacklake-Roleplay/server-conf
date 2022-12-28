@@ -630,7 +630,7 @@ SandboxVars = {
     },
     YearsLater = {
         advancedForaging = true,
-        indoorVeg = true,
+        indoorVeg = false,
         outdoorVeg = true,
         roofVeg = true,
         wallWVeg = true,
@@ -642,7 +642,7 @@ SandboxVars = {
         smallFenceWVeg = true,
         otherFenceVeg = true,
         -- Minimum=0 Maximum=3 Default=1
-        indoorChance = 3,
+        indoorChance = 0,
         -- Minimum=0 Maximum=3 Default=1
         outdoorChance = 1,
         -- Minimum=0 Maximum=3 Default=1
