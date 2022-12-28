@@ -669,7 +669,7 @@ SandboxVars = {
         BarrelMaxCapacity = 500.0,
         -- Minimum=0.00 Maximum=1.00 Default=0.50
         BarrelRandomQuantityPercent = 0.0,
-        BarrelCanPickupFull = false,
+        BarrelCanPickupFull = true,
     },
     MoreBuilds = {
         -- Minimum=1 Maximum=10000 Default=1200
