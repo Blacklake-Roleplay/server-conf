@@ -500,7 +500,7 @@ SandboxVars = {
     Map = {
         AllowMiniMap = false,
         AllowWorldMap = true,
-        MapAllKnown = true,
+        MapAllKnown = false,
     },
     ZombieLore = {
         -- Controls the zombie movement rate. Default=Fast Shamblers
