@@ -99,7 +99,7 @@ SandboxVars = {
     -- 4 = Rare
     -- 5 = Normal
     -- 6 = Common
-    CannedFoodLoot = 2,
+    CannedFoodLoot = 3,
     -- Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
@@ -123,7 +123,7 @@ SandboxVars = {
     -- 4 = Rare
     -- 5 = Normal
     -- 6 = Common
-    MedicalLoot = 2,
+    MedicalLoot = 3,
     -- Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
@@ -131,7 +131,7 @@ SandboxVars = {
     -- 4 = Rare
     -- 5 = Normal
     -- 6 = Common
-    WeaponLoot = 2,
+    WeaponLoot = 3,
     -- Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
@@ -254,7 +254,7 @@ SandboxVars = {
     -- 2 = Every Day
     -- 3 = Every Week
     -- 4 = Every Month
-    LootRespawn = 1,
+    LootRespawn = 3,
     -- When > 0, loot will not respawn in zones that have been visited within this number of in-game hours. Minimum=0 Maximum=2147483647 Default=0
     SeenHoursPreventLootRespawn = 0,
     -- A comma-separated list of item types that will be removed after HoursForWorldItemRemoval hours.
@@ -381,7 +381,7 @@ SandboxVars = {
     -- 2 = Low
     -- 3 = Normal
     -- 4 = High
-    BloodLevel = 3,
+    BloodLevel = 2,
     -- Governs how quickly clothing degrades, becomes dirty, and bloodied. Default=Normal
     -- 1 = Disabled
     -- 2 = Slow
@@ -407,6 +407,7 @@ SandboxVars = {
     -- Chance of being bitten when a zombie attacks from behind. Default=High
     -- 1 = Low
     -- 2 = Medium
+    -- 3 = High
     RearVulnerability = 3,
     -- Disable to walk unimpeded while melee attacking.
     AttackBlockMovements = true,
@@ -522,6 +523,7 @@ SandboxVars = {
         -- 1 = Blood + Saliva
         -- 2 = Saliva Only
         -- 3 = Everyone's Infected
+        -- 4 = None
         Transmission = 4,
         -- Controls how quickly the infection takes effect. Default=2-3 Days
         -- 1 = Instant
@@ -556,17 +558,17 @@ SandboxVars = {
         -- 2 = Normal
         -- 3 = Short
         -- 4 = None
-        Memory = 5,
+        Memory = 2,
         -- Controls zombie vision radius. Default=Normal
         -- 1 = Eagle
         -- 2 = Normal
         -- 3 = Poor
-        Sight = 4,
+        Sight = 3,
         -- Controls zombie hearing radius. Default=Normal
         -- 1 = Pinpoint
         -- 2 = Normal
         -- 3 = Poor
-        Hearing = 4,
+        Hearing = 1,
         -- Zombies that have not seen/heard player can attack doors and constructions while roaming.
         ThumpNoChasing = true,
         -- Governs whether or not zombies can destroy player constructions and defences.
@@ -574,7 +576,7 @@ SandboxVars = {
         -- Governs whether zombies are more active during the day, or whether they act more nocturnally.  Active zombies will use the speed set in the "Speed" setting. Inactive zombies will be slower, and tend not to give chase. Default=Both
         -- 1 = Both
         -- 2 = Night
-        ActiveOnly = 2,
+        ActiveOnly = 1,
         -- Allows zombies to trigger house alarms when breaking through windows and doors.
         TriggerHouseAlarm = false,
         -- When enabled if multiple zombies are attacking they can drag you down to feed. Dependent on zombie strength.
@@ -588,7 +590,7 @@ SandboxVars = {
     },
     ZombieConfig = {
         -- Set by the "Zombie Count" population option. 4.0 = Insane, Very High = 3.0, 2.0 = High, 1.0 = Normal, 0.35 = Low, 0.0 = None. Minimum=0.00 Maximum=4.00 Default=1.00
-        PopulationMultiplier = 0.0,
+        PopulationMultiplier = 0.35,
         -- Adjusts the desired population at the start of the game. Minimum=0.00 Maximum=4.00 Default=1.00
         PopulationStartMultiplier = 1.0,
         -- Adjusts the desired population on the peak day. Minimum=0.00 Maximum=4.00 Default=1.50
@@ -596,7 +598,7 @@ SandboxVars = {
         -- The day when the population reaches it's peak. Minimum=1 Maximum=365 Default=28
         PopulationPeakDay = 30,
         -- The number of hours that must pass before zombies may respawn in a cell. If zero, spawning is disabled. Minimum=0.00 Maximum=8760.00 Default=72.00
-        RespawnHours = 0.0,
+        RespawnHours = 36.0,
         -- The number of hours that a chunk must be unseen before zombies may respawn in it. Minimum=0.00 Maximum=8760.00 Default=16.00
         RespawnUnseenHours = 48.0,
         -- The fraction of a cell's desired population that may respawn every RespawnHours. Minimum=0.00 Maximum=1.00 Default=0.10
