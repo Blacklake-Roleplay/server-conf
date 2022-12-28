@@ -407,7 +407,6 @@ SandboxVars = {
     -- Chance of being bitten when a zombie attacks from behind. Default=High
     -- 1 = Low
     -- 2 = Medium
-    -- 3 = High
     RearVulnerability = 3,
     -- Disable to walk unimpeded while melee attacking.
     AttackBlockMovements = true,
@@ -523,7 +522,6 @@ SandboxVars = {
         -- 1 = Blood + Saliva
         -- 2 = Saliva Only
         -- 3 = Everyone's Infected
-        -- 4 = None
         Transmission = 4,
         -- Controls how quickly the infection takes effect. Default=2-3 Days
         -- 1 = Instant
