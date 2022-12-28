@@ -36,7 +36,7 @@ SandboxVars = {
     -- 23 = 21 Hours
     -- 24 = 22 Hours
     -- 25 = 23 Hours
-    DayLength = 5,
+    DayLength = 8,
     StartYear = 1,
     -- Default=July
     -- 1 = January
@@ -185,7 +185,7 @@ SandboxVars = {
     -- Number of days until 100% growth. -1 means no growth. Zero means use the Erosion Speed option. Maximum 36,500 (100 years). Minimum=-1 Maximum=36500 Default=0
     ErosionDays = -1,
     -- Modifies the base XP gain from actions by this number. Minimum=0.00 Maximum=1000.00 Default=1.00
-    XpMultiplier = 1.0,
+    XpMultiplier = 0.1,
     -- Determines if the XP multiplier affects passively levelled skills eg. Fitness and Strength.
     XpMultiplierAffectsPassive = false,
     -- Use this to multiply or reduce engine general loudness. Minimum=0.00 Maximum=100.00 Default=1.00
@@ -812,19 +812,19 @@ SandboxVars = {
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Fitness_0 = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Fitness_1 = 1.0,
+        Fitness_1 = 3.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Fitness_2 = 1.0,
+        Fitness_2 = 5.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Fitness_3 = 1.0,
+        Fitness_3 = 8.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Strength_0 = 1.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Strength_1 = 1.0,
+        Strength_1 = 3.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Strength_2 = 1.0,
+        Strength_2 = 5.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
-        Strength_3 = 1.0,
+        Strength_3 = 8.0,
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Sprinting_0 = 1.0,
         -- Minimum=1.25 Maximum=100.00 Default=1.25
