@@ -691,17 +691,17 @@ SandboxVars = {
         -- Minimum=0.00 Maximum=100.00 Default=15.00
         Shambler = 15.0,
         -- Minimum=0.00 Maximum=100.00 Default=78.00
-        FastShambler = 81.0,
+        FastShambler = 82.0,
         -- Minimum=0.00 Maximum=100.00 Default=5.00
-        Sprinter = 2.0,
+        Sprinter = 1.0,
         -- Minimum=0.00 Maximum=100.00 Default=0.00
         Fragile = 25.0,
         -- Minimum=0.00 Maximum=100.00 Default=100.00
         NormalTough = 50.0,
         -- Minimum=0.00 Maximum=100.00 Default=0.00
-        Tough = 25.0,
+        Tough = 24.99,
         -- Minimum=0.00 Maximum=100.00 Default=0.00
-        Smart = 0.0,
+        Smart = 0.01,
         -- Minimum=1000 Maximum=60000 Default=7500
         Frequency = 7500,
     },
