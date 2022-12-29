@@ -685,15 +685,15 @@ SandboxVars = {
     },
     BLTRandomZombies = {
         -- Minimum=0.00 Maximum=100.00 Default=2.00
-        Crawler = 0.0,
+        Crawler = 2.0,
         -- Minimum=0.00 Maximum=100.00 Default=15.00
-        Shambler = 0.0,
+        Shambler = 15.0,
         -- Minimum=0.00 Maximum=100.00 Default=78.00
-        FastShambler = 0.0,
+        FastShambler = 82.0,
         -- Minimum=0.00 Maximum=100.00 Default=5.00
-        Sprinter = 100.0,
+        Sprinter = 1.0,
         -- Minimum=0.00 Maximum=100.00 Default=0.00
-        Fragile = 0.0,
+        Fragile = 25.0,
         -- Minimum=0.00 Maximum=100.00 Default=100.00
         NormalTough = 50.0,
         -- Minimum=0.00 Maximum=100.00 Default=0.00
