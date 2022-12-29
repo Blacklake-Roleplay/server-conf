@@ -185,7 +185,7 @@ SandboxVars = {
     -- Number of days until 100% growth. -1 means no growth. Zero means use the Erosion Speed option. Maximum 36,500 (100 years). Minimum=-1 Maximum=36500 Default=0
     ErosionDays = -1,
     -- Modifies the base XP gain from actions by this number. Minimum=0.00 Maximum=1000.00 Default=1.00
-    XpMultiplier = 0.1,
+    XpMultiplier = 0.6,
     -- Determines if the XP multiplier affects passively levelled skills eg. Fitness and Strength.
     XpMultiplierAffectsPassive = false,
     -- Use this to multiply or reduce engine general loudness. Minimum=0.00 Maximum=100.00 Default=1.00
@@ -842,7 +842,11 @@ SandboxVars = {
         -- Minimum=1.67 Maximum=100.00 Default=1.67
         Lightfoot_3 = 1.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
+<<<<<<< HEAD
+        Nimble_0 = 8.5,
+=======
         Nimble_0 = 0.25,
+>>>>>>> 9ced6c7273215baad17c4b1675bdef2327d526ed
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Nimble_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
