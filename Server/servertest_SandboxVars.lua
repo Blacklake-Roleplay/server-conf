@@ -842,11 +842,7 @@ SandboxVars = {
         -- Minimum=1.67 Maximum=100.00 Default=1.67
         Lightfoot_3 = 1.6666,
         -- Minimum=0.25 Maximum=100.00 Default=0.25
-<<<<<<< HEAD
-        Nimble_0 = 8.5,
-=======
         Nimble_0 = 0.25,
->>>>>>> 9ced6c7273215baad17c4b1675bdef2327d526ed
         -- Minimum=1.00 Maximum=100.00 Default=1.00
         Nimble_1 = 1.0,
         -- Minimum=1.33 Maximum=100.00 Default=1.33
