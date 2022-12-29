@@ -2,7 +2,6 @@
 
 # Blacklake RP Config files
 
-
 ---
 
 ## How do I contribute?
@@ -23,5 +22,3 @@ Most people do not need SSH access just to change a config file. This is a simpl
 
 ## How do I get the change to apply..?
 The server will auto sync with this repo on restart. Do not worry about the rest ;)
-
-
