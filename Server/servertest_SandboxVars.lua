@@ -688,7 +688,7 @@ SandboxVars = {
         -- Minimum=0.00 Maximum=100.00 Default=100.00
         NormalTough = 50.0,
         -- Minimum=0.00 Maximum=100.00 Default=0.00
-        Tough = 24.99,
+        Tough = 25.0,
         -- Minimum=0.00 Maximum=100.00 Default=0.00
         Smart = 0.01,
         -- Minimum=1000 Maximum=60000 Default=7500
