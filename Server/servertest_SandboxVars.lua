@@ -778,7 +778,7 @@ SandboxVars = {
         -- Minimum=0.00 Maximum=1.00 Default=1.00
         MaximumCharge = 1.0,
         -- Minimum=-1.00 Maximum=9999.00 Default=1.00
-        LifetimeMult = 5.0,
+        LifetimeMult = 10.0,
     },
     MorePlushies = {
         -- Minimum=1 Maximum=1000 Default=1
