@@ -739,6 +739,14 @@ SandboxVars = {
         cacheQuantity = 50,
         -- Minimum=0.00 Maximum=50.00 Default=1.00
         cacheSpawnChance = 1.0,
+        boxSpawn = true,
+        -- Minimum=5 Maximum=50 Default=25
+        boxQuantity = 25,
+        -- Minimum=0.00 Maximum=50.00 Default=1.00
+        boxSpawnChance = 1.0,
+        stackSpawn = true,
+        -- Minimum=5 Maximum=25 Default=10
+        stackQuantity = 10,
     },
     MoreBuildPluss = {
         BuildingPermission = 1,
