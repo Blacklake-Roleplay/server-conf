@@ -315,7 +315,7 @@ SandboxVars = {
     -- 4 = Often
     GeneratorSpawning = 1,
     -- How much fuel is consumed per in-game hour. Minimum=0.00 Maximum=100.00 Default=1.00
-    GeneratorFuelConsumption = 5.0,
+    GeneratorFuelConsumption = 0.5,
     -- Increase/decrease probability of discovering randomized safe houses on the map: either burnt out, containing loot stashes, dead survivor bodies etc. Default=Rare
     -- 1 = Never
     -- 2 = Extremely Rare
@@ -370,7 +370,7 @@ SandboxVars = {
     -- Enable or disable broken limbs when survivors receive injuries from impacts, zombie damage and falls.
     BoneFracture = true,
     -- How long before zombie bodies disappear. Minimum=-1.00 Maximum=2147483647.00 Default=216.00
-    HoursForCorpseRemoval = 72.0,
+    HoursForCorpseRemoval = 216.0,
     -- Governs impact that nearby decaying bodies has on the player's health and emotions. Default=Normal
     -- 1 = None
     -- 2 = Low
@@ -441,7 +441,7 @@ SandboxVars = {
     -- 8 = Full
     FuelStationGas = 2,
     -- How gas-hungry vehicles on the map are. Minimum=0.00 Maximum=100.00 Default=1.00
-    CarGasConsumption = 5.0,
+    CarGasConsumption = 2.0,
     -- Default=Rare
     -- 1 = Never
     -- 2 = Extremely Rare
@@ -496,7 +496,7 @@ SandboxVars = {
     -- 2 = In bodies only
     MaggotSpawn = 3,
     -- The higher the value, the longer lightbulbs last before breaking. If 0, lightbulbs will never break. Does not affect vehicle headlights. Minimum=0.00 Maximum=1000.00 Default=1.00
-    LightBulbLifespan = 0.1,
+    LightBulbLifespan = 10.0,
     Map = {
         AllowMiniMap = false,
         AllowWorldMap = true,
@@ -596,9 +596,9 @@ SandboxVars = {
         -- The day when the population reaches it's peak. Minimum=1 Maximum=365 Default=28
         PopulationPeakDay = 30,
         -- The number of hours that must pass before zombies may respawn in a cell. If zero, spawning is disabled. Minimum=0.00 Maximum=8760.00 Default=72.00
-        RespawnHours = 24.0,
+        RespawnHours = 36.0,
         -- The number of hours that a chunk must be unseen before zombies may respawn in it. Minimum=0.00 Maximum=8760.00 Default=16.00
-        RespawnUnseenHours = 24.0,
+        RespawnUnseenHours = 48.0,
         -- The fraction of a cell's desired population that may respawn every RespawnHours. Minimum=0.00 Maximum=1.00 Default=0.10
         RespawnMultiplier = 0.1,
         -- The number of hours that must pass before zombies migrate to empty parts of the same cell. If zero, migration is disabled. Minimum=0.00 Maximum=8760.00 Default=12.00
@@ -678,9 +678,9 @@ SandboxVars = {
         -- Minimum=0.00 Maximum=100.00 Default=2.00
         Crawler = 2.0,
         -- Minimum=0.00 Maximum=100.00 Default=15.00
-        Shambler = 1.0,
+        Shambler = 15.0,
         -- Minimum=0.00 Maximum=100.00 Default=78.00
-        FastShambler = 96.0,
+        FastShambler = 82.0,
         -- Minimum=0.00 Maximum=100.00 Default=5.00
         Sprinter = 1.0,
         -- Minimum=0.00 Maximum=100.00 Default=0.00
@@ -690,7 +690,7 @@ SandboxVars = {
         -- Minimum=0.00 Maximum=100.00 Default=0.00
         Tough = 25.0,
         -- Minimum=0.00 Maximum=100.00 Default=0.00
-        Smart = 0.15,
+        Smart = 0.01,
         -- Minimum=1000 Maximum=60000 Default=7500
         Frequency = 7500,
     },
