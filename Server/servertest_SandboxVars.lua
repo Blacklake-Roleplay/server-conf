@@ -256,7 +256,7 @@ SandboxVars = {
     -- 4 = Every Month
     LootRespawn = 3,
     -- When > 0, loot will not respawn in zones that have been visited within this number of in-game hours. Minimum=0 Maximum=2147483647 Default=0
-    SeenHoursPreventLootRespawn = 144,
+    SeenHoursPreventLootRespawn = 0,
     -- A comma-separated list of item types that will be removed after HoursForWorldItemRemoval hours.
     WorldItemRemovalList = "Base.Hat,Base.Glasses,Base.Maggots",
     -- Number of hours since an item was dropped on the ground before it is removed.  Items are removed the next time that part of the map is loaded.  Zero means items are not removed. Minimum=0.00 Maximum=2147483647.00 Default=24.00
@@ -386,7 +386,7 @@ SandboxVars = {
     -- 1 = Disabled
     -- 2 = Slow
     -- 3 = Normal
-    ClothingDegradation = 3,
+    ClothingDegradation = 2,
     FireSpread = false,
     -- Number of in-game days before rotten food is removed from the map. -1 means rotten food is never removed. Minimum=-1 Maximum=2147483647 Default=-1
     DaysForRottenFoodRemoval = 60,
