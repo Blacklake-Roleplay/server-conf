@@ -723,17 +723,6 @@ SandboxVars = {
         cassetteChance = 1.0,
         -- Minimum=0.00 Maximum=20.00 Default=1.00
         vinylChance = 1.0,
-        zedMusic = false,
-        -- Minimum=0.00 Maximum=100.00 Default=1.00
-        zedMusicChance = 10.0,
-        -- Minimum=0.00 Maximum=2.00 Default=0.05
-        cassetteWeight = 0.05,
-        -- Minimum=0.00 Maximum=2.00 Default=0.10
-        vinylWeight = 1.0,
-        -- Minimum=0.00 Maximum=100.00 Default=1.00
-        batteryUse = 0.5,
-        -- Minimum=0.00 Maximum=10.00 Default=2.40
-        boomboxWeight = 2.0,
         cacheSpawn = true,
         -- Minimum=5 Maximum=100 Default=50
         cacheQuantity = 50,
@@ -747,6 +736,17 @@ SandboxVars = {
         stackSpawn = true,
         -- Minimum=5 Maximum=25 Default=10
         stackQuantity = 10,
+        zedMusic = false,
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
+        zedMusicChance = 10.0,
+        -- Minimum=0.00 Maximum=2.00 Default=0.05
+        cassetteWeight = 0.05,
+        -- Minimum=0.00 Maximum=2.00 Default=0.10
+        vinylWeight = 1.0,
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
+        batteryUse = 0.5,
+        -- Minimum=0.00 Maximum=10.00 Default=2.40
+        boomboxWeight = 2.0,
     },
     MoreBuildPluss = {
         BuildingPermission = 1,
