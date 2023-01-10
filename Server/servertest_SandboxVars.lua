@@ -1157,8 +1157,8 @@ SandboxVars = {
     ShopsAndTraders = {
         -- Minimum=0 Maximum=100 Default=50
         PercentageDropOnDeath = 50,
-        PlayerWallets = true,
-        CanWithdraw = true,
+        PlayerWallets = false,
+        CanWithdraw = false,
         -- Minimum=0.01 Maximum=1000000.00 Default=25.00
         StartingWallet = 25.0,
         -- Minimum=0.00 Maximum=1000.00 Default=0.00
