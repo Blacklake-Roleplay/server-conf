@@ -1107,7 +1107,7 @@ SandboxVars = {
         -- Minimum=0 Maximum=100000000 Default=100
         GlobalMultiplier = 100,
         -- Minimum=0 Maximum=100 Default=20
-        ChanceMaxCondition = 20,
+        ChanceMaxCondition = 12,
         -- Minimum=0 Maximum=100 Default=10
         MinimumCondition = 10,
         -- Minimum=0 Maximum=100 Default=20
@@ -1121,19 +1121,19 @@ SandboxVars = {
         -- Minimum=0 Maximum=1000 Default=12
         GunLooseBulletsRolls = 12,
         -- Minimum=0 Maximum=1000 Default=100
-        GunLooseBulletsMultiplier = 100,
+        GunLooseBulletsMultiplier = 20,
         -- Minimum=0 Maximum=100000000 Default=100
-        AmmoMultiplier = 100,
+        AmmoMultiplier = 20,
         -- Minimum=0 Maximum=100000000 Default=100
-        AmmoBoxMultiplier = 100,
+        AmmoBoxMultiplier = 5,
         -- Minimum=0 Maximum=100000000 Default=100
         MeleeMultiplier = 100,
         -- Minimum=0 Maximum=100000000 Default=100
-        PistolMultiplier = 100,
+        PistolMultiplier = 30,
         -- Minimum=0 Maximum=100000000 Default=100
-        LongGunMultiplier = 100,
+        LongGunMultiplier = 5,
         -- Minimum=0 Maximum=100000000 Default=100
-        OtherGunsMultiplier = 100,
+        OtherGunsMultiplier = 5,
         -- Minimum=0 Maximum=100000000 Default=100
         CannedFoodMultiplier = 100,
         -- Minimum=0 Maximum=100000000 Default=100
@@ -1143,7 +1143,7 @@ SandboxVars = {
         -- Minimum=0 Maximum=100000000 Default=100
         BagMultiplier = 100,
         -- Minimum=0 Maximum=100000000 Default=100
-        GunBagMultiplier = 100,
+        GunBagMultiplier = 5,
         -- Minimum=0 Maximum=100000000 Default=100
         JunkMultiplier = 100,
         -- Minimum=0 Maximum=100000000 Default=100
