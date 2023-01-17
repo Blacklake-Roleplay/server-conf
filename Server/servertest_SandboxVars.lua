@@ -212,7 +212,7 @@ SandboxVars = {
     -- 2 = Fast
     -- 3 = Normal
     -- 4 = Slow
-    StatsDecrease = 3,
+    StatsDecrease = 4,
     -- Controls the abundance of fish and general forage. Default=Normal
     -- 1 = Very Poor
     -- 2 = Poor
@@ -256,7 +256,7 @@ SandboxVars = {
     -- 4 = Every Month
     LootRespawn = 3,
     -- When > 0, loot will not respawn in zones that have been visited within this number of in-game hours. Minimum=0 Maximum=2147483647 Default=0
-    SeenHoursPreventLootRespawn = 1344,
+    SeenHoursPreventLootRespawn = 0,
     -- A comma-separated list of item types that will be removed after HoursForWorldItemRemoval hours.
     WorldItemRemovalList = "Base.Hat,Base.Glasses,Base.Maggots",
     -- Number of hours since an item was dropped on the ground before it is removed.  Items are removed the next time that part of the map is loaded.  Zero means items are not removed. Minimum=0.00 Maximum=2147483647.00 Default=24.00
@@ -366,7 +366,7 @@ SandboxVars = {
     -- Increase and decrease the impact injuries have on your body, and their healing time. Default=Normal
     -- 1 = Low
     -- 2 = Normal
-    InjurySeverity = 2,
+    InjurySeverity = 1,
     -- Enable or disable broken limbs when survivors receive injuries from impacts, zombie damage and falls.
     BoneFracture = true,
     -- How long before zombie bodies disappear. Minimum=-1.00 Maximum=2147483647.00 Default=216.00
@@ -386,7 +386,7 @@ SandboxVars = {
     -- 1 = Disabled
     -- 2 = Slow
     -- 3 = Normal
-    ClothingDegradation = 2,
+    ClothingDegradation = 3,
     FireSpread = false,
     -- Number of in-game days before rotten food is removed from the map. -1 means rotten food is never removed. Minimum=-1 Maximum=2147483647 Default=-1
     DaysForRottenFoodRemoval = 60,
@@ -578,7 +578,7 @@ SandboxVars = {
         -- Allows zombies to trigger house alarms when breaking through windows and doors.
         TriggerHouseAlarm = false,
         -- When enabled if multiple zombies are attacking they can drag you down to feed. Dependent on zombie strength.
-        ZombiesDragDown = true,
+        ZombiesDragDown = false,
         -- When enabled zombies will have a chance to lunge after climbing over a fence if you're too close.
         ZombiesFenceLunge = true,
         -- Default=Some zombies in the world will pretend to be dead
@@ -678,9 +678,9 @@ SandboxVars = {
         -- Minimum=0.00 Maximum=100.00 Default=2.00
         Crawler = 2.0,
         -- Minimum=0.00 Maximum=100.00 Default=15.00
-        Shambler = 11.0,
+        Shambler = 10.0,
         -- Minimum=0.00 Maximum=100.00 Default=78.00
-        FastShambler = 82.0,
+        FastShambler = 83.0,
         -- Minimum=0.00 Maximum=100.00 Default=5.00
         Sprinter = 5.0,
         -- Minimum=0.00 Maximum=100.00 Default=0.00
@@ -738,15 +738,15 @@ SandboxVars = {
         stackQuantity = 10,
         zedMusic = false,
         -- Minimum=0.00 Maximum=100.00 Default=1.00
-        zedMusicChance = 1.0,
+        zedMusicChance = 10.0,
         -- Minimum=0.00 Maximum=2.00 Default=0.05
         cassetteWeight = 0.05,
         -- Minimum=0.00 Maximum=2.00 Default=0.10
-        vinylWeight = 0.1,
+        vinylWeight = 1.0,
         -- Minimum=0.00 Maximum=100.00 Default=1.00
-        batteryUse = 1.0,
+        batteryUse = 0.5,
         -- Minimum=0.00 Maximum=10.00 Default=2.40
-        boomboxWeight = 2.4,
+        boomboxWeight = 2.0,
     },
     MoreBuildPluss = {
         BuildingPermission = 1,
