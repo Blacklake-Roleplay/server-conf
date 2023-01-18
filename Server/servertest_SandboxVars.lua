@@ -1103,4 +1103,13 @@ SandboxVars = {
         -- Minimum=10 Maximum=10000 Default=700
         Nimble_interval = 700,
     },
+    VehicleRepairOverhaul = {
+        DisableVehicleSalvage = false,
+    },
+    LingeringReflexes = {
+        -- Minimum=0.00 Maximum=100.00 Default=1.00
+        Smart = 1.0,
+        -- Minimum=1000 Maximum=60000 Default=7500
+        Frequency = 7500,
+    },
 }
