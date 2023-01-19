@@ -1123,32 +1123,32 @@ SandboxVars = {
         -- Minimum=0 Maximum=1000 Default=100
         GunLooseBulletsMultiplier = 100,
         -- Minimum=0 Maximum=100000000 Default=100
-        AmmoMultiplier = 100,
+        AmmoMultiplier = 1,
         -- Minimum=0 Maximum=100000000 Default=100
-        AmmoBoxMultiplier = 100,
+        AmmoBoxMultiplier = 0,
         -- Minimum=0 Maximum=100000000 Default=100
-        MeleeMultiplier = 100,
+        MeleeMultiplier = 10,
         -- Minimum=0 Maximum=100000000 Default=100
-        PistolMultiplier = 100,
+        PistolMultiplier = 1,
         -- Minimum=0 Maximum=100000000 Default=100
-        LongGunMultiplier = 100,
+        LongGunMultiplier = 0,
         -- Minimum=0 Maximum=100000000 Default=100
-        OtherGunsMultiplier = 100,
+        OtherGunsMultiplier = 0,
         -- Minimum=0 Maximum=100000000 Default=100
-        CannedFoodMultiplier = 100,
+        CannedFoodMultiplier = 20,
         -- Minimum=0 Maximum=100000000 Default=100
-        OtherFoodMultiplier = 100,
+        OtherFoodMultiplier = 20,
         -- Minimum=0 Maximum=100000000 Default=100
-        ResourceMultiplier = 100,
+        ResourceMultiplier = 15,
         -- Minimum=0 Maximum=100000000 Default=100
-        BagMultiplier = 100,
+        BagMultiplier = 25,
         -- Minimum=0 Maximum=100000000 Default=100
-        GunBagMultiplier = 100,
+        GunBagMultiplier = 0,
         -- Minimum=0 Maximum=100000000 Default=100
         JunkMultiplier = 100,
         -- Minimum=0 Maximum=100000000 Default=100
         ExtraMultiplier = 100,
-        ExtraRollEach = "",
+        ExtraRollEach = "item:Money,chance:0.1,more:10,moreChance:50;",
         ExtraRollOne1 = "",
         ExtraRollOne2 = "",
         ExtraRollOne3 = "",
