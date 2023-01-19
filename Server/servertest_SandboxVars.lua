@@ -1148,7 +1148,7 @@ SandboxVars = {
         JunkMultiplier = 100,
         -- Minimum=0 Maximum=100000000 Default=100
         ExtraMultiplier = 100,
-        ExtraRollEach = "item:Money,chance:0.1,more:10,moreChance:50;",
+        ExtraRollEach = "item:Money,chance:1,more:10,moreChance:50;",
         ExtraRollOne1 = "",
         ExtraRollOne2 = "",
         ExtraRollOne3 = "",
