@@ -1172,4 +1172,14 @@ SandboxVars = {
         -- Minimum=1000 Maximum=60000 Default=7500
         Frequency = 7500,
     },
+    FancyHandwork = {
+        -- Minimum=0 Maximum=11 Default=3
+        ExperiencedAim = 3,
+        -- Minimum=0.01 Maximum=60.00 Default=1.00
+        TurnDelaySec = 1.0,
+        DisableTurn = 2,
+        TurnBehavior = 2,
+        HideDoorProgressBar = false,
+        HideVehicleWalkProgressBar = false,
+    },
 }
