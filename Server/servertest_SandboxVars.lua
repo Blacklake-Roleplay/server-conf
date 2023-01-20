@@ -687,11 +687,11 @@ SandboxVars = {
         -- Minimum=0.00 Maximum=100.00 Default=2.00
         Crawler = 2.0,
         -- Minimum=0.00 Maximum=100.00 Default=15.00
-        Shambler = 10.0,
+        Shambler = 5.0,
         -- Minimum=0.00 Maximum=100.00 Default=78.00
-        FastShambler = 83.0,
+        FastShambler = 78.0,
         -- Minimum=0.00 Maximum=100.00 Default=5.00
-        Sprinter = 5.0,
+        Sprinter = 15.0,
         -- Minimum=0.00 Maximum=100.00 Default=0.00
         Fragile = 25.0,
         -- Minimum=0.00 Maximum=100.00 Default=100.00
