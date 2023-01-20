@@ -669,6 +669,15 @@ SandboxVars = {
         BarrelRandomQuantityPercent = 0.0,
         BarrelCanPickupFull = true,
     },
+    SapphCooking = {
+        NonPerishableChance = 3,
+        PerishableChance = 3,
+        MagazineChance = 3,
+        MREChance = 3,
+        KitchenUtensilsChance = 3,
+        AlcoholChance = 3,
+        ZombieLootSpawn = 3,
+    },
     MoreBuilds = {
         -- Minimum=1 Maximum=10000 Default=1200
         MaxWaterWallStorageAmount = 1000,
