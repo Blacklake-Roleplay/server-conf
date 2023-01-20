@@ -1114,31 +1114,31 @@ SandboxVars = {
     },
     AirbobbelzLoot = {
         -- Minimum=0 Maximum=100000000 Default=100
-        GlobalMultiplier = 100,
+        GlobalMultiplier = 50,
         -- Minimum=0 Maximum=100 Default=20
-        ChanceMaxCondition = 20,
+        ChanceMaxCondition = 7,
         -- Minimum=0 Maximum=100 Default=10
-        MinimumCondition = 10,
+        MinimumCondition = 2,
         -- Minimum=0 Maximum=100 Default=20
-        ChanceMaxDrainable = 20,
+        ChanceMaxDrainable = 8,
         -- Minimum=0 Maximum=100 Default=20
         MinimumDrainable = 20,
         -- Minimum=0 Maximum=100000000 Default=100
-        OutfitMultiplier = 100,
+        OutfitMultiplier = 50,
         -- Minimum=0 Maximum=100000000 Default=100
-        BagContentsMultiplier = 100,
+        BagContentsMultiplier = 50,
         -- Minimum=0 Maximum=1000 Default=12
-        GunLooseBulletsRolls = 12,
+        GunLooseBulletsRolls = 0,
         -- Minimum=0 Maximum=1000 Default=100
-        GunLooseBulletsMultiplier = 100,
+        GunLooseBulletsMultiplier = 0,
         -- Minimum=0 Maximum=100000000 Default=100
         AmmoMultiplier = 1,
         -- Minimum=0 Maximum=100000000 Default=100
         AmmoBoxMultiplier = 0,
         -- Minimum=0 Maximum=100000000 Default=100
-        MeleeMultiplier = 10,
+        MeleeMultiplier = 0,
         -- Minimum=0 Maximum=100000000 Default=100
-        PistolMultiplier = 1,
+        PistolMultiplier = 0,
         -- Minimum=0 Maximum=100000000 Default=100
         LongGunMultiplier = 0,
         -- Minimum=0 Maximum=100000000 Default=100
@@ -1154,7 +1154,7 @@ SandboxVars = {
         -- Minimum=0 Maximum=100000000 Default=100
         GunBagMultiplier = 0,
         -- Minimum=0 Maximum=100000000 Default=100
-        JunkMultiplier = 100,
+        JunkMultiplier = 150,
         -- Minimum=0 Maximum=100000000 Default=100
         ExtraMultiplier = 100,
         ExtraRollEach = "item:Money,chance:10,more:10,moreChance:50;",
