@@ -687,11 +687,11 @@ SandboxVars = {
         -- Minimum=0.00 Maximum=100.00 Default=2.00
         Crawler = 2.0,
         -- Minimum=0.00 Maximum=100.00 Default=15.00
-        Shambler = 5.0,
+        Shambler = 10.0,
         -- Minimum=0.00 Maximum=100.00 Default=78.00
-        FastShambler = 78.0,
+        FastShambler = 83.0,
         -- Minimum=0.00 Maximum=100.00 Default=5.00
-        Sprinter = 15.0,
+        Sprinter = 5.0,
         -- Minimum=0.00 Maximum=100.00 Default=0.00
         Fragile = 25.0,
         -- Minimum=0.00 Maximum=100.00 Default=100.00
@@ -1114,31 +1114,31 @@ SandboxVars = {
     },
     AirbobbelzLoot = {
         -- Minimum=0 Maximum=100000000 Default=100
-        GlobalMultiplier = 50,
+        GlobalMultiplier = 100,
         -- Minimum=0 Maximum=100 Default=20
-        ChanceMaxCondition = 7,
+        ChanceMaxCondition = 20,
         -- Minimum=0 Maximum=100 Default=10
-        MinimumCondition = 2,
+        MinimumCondition = 10,
         -- Minimum=0 Maximum=100 Default=20
-        ChanceMaxDrainable = 8,
+        ChanceMaxDrainable = 20,
         -- Minimum=0 Maximum=100 Default=20
         MinimumDrainable = 20,
         -- Minimum=0 Maximum=100000000 Default=100
-        OutfitMultiplier = 50,
+        OutfitMultiplier = 100,
         -- Minimum=0 Maximum=100000000 Default=100
-        BagContentsMultiplier = 50,
+        BagContentsMultiplier = 100,
         -- Minimum=0 Maximum=1000 Default=12
-        GunLooseBulletsRolls = 0,
+        GunLooseBulletsRolls = 12,
         -- Minimum=0 Maximum=1000 Default=100
-        GunLooseBulletsMultiplier = 0,
+        GunLooseBulletsMultiplier = 100,
         -- Minimum=0 Maximum=100000000 Default=100
         AmmoMultiplier = 1,
         -- Minimum=0 Maximum=100000000 Default=100
         AmmoBoxMultiplier = 0,
         -- Minimum=0 Maximum=100000000 Default=100
-        MeleeMultiplier = 0,
+        MeleeMultiplier = 10,
         -- Minimum=0 Maximum=100000000 Default=100
-        PistolMultiplier = 0,
+        PistolMultiplier = 1,
         -- Minimum=0 Maximum=100000000 Default=100
         LongGunMultiplier = 0,
         -- Minimum=0 Maximum=100000000 Default=100
@@ -1154,7 +1154,7 @@ SandboxVars = {
         -- Minimum=0 Maximum=100000000 Default=100
         GunBagMultiplier = 0,
         -- Minimum=0 Maximum=100000000 Default=100
-        JunkMultiplier = 150,
+        JunkMultiplier = 100,
         -- Minimum=0 Maximum=100000000 Default=100
         ExtraMultiplier = 100,
         ExtraRollEach = "item:Money,chance:10,more:10,moreChance:50;",
@@ -1174,7 +1174,7 @@ SandboxVars = {
     },
     FancyHandwork = {
         -- Minimum=0 Maximum=11 Default=3
-        ExperiencedAim = 3,
+        ExperiencedAim = 5,
         -- Minimum=0.01 Maximum=60.00 Default=1.00
         TurnDelaySec = 1.0,
         DisableTurn = 2,
