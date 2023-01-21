@@ -282,7 +282,7 @@ SandboxVars = {
     -- 2 = High
     -- 3 = Normal
     -- 4 = Low
-    PlantResilience = 2,
+    PlantResilience = 4,
     -- Controls the yield of plants when harvested. Default=Normal
     -- 1 = Very Poor
     -- 2 = Poor
@@ -1174,7 +1174,7 @@ SandboxVars = {
     },
     FancyHandwork = {
         -- Minimum=0 Maximum=11 Default=3
-        ExperiencedAim = 5,
+        ExperiencedAim = 3,
         -- Minimum=0.01 Maximum=60.00 Default=1.00
         TurnDelaySec = 1.0,
         DisableTurn = 2,
