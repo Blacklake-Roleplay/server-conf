@@ -699,7 +699,7 @@ SandboxVars = {
         -- Minimum=0.00 Maximum=100.00 Default=0.00
         Tough = 37.5,
         -- Minimum=0.00 Maximum=100.00 Default=0.00
-        Smart = 0.01
+        Smart = 0.01,
         -- Minimum=1000 Maximum=60000 Default=7500
         Frequency = 7500,
     },
