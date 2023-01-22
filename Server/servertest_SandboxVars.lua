@@ -189,7 +189,7 @@ SandboxVars = {
     -- Determines if the XP multiplier affects passively levelled skills eg. Fitness and Strength.
     XpMultiplierAffectsPassive = false,
     -- Use this to multiply or reduce engine general loudness. Minimum=0.00 Maximum=100.00 Default=1.00
-    ZombieAttractionMultiplier = 1.0,
+    ZombieAttractionMultiplier = 1.5,
     -- Governs whether cars are locked, need keys to start etc.
     VehicleEasyUse = false,
     -- Controls the speed of plant growth. Default=Normal
@@ -370,7 +370,7 @@ SandboxVars = {
     -- Enable or disable broken limbs when survivors receive injuries from impacts, zombie damage and falls.
     BoneFracture = true,
     -- How long before zombie bodies disappear. Minimum=-1.00 Maximum=2147483647.00 Default=216.00
-    HoursForCorpseRemoval = 216.0,
+    HoursForCorpseRemoval = 108.0,
     -- Governs impact that nearby decaying bodies has on the player's health and emotions. Default=Normal
     -- 1 = None
     -- 2 = Low
@@ -588,7 +588,7 @@ SandboxVars = {
     },
     ZombieConfig = {
         -- Set by the "Zombie Count" population option. 4.0 = Insane, Very High = 3.0, 2.0 = High, 1.0 = Normal, 0.35 = Low, 0.0 = None. Minimum=0.00 Maximum=4.00 Default=1.00
-        PopulationMultiplier = 0.35,
+        PopulationMultiplier = 1.0,
         -- Adjusts the desired population at the start of the game. Minimum=0.00 Maximum=4.00 Default=1.00
         PopulationStartMultiplier = 1.0,
         -- Adjusts the desired population on the peak day. Minimum=0.00 Maximum=4.00 Default=1.50
@@ -596,11 +596,11 @@ SandboxVars = {
         -- The day when the population reaches it's peak. Minimum=1 Maximum=365 Default=28
         PopulationPeakDay = 30,
         -- The number of hours that must pass before zombies may respawn in a cell. If zero, spawning is disabled. Minimum=0.00 Maximum=8760.00 Default=72.00
-        RespawnHours = 36.0,
+        RespawnHours = 24.0,
         -- The number of hours that a chunk must be unseen before zombies may respawn in it. Minimum=0.00 Maximum=8760.00 Default=16.00
-        RespawnUnseenHours = 48.0,
+        RespawnUnseenHours = 36.0,
         -- The fraction of a cell's desired population that may respawn every RespawnHours. Minimum=0.00 Maximum=1.00 Default=0.10
-        RespawnMultiplier = 0.1,
+        RespawnMultiplier = 0.5,
         -- The number of hours that must pass before zombies migrate to empty parts of the same cell. If zero, migration is disabled. Minimum=0.00 Maximum=8760.00 Default=12.00
         RedistributeHours = 12.0,
         -- The distance a zombie will try to walk towards the last sound it heard. Minimum=10 Maximum=1000 Default=100
@@ -1168,7 +1168,7 @@ SandboxVars = {
     },
     LingeringReflexes = {
         -- Minimum=0.00 Maximum=100.00 Default=1.00
-        Smart = 1.0,
+        Smart = 5.0,
         -- Minimum=1000 Maximum=60000 Default=7500
         Frequency = 7500,
     },
