@@ -798,7 +798,8 @@ SandboxVars = {
         LifetimeMult = 10.0,
     },
     MorePlushies = {
-        -- Minimum=1 Maximum=1000 Default=1
+        Loot = 1,
+        -- Minimum=1 Maximum=10 Default=2
         SpawnRate = 1,
     },
     NamedLiterature = {
