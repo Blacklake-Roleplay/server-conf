@@ -1183,4 +1183,20 @@ SandboxVars = {
         HideDoorProgressBar = false,
         HideVehicleWalkProgressBar = false,
     },
+    ExpandedHeli = {
+        -- Minimum=0 Maximum=999 Default=0
+        StartDay = 0,
+        -- Minimum=1 Maximum=999 Default=90
+        SchedulerDuration = 90,
+        ContinueScheduling = false,
+        ContinueSchedulingLateGameOnly = true,
+        Frequency_jet = 3,
+        Frequency_police = 3,
+        Frequency_news_chopper = 3,
+        Frequency_military = 3,
+        Frequency_FEMA_drop = 3,
+        Frequency_samaritan_drop = 3,
+        Frequency_survivor_heli = 3,
+        Frequency_raiders = 3,
+    },
 }
