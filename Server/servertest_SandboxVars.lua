@@ -1189,7 +1189,7 @@ SandboxVars = {
         -- Minimum=1 Maximum=999 Default=90
         SchedulerDuration = 90,
         ContinueScheduling = false,
-        ContinueSchedulingLateGameOnly = true,
+        ContinueSchedulingLateGameOnly = false,
         Frequency_jet = 3,
         Frequency_police = 3,
         Frequency_news_chopper = 3,
