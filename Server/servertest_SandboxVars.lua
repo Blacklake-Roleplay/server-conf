@@ -212,7 +212,7 @@ SandboxVars = {
     -- 2 = Fast
     -- 3 = Normal
     -- 4 = Slow
-    StatsDecrease = 3,
+    StatsDecrease = 2,
     -- Controls the abundance of fish and general forage. Default=Normal
     -- 1 = Very Poor
     -- 2 = Poor
@@ -588,7 +588,7 @@ SandboxVars = {
     },
     ZombieConfig = {
         -- Set by the "Zombie Count" population option. 4.0 = Insane, Very High = 3.0, 2.0 = High, 1.0 = Normal, 0.35 = Low, 0.0 = None. Minimum=0.00 Maximum=4.00 Default=1.00
-        PopulationMultiplier = 4.0,
+        PopulationMultiplier = 1.0,
         -- Adjusts the desired population at the start of the game. Minimum=0.00 Maximum=4.00 Default=1.00
         PopulationStartMultiplier = 1.0,
         -- Adjusts the desired population on the peak day. Minimum=0.00 Maximum=4.00 Default=1.50
@@ -596,13 +596,13 @@ SandboxVars = {
         -- The day when the population reaches it's peak. Minimum=1 Maximum=365 Default=28
         PopulationPeakDay = 30,
         -- The number of hours that must pass before zombies may respawn in a cell. If zero, spawning is disabled. Minimum=0.00 Maximum=8760.00 Default=72.00
-        RespawnHours = 12.0,
+        RespawnHours = 24.0,
         -- The number of hours that a chunk must be unseen before zombies may respawn in it. Minimum=0.00 Maximum=8760.00 Default=16.00
-        RespawnUnseenHours = 6.0,
+        RespawnUnseenHours = 36.0,
         -- The fraction of a cell's desired population that may respawn every RespawnHours. Minimum=0.00 Maximum=1.00 Default=0.10
-        RespawnMultiplier = 1.0,
+        RespawnMultiplier = 0.5,
         -- The number of hours that must pass before zombies migrate to empty parts of the same cell. If zero, migration is disabled. Minimum=0.00 Maximum=8760.00 Default=12.00
-        RedistributeHours = 6.0,
+        RedistributeHours = 12.0,
         -- The distance a zombie will try to walk towards the last sound it heard. Minimum=10 Maximum=1000 Default=100
         FollowSoundDistance = 100,
         -- The size of groups real zombies form when idle. Zero means zombies don't form groups. Groups don't form inside buildings or forest zones. Minimum=0 Maximum=1000 Default=20
@@ -689,15 +689,15 @@ SandboxVars = {
         -- Minimum=0.00 Maximum=100.00 Default=15.00
         Shambler = 5.0,
         -- Minimum=0.00 Maximum=100.00 Default=78.00
-        FastShambler = 83.0,
+        FastShambler = 78.0,
         -- Minimum=0.00 Maximum=100.00 Default=5.00
-        Sprinter = 10.0,
+        Sprinter = 15.0,
         -- Minimum=0.00 Maximum=100.00 Default=0.00
-        Fragile = 12.5,
+        Fragile = 25.0,
         -- Minimum=0.00 Maximum=100.00 Default=100.00
         NormalTough = 50.0,
         -- Minimum=0.00 Maximum=100.00 Default=0.00
-        Tough = 37.5,
+        Tough = 25.0,
         -- Minimum=0.00 Maximum=100.00 Default=0.00
         Smart = 0.01,
         -- Minimum=1000 Maximum=60000 Default=7500
@@ -1117,7 +1117,7 @@ SandboxVars = {
         -- Minimum=0 Maximum=100000000 Default=100
         GlobalMultiplier = 10,
         -- Minimum=0 Maximum=100 Default=20
-        ChanceMaxCondition = 0,
+        ChanceMaxCondition = 13,
         -- Minimum=0 Maximum=100 Default=10
         MinimumCondition = 0,
         -- Minimum=0 Maximum=100 Default=20
