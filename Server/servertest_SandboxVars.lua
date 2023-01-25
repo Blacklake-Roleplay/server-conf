@@ -1117,7 +1117,7 @@ SandboxVars = {
         -- Minimum=0 Maximum=100000000 Default=100
         GlobalMultiplier = 10,
         -- Minimum=0 Maximum=100 Default=20
-        ChanceMaxCondition = 13,
+        ChanceMaxCondition = 0,
         -- Minimum=0 Maximum=100 Default=10
         MinimumCondition = 0,
         -- Minimum=0 Maximum=100 Default=20
