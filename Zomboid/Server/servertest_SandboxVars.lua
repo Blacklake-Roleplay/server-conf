@@ -169,7 +169,7 @@ SandboxVars = {
     -- 2 = Cold
     -- 3 = Normal
     -- 4 = Hot
-    Temperature = 2,
+    Temperature = 1,
     -- Controls how often it rains. Default=Normal
     -- 1 = Very Dry
     -- 2 = Dry
@@ -218,7 +218,7 @@ SandboxVars = {
     -- 2 = Poor
     -- 3 = Normal
     -- 4 = Abundant
-    NatureAbundance = 2,
+    NatureAbundance = 1,
     -- Default=Sometimes
     -- 1 = Never
     -- 2 = Extremely Rare
@@ -356,7 +356,7 @@ SandboxVars = {
     -- 1 = Pitch Black
     -- 2 = Dark
     -- 3 = Normal
-    NightDarkness = 3,
+    NightDarkness = 2,
     -- Governs the time from dusk to dawn. Default=Normal
     -- 1 = Always Night
     -- 2 = Long
@@ -596,13 +596,13 @@ SandboxVars = {
         -- The day when the population reaches it's peak. Minimum=1 Maximum=365 Default=28
         PopulationPeakDay = 30,
         -- The number of hours that must pass before zombies may respawn in a cell. If zero, spawning is disabled. Minimum=0.00 Maximum=8760.00 Default=72.00
-        RespawnHours = 12.0,
+        RespawnHours = 2.0,
         -- The number of hours that a chunk must be unseen before zombies may respawn in it. Minimum=0.00 Maximum=8760.00 Default=16.00
-        RespawnUnseenHours = 6.0,
+        RespawnUnseenHours = 1.0,
         -- The fraction of a cell's desired population that may respawn every RespawnHours. Minimum=0.00 Maximum=1.00 Default=0.10
         RespawnMultiplier = 1.0,
         -- The number of hours that must pass before zombies migrate to empty parts of the same cell. If zero, migration is disabled. Minimum=0.00 Maximum=8760.00 Default=12.00
-        RedistributeHours = 6.0,
+        RedistributeHours = 3.0,
         -- The distance a zombie will try to walk towards the last sound it heard. Minimum=10 Maximum=1000 Default=100
         FollowSoundDistance = 100,
         -- The size of groups real zombies form when idle. Zero means zombies don't form groups. Groups don't form inside buildings or forest zones. Minimum=0 Maximum=1000 Default=20
