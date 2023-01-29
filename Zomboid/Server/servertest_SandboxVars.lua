@@ -592,7 +592,7 @@ SandboxVars = {
         -- Adjusts the desired population at the start of the game. Minimum=0.00 Maximum=4.00 Default=1.00
         PopulationStartMultiplier = 1.0,
         -- Adjusts the desired population on the peak day. Minimum=0.00 Maximum=4.00 Default=1.50
-        PopulationPeakMultiplier = 1.5,
+        PopulationPeakMultiplier = 4.0,
         -- The day when the population reaches it's peak. Minimum=1 Maximum=365 Default=28
         PopulationPeakDay = 30,
         -- The number of hours that must pass before zombies may respawn in a cell. If zero, spawning is disabled. Minimum=0.00 Maximum=8760.00 Default=72.00
