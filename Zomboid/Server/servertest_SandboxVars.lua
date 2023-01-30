@@ -590,7 +590,7 @@ SandboxVars = {
         -- Set by the "Zombie Count" population option. 4.0 = Insane, Very High = 3.0, 2.0 = High, 1.0 = Normal, 0.35 = Low, 0.0 = None. Minimum=0.00 Maximum=4.00 Default=1.00
         PopulationMultiplier = 4.0,
         -- Adjusts the desired population at the start of the game. Minimum=0.00 Maximum=4.00 Default=1.00
-        PopulationStartMultiplier = 1.0,
+        PopulationStartMultiplier = 4.0,
         -- Adjusts the desired population on the peak day. Minimum=0.00 Maximum=4.00 Default=1.50
         PopulationPeakMultiplier = 4.0,
         -- The day when the population reaches it's peak. Minimum=1 Maximum=365 Default=28
