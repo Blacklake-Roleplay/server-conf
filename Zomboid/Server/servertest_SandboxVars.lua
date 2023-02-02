@@ -757,9 +757,6 @@ SandboxVars = {
         -- Minimum=0.00 Maximum=10.00 Default=2.40
         boomboxWeight = 2.0,
     },
-    MoreBuildPluss = {
-        BuildingPermission = 1,
-    },
     NoDisassemblingPlease = {
         NoDisassembling = true,
         NoPickingUp = false,
