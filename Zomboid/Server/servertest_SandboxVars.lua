@@ -1145,57 +1145,6 @@ SandboxVars = {
         Frequency_survivor_heli = 3,
         Frequency_raiders = 3,
     },
-    AirbobbelzLoot = {
-        -- Minimum=0 Maximum=100000000 Default=100
-        GlobalMultiplier = 10,
-        -- Minimum=0 Maximum=100 Default=20
-        ChanceMaxCondition = 4,
-        -- Minimum=0 Maximum=100 Default=10
-        MinimumCondition = 0,
-        -- Minimum=0 Maximum=100 Default=20
-        ChanceMaxDrainable = 14,
-        -- Minimum=0 Maximum=100 Default=20
-        MinimumDrainable = 4,
-        -- Minimum=0 Maximum=100000000 Default=100
-        OutfitMultiplier = 100,
-        -- Minimum=0 Maximum=100000000 Default=100
-        BagContentsMultiplier = 100,
-        -- Minimum=0 Maximum=1000 Default=12
-        GunLooseBulletsRolls = 6,
-        -- Minimum=0 Maximum=1000 Default=100
-        GunLooseBulletsMultiplier = 1,
-        -- Minimum=0 Maximum=100000000 Default=100
-        AmmoMultiplier = 1,
-        -- Minimum=0 Maximum=100000000 Default=100
-        AmmoBoxMultiplier = 0,
-        -- Minimum=0 Maximum=100000000 Default=100
-        MeleeMultiplier = 10,
-        -- Minimum=0 Maximum=100000000 Default=100
-        PistolMultiplier = 1,
-        -- Minimum=0 Maximum=100000000 Default=100
-        LongGunMultiplier = 0,
-        -- Minimum=0 Maximum=100000000 Default=100
-        OtherGunsMultiplier = 0,
-        -- Minimum=0 Maximum=100000000 Default=100
-        CannedFoodMultiplier = 20,
-        -- Minimum=0 Maximum=100000000 Default=100
-        OtherFoodMultiplier = 20,
-        -- Minimum=0 Maximum=100000000 Default=100
-        ResourceMultiplier = 15,
-        -- Minimum=0 Maximum=100000000 Default=100
-        BagMultiplier = 25,
-        -- Minimum=0 Maximum=100000000 Default=100
-        GunBagMultiplier = 0,
-        -- Minimum=0 Maximum=100000000 Default=100
-        JunkMultiplier = 100,
-        -- Minimum=0 Maximum=100000000 Default=100
-        ExtraMultiplier = 50,
-        ExtraRollEach = "item:Money,chance:10,more:10,moreChance:50;",
-        ExtraRollOne1 = "",
-        ExtraRollOne2 = "",
-        ExtraRollOne3 = "",
-        RemoveItems = "",
-    },
     MoreShoes = {
         Loot = 1,
         -- Minimum=1 Maximum=10 Default=5
