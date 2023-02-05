@@ -370,7 +370,7 @@ SandboxVars = {
     -- Enable or disable broken limbs when survivors receive injuries from impacts, zombie damage and falls.
     BoneFracture = true,
     -- How long before zombie bodies disappear. Minimum=-1.00 Maximum=2147483647.00 Default=216.00
-    HoursForCorpseRemoval = 108.0,
+    HoursForCorpseRemoval = 18.0,
     -- Governs impact that nearby decaying bodies has on the player's health and emotions. Default=Normal
     -- 1 = None
     -- 2 = Low
