@@ -1150,4 +1150,17 @@ SandboxVars = {
         -- Minimum=1 Maximum=10 Default=5
         Rarity = 5,
     },
+    Greenfire = {
+        -- Minimum=1 Maximum=100 Default=3
+        Division = 3,
+        -- Minimum=1 Maximum=48 Default=2
+        CheckEvery = 2,
+        EnableTooltip = true,
+        LifeTT = false,
+        TurnIntoTT = false,
+        StartTimeTT = false,
+        DryTimeTT = false,
+        RemainingTT = true,
+        ShouldDryTT = false,
+    },
 }
