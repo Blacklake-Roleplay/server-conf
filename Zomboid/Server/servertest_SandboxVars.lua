@@ -1163,4 +1163,7 @@ SandboxVars = {
         RemainingTT = true,
         ShouldDryTT = false,
     },
+    MoreBuildPluss = {
+        BuildingPermission = 1,
+    },
 }
