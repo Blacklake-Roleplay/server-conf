@@ -1,1 +1,1 @@
-do local _={{file="jessica.txt",mod="testquest",data={{internal="js_q1",status=2}}},{file="Mountport.txt",mod="testquest",data={{internal="mount_q1",status=1,tasks={{"a1",1},{"a2",0},{"a2_1",0},{"a2_2",0}}}}}};return _;end
+do local _={{file="jessica.txt",mod="testquest",data={{internal="js_q1",status=2}}},{file="Mountport.txt",mod="testquest",data={{internal="mount_q1",status=1,tasks={{"a1",3},{"a2",1},{"a2_1",1},{"a2_2",1}}}}}};return _;end
