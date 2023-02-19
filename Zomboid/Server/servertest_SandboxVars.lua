@@ -743,7 +743,7 @@ SandboxVars = {
         -- Minimum=1 Maximum=64 Default=48
         meLongRange = 48,
         -- Minimum=1 Maximum=2 Default=2
-        whisperRange = 2,
+        whisperRange = 1,
         -- Minimum=1 Maximum=64 Default=48
         shoutRange = 48,
     },
