@@ -1117,4 +1117,8 @@ SandboxVars = {
     MoreBuildPluss = {
         BuildingPermission = 1,
     },
+    blahaj = {
+        -- Minimum=1 Maximum=1000 Default=1
+        SpawnRate = 1,
+    },
 }
