@@ -1109,11 +1109,6 @@ SandboxVars = {
         Frequency_survivor_heli = 3,
         Frequency_raiders = 3,
     },
-    MoreShoes = {
-        Loot = 1,
-        -- Minimum=1 Maximum=10 Default=5
-        Rarity = 5,
-    },
     MoreBuildPluss = {
         BuildingPermission = 1,
     },
