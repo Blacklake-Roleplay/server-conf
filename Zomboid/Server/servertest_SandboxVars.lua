@@ -647,6 +647,11 @@ SandboxVars = {
         MaxWaterWallStorageAmount = 1000,
         BuildingPermission = 1,
     },
+    MoreShoes = {
+        Loot = 1,
+        -- Minimum=1 Maximum=10 Default=5
+        Rarity = 5,
+    },
     BLTRandomZombies = {
         -- Minimum=0.00 Maximum=100.00 Default=2.00
         Crawler = 2.0,
