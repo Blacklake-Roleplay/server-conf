@@ -626,42 +626,6 @@ SandboxVars = {
         -- Minimum=0.00 Maximum=100.00 Default=0.08
         AmazonaChance = 0.01,
     },
-    YearsLater = {
-        advancedForaging = true,
-        indoorVeg = true,
-        outdoorVeg = true,
-        roofVeg = true,
-        wallWVeg = true,
-        wallNVeg = true,
-        angleVeg = true,
-        fenceVeg = true,
-        smallFenceAngleVeg = true,
-        smallFenceNVeg = true,
-        smallFenceWVeg = true,
-        otherFenceVeg = true,
-        -- Minimum=0 Maximum=3 Default=1
-        indoorChance = 1,
-        -- Minimum=0 Maximum=3 Default=1
-        outdoorChance = 1,
-        -- Minimum=0 Maximum=3 Default=1
-        angleChance = 1,
-        -- Minimum=0 Maximum=3 Default=1
-        wallWChance = 1,
-        -- Minimum=0 Maximum=3 Default=1
-        wallNChance = 1,
-        -- Minimum=0 Maximum=3 Default=1
-        roofChance = 1,
-        -- Minimum=0 Maximum=3 Default=1
-        fenceChance = 1,
-        -- Minimum=0 Maximum=3 Default=1
-        smallFenceAngleChance = 1,
-        -- Minimum=0 Maximum=3 Default=1
-        smallFenceNChance = 1,
-        -- Minimum=0 Maximum=3 Default=1
-        smallFenceWChance = 1,
-        -- Minimum=0 Maximum=3 Default=1
-        otherFenceChance = 1,
-    },
     FuelAPI = {
         -- Minimum=100.00 Maximum=5000.00 Default=400.00
         BarrelMaxCapacity = 500.0,
