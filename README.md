@@ -42,7 +42,7 @@ Written in rust, the bot allows for ease of integration with pz without having t
 
 https://git.sr.ht/~vam-jam/bite-rs
 
-### Eternal Engine - Core of the server
+### BL Strap - Core of the server
 Think of this as a layer between PZ and any app/feature that needs to interact with PZ.
 
 Currently does the following:
@@ -53,7 +53,7 @@ Currently does the following:
  - Sending messages to the pz server
  - Query the games database
 
-https://git.sr.ht/~vam-jam/bl-rp-eternal-engine
+https://git.sr.ht/~vam-jam/bl-strap
 
 ### Wrench (todo: rename)
 Handles auto restarting PZ when there is a mod update, to minimize downtime. 
