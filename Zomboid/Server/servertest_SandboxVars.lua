@@ -625,16 +625,6 @@ SandboxVars = {
         HeadhunterChance = 0.04,
         -- Minimum=0.00 Maximum=100.00 Default=0.08
         AmazonaChance = 0.08,
-        -- Minimum=0.00 Maximum=100.00 Default=0.04
-        StalkerChance = 0.04,
-        -- Minimum=0.00 Maximum=100.00 Default=0.04
-        NomadChance = 0.04,
-        -- Minimum=0.00 Maximum=100.00 Default=0.04
-        PrepperChance = 0.04,
-        -- Minimum=0.00 Maximum=100.00 Default=0.04
-        HeadhunterChance = 0.04,
-        -- Minimum=0.00 Maximum=100.00 Default=0.08
-        AmazonaChance = 0.08,
     },
     BLTRandomZombies = {
         -- Minimum=0.00 Maximum=100.00 Default=2.00
