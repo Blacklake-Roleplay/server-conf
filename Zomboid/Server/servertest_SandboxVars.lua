@@ -625,32 +625,16 @@ SandboxVars = {
         HeadhunterChance = 0.0,
         -- Minimum=0.00 Maximum=100.00 Default=0.08
         AmazonaChance = 0.01,
-    },
-    FuelAPI = {
-        -- Minimum=100.00 Maximum=5000.00 Default=400.00
-        BarrelMaxCapacity = 500.0,
-        -- Minimum=0.00 Maximum=1.00 Default=0.50
-        BarrelRandomQuantityPercent = 0.0,
-        BarrelCanPickupFull = true,
-    },
-    SapphCooking = {
-        NonPerishableChance = 3,
-        PerishableChance = 3,
-        MagazineChance = 3,
-        MREChance = 3,
-        KitchenUtensilsChance = 3,
-        AlcoholChance = 3,
-        ZombieLootSpawn = 3,
-    },
-    MoreBuilds = {
-        -- Minimum=1 Maximum=10000 Default=1200
-        MaxWaterWallStorageAmount = 1000,
-        BuildingPermission = 1,
-    },
-    MoreShoes = {
-        Loot = 1,
-        -- Minimum=1 Maximum=10 Default=5
-        Rarity = 5,
+        -- Minimum=0.00 Maximum=100.00 Default=0.04
+        StalkerChance = 0.01,
+        -- Minimum=0.00 Maximum=100.00 Default=0.04
+        NomadChance = 0.01,
+        -- Minimum=0.00 Maximum=100.00 Default=0.04
+        PrepperChance = 0.0,
+        -- Minimum=0.00 Maximum=100.00 Default=0.04
+        HeadhunterChance = 0.0,
+        -- Minimum=0.00 Maximum=100.00 Default=0.08
+        AmazonaChance = 0.01,
     },
     BLTRandomZombies = {
         -- Minimum=0.00 Maximum=100.00 Default=2.00
@@ -671,24 +655,6 @@ SandboxVars = {
         Smart = 0.01,
         -- Minimum=1000 Maximum=60000 Default=7500
         Frequency = 7500,
-    },
-    LingeringVoices = {
-        RespondToSound = true,
-        CustomLines = true,
-        -- Minimum=0 Maximum=604800 Default=5
-        LowerLineLimit = 5,
-        -- Minimum=0 Maximum=604800 Default=86400
-        UpperLineLimit = 86400,
-        -- Minimum=0 Maximum=1000 Default=1
-        StaggerSpeakChance = 1,
-    },
-    PocketKitten = {
-        -- Minimum=0 Maximum=100 Default=12
-        ReduceBoredom = 10,
-        -- Minimum=0 Maximum=100 Default=12
-        ReduceUnhappiness = 10,
-        -- Minimum=0 Maximum=100 Default=5
-        ReduceStress = 5,
     },
     MFTEOTWC = {
         cassetteSpawn = true,
@@ -725,6 +691,164 @@ SandboxVars = {
         batteryUse = 0.5,
         -- Minimum=0.00 Maximum=10.00 Default=2.40
         boomboxWeight = 2.0,
+    },
+    MFTEOTWSH = {
+        easterEgg = true,
+    },
+    PocketKitten = {
+        -- Minimum=0 Maximum=100 Default=12
+        ReduceBoredom = 10,
+        -- Minimum=0 Maximum=100 Default=12
+        ReduceUnhappiness = 10,
+        -- Minimum=0 Maximum=100 Default=5
+        ReduceStress = 5,
+    },
+    SOTO = {
+        TraitsProgress = true,
+        -- Minimum=1 Maximum=100000 Default=168
+        LoseCowardlyHoursMIN = 168,
+        -- Minimum=1 Maximum=100000 Default=336
+        LoseCowardlyHoursMAX = 336,
+        -- Minimum=1 Maximum=100000 Default=1000
+        LoseCowardlyZombMIN = 1000,
+        -- Minimum=1 Maximum=100000 Default=2000
+        LoseCowardlyZombMAX = 2000,
+        -- Minimum=1 Maximum=100000 Default=336
+        EarnBraveHoursMIN = 336,
+        -- Minimum=1 Maximum=100000 Default=672
+        EarnBraveHoursMAX = 672,
+        -- Minimum=1 Maximum=100000 Default=2500
+        EarnBraveZombMIN = 2500,
+        -- Minimum=1 Maximum=100000 Default=3500
+        EarnBraveZombMAX = 3500,
+        -- Minimum=1 Maximum=100000 Default=1080
+        EarnDesensitizedHoursMIN = 1080,
+        -- Minimum=1 Maximum=100000 Default=1680
+        EarnDesensitizedHoursMAX = 1680,
+        -- Minimum=1 Maximum=100000 Default=5500
+        EarnDesensitizedZombMIN = 5500,
+        -- Minimum=1 Maximum=100000 Default=8500
+        EarnDesensitizedZombMAX = 8500,
+        -- Minimum=1 Maximum=100000 Default=672
+        LosePacifistHoursMIN = 672,
+        -- Minimum=1 Maximum=100000 Default=1008
+        LosePacifistHoursMAX = 1008,
+        -- Minimum=1 Maximum=100000 Default=1500
+        LosePacifistZombMIN = 1500,
+        -- Minimum=1 Maximum=100000 Default=2500
+        LosePacifistZombMAX = 2500,
+        -- Minimum=0 Maximum=10 Default=7
+        LosePacifistSkillLvl = 7,
+    },
+    FuelAPI = {
+        -- Minimum=100.00 Maximum=5000.00 Default=400.00
+        BarrelMaxCapacity = 500.0,
+        -- Minimum=0.00 Maximum=1.00 Default=0.50
+        BarrelRandomQuantityPercent = 0.0,
+        BarrelCanPickupFull = true,
+    },
+    SapphCooking = {
+        NonPerishableChance = 3,
+        PerishableChance = 3,
+        MagazineChance = 3,
+        MREChance = 3,
+        KitchenUtensilsChance = 3,
+        AlcoholChance = 3,
+        ZombieLootSpawn = 3,
+    },
+    Susceptible = {
+        EveryoneIsSusceptible = false,
+        InstantDeath = false,
+        -- Minimum=0.00 Maximum=0.05 Default=0.00
+        BaseInfectionChance = 0.0034,
+        -- Minimum=0 Maximum=100 Default=6
+        MaskDamageRate = 6,
+        -- Minimum=1 Maximum=100 Default=10
+        MaskFilteringPower = 10,
+        -- Minimum=0 Maximum=100 Default=5
+        SpawnChance = 5,
+        -- Minimum=0 Maximum=100 Default=35
+        LootChance = 35,
+    },
+    MoreBuilds = {
+        -- Minimum=1 Maximum=10000 Default=1200
+        MaxWaterWallStorageAmount = 1000,
+        BuildingPermission = 1,
+    },
+    MoreBuildPluss = {
+        BuildingPermission = 1,
+    },
+    MoreMaps = {
+        ForageableMaps = true,
+        -- Minimum=0.00 Maximum=4.00 Default=1.00
+        MapLootMultiplier = 1.0,
+        KentuckyCompleteMap = false,
+        LouisVilleCompleteMap = true,
+        LouisVilleDistrictMaps = true,
+        TrailerParkMaps = true,
+        ValleyStationMap = true,
+        ValleyStationMallAreaMap = true,
+        EasternSummerCampMap = true,
+        AbandonedFactoryMap = true,
+        EkronMap = true,
+        MilitaryMaps = true,
+        FortRedstoneMap = true,
+        MilitaryAirportMap = true,
+        FortBenningMap = true,
+        FortRockRidgeMap = true,
+        MuldraughMilitaryBaseMap = true,
+        FortWaterfrontMap = true,
+        FortKnoxMaps = true,
+        RiversideCountryClubMap = true,
+        SmallTownWestMap = true,
+        PonyRoamOMap = true,
+        MuldraughRailyardMap = true,
+        MuldraughWarehouseComplexMap = true,
+        CabinLocations = true,
+        CampGroundsLocation = true,
+        GrapeseedMap = true,
+        BlackwoodMap = true,
+        PitstopMap = true,
+        OverTheRiverMap = true,
+        LakeIvyMap = true,
+        WeatherStationLocations = true,
+        CompleteRavenCreekMap = true,
+        RavenCreekDistrictMaps = true,
+        RosewoodExpansionMap = true,
+        MarchRidgeExpansionMap = true,
+        CONResearchMap = true,
+        GreenleafMap = true,
+        LittleTownshipMap = true,
+        LindenMap = true,
+        RefordvilleMap = true,
+        ChernavilleMap = true,
+        ChinatownMap = true,
+        BlueberryMap = true,
+        WestPointFireDepartmentMap = true,
+        WestPointSouthTrailerParkMap = true,
+        KingsmouthMap = true,
+        SurvivorWarehouseLocation = true,
+        CoryerdonMap = true,
+        OldParkTownMap = true,
+        WestPointExpansionMap = true,
+        GlenportMap = true,
+        CompleteEerieCountryMap = true,
+        EerieCountryDifferentMaps = true,
+        SlocanLakeMaps = true,
+        BillionaireSafehouseLocation = true,
+        WildberriesMap = true,
+        TugalandMap = true,
+        RemusMap = true,
+        TrimbleCountyMaps = true,
+        EZPZCommunityCenterMap = true,
+        OldPineVillageMap = true,
+        ChristmasVillageMap = true,
+        HyruleCountyMap = true,
+        RiverwoodMap = true,
+        HongKongYauMaTeiMap = true,
+        WesternMilitaryComplexMap = true,
+        MansionAdress = true,
+        ConstructionFactoryMap = true,
     },
     NoDisassemblingPlease = {
         NoDisassembling = true,
@@ -774,6 +898,22 @@ SandboxVars = {
         -- Minimum=1 Maximum=100 Default=3
         MaxTimesReadable = 3,
         CanReadPassedMax = true,
+    },
+    ExpandedHeli = {
+        -- Minimum=0 Maximum=999 Default=0
+        StartDay = 0,
+        -- Minimum=1 Maximum=999 Default=90
+        SchedulerDuration = 90,
+        ContinueScheduling = false,
+        ContinueSchedulingLateGameOnly = false,
+        Frequency_jet = 3,
+        Frequency_police = 3,
+        Frequency_news_chopper = 3,
+        Frequency_military = 3,
+        Frequency_FEMA_drop = 3,
+        Frequency_samaritan_drop = 3,
+        Frequency_survivor_heli = 3,
+        Frequency_raiders = 3,
     },
     UdderlySafeLogin = {
         -- Minimum=1.00 Maximum=120.00 Default=20.00
@@ -1079,14 +1219,16 @@ SandboxVars = {
         -- Minimum=10 Maximum=10000 Default=700
         Nimble_interval = 700,
     },
-    VehicleRepairOverhaul = {
-        DisableVehicleSalvage = false,
+    blahaj = {
+        -- Minimum=1 Maximum=1000 Default=1
+        SpawnRate = 1,
     },
-    LingeringReflexes = {
-        -- Minimum=0.00 Maximum=100.00 Default=1.00
-        Smart = 5.0,
-        -- Minimum=1000 Maximum=60000 Default=7500
-        Frequency = 7500,
+    TOC = {
+        -- Minimum=1 Maximum=10 Default=1
+        CicatrizationSpeedMultiplier = 1,
+    },
+    BLTAnnotations = {
+        DropMapOnDeath = false,
     },
     FancyHandwork = {
         -- Minimum=0 Maximum=11 Default=3
@@ -1098,27 +1240,9 @@ SandboxVars = {
         HideDoorProgressBar = false,
         HideVehicleWalkProgressBar = false,
     },
-    ExpandedHeli = {
-        -- Minimum=0 Maximum=999 Default=0
-        StartDay = 0,
-        -- Minimum=1 Maximum=999 Default=90
-        SchedulerDuration = 90,
-        ContinueScheduling = false,
-        ContinueSchedulingLateGameOnly = false,
-        Frequency_jet = 3,
-        Frequency_police = 3,
-        Frequency_news_chopper = 3,
-        Frequency_military = 3,
-        Frequency_FEMA_drop = 3,
-        Frequency_samaritan_drop = 3,
-        Frequency_survivor_heli = 3,
-        Frequency_raiders = 3,
-    },
-    MoreBuildPluss = {
-        BuildingPermission = 1,
-    },
-    blahaj = {
-        -- Minimum=1 Maximum=1000 Default=1
-        SpawnRate = 1,
+    BrutalHandwork = {
+        DualWieldMelee = false,
+        EnableUnarmed = true,
+        AlwaysUnarmed = false,
     },
 }
