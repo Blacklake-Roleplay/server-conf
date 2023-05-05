@@ -1,0 +1,13 @@
+<VERSION: 1.0>
+General
+<H1> Welcome!
+<SIZE:small> Refer to mod description to learn how to change the contents of this panel.
+Link: <LINK:steamcommunity.com/sharedfiles/filedetails/?id=1178773471>
+<IMAGECENTRE:media/ui/SpiffoWelcome.png>
+<PAGE>
+Rules
+1. If you don't know the rules it doesn't mean you won't be punished for breaking them.
+- If you joined the server and, for whatever reason, didn't read the rules - don't expect to walk away free when you break one.
+
+2. And so on...
+<PAGE>

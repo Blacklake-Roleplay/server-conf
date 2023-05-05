@@ -1,1 +1,0 @@
-do local _={{file="jessica.txt",mod="testquest",data={{internal="js_q1",status=1,tasks={{"t1",1},{"t2",1},{"t3",0},{"t4",1},{"t5",0}}}}}};return _;end

@@ -1,1 +1,0 @@
-do local _={{file="cletus.txt",mod="testquest",data={{internal="cs_q1",status=2,date="2023-2-22-56"}}},{file="Mountport.txt",mod="testquest",data={{internal="mount_q1",status=1,tasks={{"a1",1},{"a2",0},{"a2_1",0},{"a2_2",0}}}}}};return _;end

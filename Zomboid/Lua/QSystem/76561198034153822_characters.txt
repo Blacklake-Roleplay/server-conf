@@ -1,1 +1,0 @@
-do local _={[1]={file="patrick.txt",mod="testquest",name="Patrick",cleared_quests=1,alive=1,revealed=1,stats={{"reputation",10}}},flags={"pa_intro","pa_q1_completed"},events={},last_save=746051373};return _;end

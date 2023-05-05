@@ -2,7 +2,7 @@
 
 ---
 
-# File formats
+# Folder formats
 
 ## /Zomboid
 Anything in /Zomboid ends up in said folder on server restart. This typically handles world saves and configs. 
