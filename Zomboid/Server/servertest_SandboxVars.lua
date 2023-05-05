@@ -212,7 +212,7 @@ SandboxVars = {
     -- 2 = Fast
     -- 3 = Normal
     -- 4 = Slow
-    StatsDecrease = 3,
+    StatsDecrease = 4,
     -- Controls the abundance of fish and general forage. Default=Normal
     -- 1 = Very Poor
     -- 2 = Poor
@@ -345,13 +345,13 @@ SandboxVars = {
     -- 5 = Often
     AnnotatedMapChance = 4,
     -- Adds free points during character creation. Minimum=-100 Maximum=100 Default=0
-    CharacterFreePoints = 0,
+    CharacterFreePoints = 3,
     -- Gives player-built constructions extra hit points so they are more resistant to zombie damage. Default=Normal
     -- 1 = Very Low
     -- 2 = Low
     -- 3 = Normal
     -- 4 = High
-    ConstructionBonusPoints = 3,
+    ConstructionBonusPoints = 5,
     -- Governs the ambient lighting at night. Default=Normal
     -- 1 = Pitch Black
     -- 2 = Dark
@@ -366,7 +366,7 @@ SandboxVars = {
     -- Increase and decrease the impact injuries have on your body, and their healing time. Default=Normal
     -- 1 = Low
     -- 2 = Normal
-    InjurySeverity = 2,
+    InjurySeverity = 1,
     -- Enable or disable broken limbs when survivors receive injuries from impacts, zombie damage and falls.
     BoneFracture = true,
     -- How long before zombie bodies disappear. Minimum=-1.00 Maximum=2147483647.00 Default=216.00
@@ -386,7 +386,7 @@ SandboxVars = {
     -- 1 = Disabled
     -- 2 = Slow
     -- 3 = Normal
-    ClothingDegradation = 3,
+    ClothingDegradation = 2,
     FireSpread = false,
     -- Number of in-game days before rotten food is removed from the map. -1 means rotten food is never removed. Minimum=-1 Maximum=2147483647 Default=-1
     DaysForRottenFoodRemoval = -1,
@@ -407,7 +407,7 @@ SandboxVars = {
     -- Chance of being bitten when a zombie attacks from behind. Default=High
     -- 1 = Low
     -- 2 = Medium
-    RearVulnerability = 3,
+    RearVulnerability = 2,
     -- Disable to walk unimpeded while melee attacking.
     AttackBlockMovements = true,
     AllClothesUnlocked = false,
@@ -1418,5 +1418,81 @@ SandboxVars = {
         EnableUnarmed = true,
         -- When a player is unarmed, always raise their fists when aiming for unarmed attacks.  Disable to require the Modifier to be held when aiming.
         AlwaysUnarmed = false,
+    },
+    MoreBrews = {
+        -- Establishes the base amount of More Brews loot in distribution Default=Low
+        -- 1 = Low
+        -- 2 = Normal
+        -- 3 = High
+        -- 4 = Very High
+        Loot = 1,
+        -- Brewing Kits will spawn when checked
+        KitSpawnOption = true,
+        -- Kegs will spawn when checked
+        KegSpawnOption = true,
+        -- Hops will spawn when checked
+        HopsOption = false,
+        -- General Brewing Supplies will spawn when checked
+        SuppliesSpawnOption = true,
+        -- Recipe Magazines will spawn when checked
+        MagazineSpawnOption = true,
+        -- Brewing Book will spawn when checked
+        BookSpawnOption = true,
+        -- Full Beer Cans and Bottle will spawn when checked
+        BeerSpawnOption = true,
+        -- Defines the multiplier to spawn rate of Brewing Kits found in the world Minimum=1 Maximum=10 Default=2
+        BrewingKits = 2,
+        -- Defines the multiplier to spawn rate of Empty Kegs found in the world Minimum=1 Maximum=10 Default=2
+        Kegs = 2,
+        -- Defines the multiplier to spawn rate of Hops found in the world Minimum=1 Maximum=10 Default=2
+        Hops = 2,
+        -- Defines the multiplier to spawn rate of Recipe Magazines found in the world Minimum=1 Maximum=10 Default=2
+        Recipes = 2,
+        -- Defines the multiplier to spawn rate of Skill Books found in the world Minimum=1 Maximum=10 Default=2
+        Books = 2,
+        -- Defines the multiplier to spawn rate of Malt, Bottle Caps, and filling tools found in the world Minimum=1 Maximum=10 Default=2
+        FillingSupplies = 2,
+        -- Defines the multiplier to spawn rate of Beer Cans found in the world Minimum=1 Maximum=10 Default=2
+        Cans = 2,
+        -- Defines the multiplier to spawn rate of Beer Bottles found in the world Minimum=1 Maximum=10 Default=2
+        Bottles = 2,
+        -- A small bonus is already given to crafting cans/bottles/caps based on brewing level. This will +1-5 on top of that bonus Minimum=0 Maximum=5 Default=0
+        BrewingBonus = 0,
+        -- Default 10 is equal to fermenting timer, lower is faster as 1 = 10% of time required where as 20 = 200% of time required Minimum=1 Maximum=20 Default=10
+        FermentChange = 10,
+        -- Default 10 is equal to base skunk timer, lower is faster as 1 = 10% of time required where as 20 = 200% of time required Minimum=1 Maximum=20 Default=10
+        RottenChange = 10,
+    },
+    MoreBrewsWineMeUp = {
+        -- Establishes the base amount of Wine Me Up loot in distribution Default=Low
+        -- 1 = Low
+        -- 2 = Normal
+        -- 3 = High
+        -- 4 = Very High
+        Loot = 1,
+        -- Wine Making Kits will spawn when checked
+        WineKitSpawnOption = true,
+        -- General Wine Making Supplies will spawn when checked
+        SuppliesSpawnOption = true,
+        -- Recipe Magazines will spawn when checked
+        MagazinesSpawnOption = true,
+        -- Brewing Book will spawn when checked
+        BookSpawnOption = true,
+        -- Full Wine Box and Bottle will spawn when checked
+        WineSpawnOption = true,
+        -- Defines the multiplier to spawn rate of Wine Making Kits found in the world Minimum=1 Maximum=10 Default=2
+        WineMakingKits = 2,
+        -- Defines the multiplier to spawn rate of Wine Making Supplies found in the world Minimum=1 Maximum=10 Default=2
+        Supplies = 2,
+        -- Defines the multiplier to spawn rate of Recipe Magazines found in the world Minimum=1 Maximum=10 Default=2
+        Recipes = 2,
+        -- Defines the multiplier to spawn rate of Skill Books found in the world Minimum=1 Maximum=10 Default=2
+        Books = 2,
+        -- Defines the multiplier to spawn rate of Full Wine found in the world Minimum=1 Maximum=10 Default=2
+        Wine = 2,
+        -- A small bonus is already given to crafting Corks / Wine Bottles/ Wine Boxes based on brewing level. This will +1-5 on top of that bonus Minimum=0 Maximum=5 Default=0
+        WineMakingBonus = 0,
+        -- Default 10 is equal to fermenting timer, lower is faster as 1 = 10% of time required where as 20 = 200% of time required Minimum=1 Maximum=20 Default=10
+        FermentChange = 10,
     },
 }
