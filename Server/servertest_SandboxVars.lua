@@ -627,7 +627,7 @@ SandboxVars = {
     },
     zReV = {
         -- Minimum=300 Maximum=20000 Default=500
-        BlackChemZombieSpawnChance = 20000,
+        BlackChemZombieSpawnChance = 1000,
         -- Minimum=0 Maximum=100 Default=0
         NotesInBlackChemZombieSpawnChance = 100,
         -- Minimum=0 Maximum=100 Default=0
