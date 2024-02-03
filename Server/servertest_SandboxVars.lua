@@ -497,6 +497,8 @@ SandboxVars = {
     MaggotSpawn = 1,
     -- The higher the value, the longer lightbulbs last before breaking. If 0, lightbulbs will never break. Does not affect vehicle headlights. Minimum=0.00 Maximum=1000.00 Default=1.00
     LightBulbLifespan = 1.0,
+    -- Minimum=1.38 Maximum=4.00 Default=2.00
+    lgd_antibodies_150_general_baseAntibodyGrowth = 2.0,
     Map = {
         AllowMiniMap = false,
         AllowWorldMap = true,
@@ -507,7 +509,7 @@ SandboxVars = {
         -- 1 = Sprinters
         -- 2 = Fast Shamblers
         -- 3 = Shamblers
-        Speed = 1,
+        Speed = 2,
         -- Controls the damage zombies inflict per attack. Default=Normal
         -- 1 = Superhuman
         -- 2 = Normal
@@ -613,5 +615,38 @@ SandboxVars = {
         RallyGroupSeparation = 15,
         -- How close members of a group stay to the group's leader. Minimum=1 Maximum=10 Default=3
         RallyGroupRadius = 3,
+    },
+    SapphCooking = {
+        NonPerishableChance = 3,
+        PerishableChance = 3,
+        MagazineChance = 3,
+        MREChance = 3,
+        KitchenUtensilsChance = 3,
+        AlcoholChance = 3,
+        ZombieLootSpawn = 3,
+    },
+    zReV = {
+        -- Minimum=300 Maximum=20000 Default=500
+        BlackChemZombieSpawnChance = 500,
+        -- Minimum=0 Maximum=100 Default=0
+        NotesInBlackChemZombieSpawnChance = 0,
+        -- Minimum=0 Maximum=100 Default=0
+        ZomboxycyclineSpawnChance = 0,
+        -- Minimum=0 Maximum=100 Default=10
+        DefaultVaccineSpawnChance = 10,
+        -- Minimum=0 Maximum=100 Default=0
+        ZomboxivirSpawnChance = 0,
+        -- Minimum=0 Maximum=100 Default=30
+        ScalpelTweezersSpawnChance = 30,
+        -- Minimum=0 Maximum=100 Default=30
+        TubeOrSyringeOrFlaskSpawnChance = 30,
+        -- Minimum=0 Maximum=100 Default=30
+        TigelTongsSpawnChance = 30,
+        -- Minimum=0.00 Maximum=2.00 Default=1.00
+        BookInWorldSpawnChance = 1.0,
+        -- Minimum=5 Maximum=30 Default=10
+        chanceToRare = 10,
+        -- Minimum=20 Maximum=60 Default=30
+        chanceToNormal = 30,
     },
 }
