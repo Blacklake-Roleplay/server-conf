@@ -500,9 +500,9 @@ SandboxVars = {
     -- Minimum=1.38 Maximum=4.00 Default=2.00
     lgd_antibodies_150_general_baseAntibodyGrowth = 2.0,
     Map = {
-        AllowMiniMap = false,
+        AllowMiniMap = true,
         AllowWorldMap = true,
-        MapAllKnown = false,
+        MapAllKnown = true,
     },
     ZombieLore = {
         -- Controls the zombie movement rate. Default=Fast Shamblers
@@ -590,7 +590,7 @@ SandboxVars = {
     },
     ZombieConfig = {
         -- Set by the "Zombie Count" population option. 4.0 = Insane, Very High = 3.0, 2.0 = High, 1.0 = Normal, 0.35 = Low, 0.0 = None. Minimum=0.00 Maximum=4.00 Default=1.00
-        PopulationMultiplier = 1.0,
+        PopulationMultiplier = 2.0,
         -- Adjusts the desired population at the start of the game. Minimum=0.00 Maximum=4.00 Default=1.00
         PopulationStartMultiplier = 1.0,
         -- Adjusts the desired population on the peak day. Minimum=0.00 Maximum=4.00 Default=1.50
@@ -773,7 +773,7 @@ SandboxVars = {
         -- Minimum=0 Maximum=3 Default=1
         CombatBonus = 3,
         -- Minimum=0 Maximum=3 Default=0
-        CraftingBonus = 3,
+        CraftingBonus = 0,
         -- Minimum=0 Maximum=3 Default=1
         FirearmBonus = 3,
         -- Minimum=0 Maximum=3 Default=0
@@ -886,12 +886,12 @@ SandboxVars = {
         AllowSafehouse = true,
         -- Minimum=1 Maximum=999 Default=5
         MaxVehicle = 5,
-        RequireTicket = true,
+        RequireTicket = false,
         ReturnTicket = false,
         UdderlyRespawn = false,
         ServerSideChecking = false,
         -- Minimum=1 Maximum=999 Default=240
-        ClaimTimeout = 240,
+        ClaimTimeout = 24,
         MuleParts = "GloveBox;TruckBed;TruckBedOpen;TrailerTrunk;M101A3Trunk;Engine",
         TrunkParts = "TrunkDoor;DoorRear",
         RebuildDB = false,
@@ -1206,5 +1206,16 @@ SandboxVars = {
         chanceToLoseCrowbarIfIsBroken = 3,
         -- Minimum=0 Maximum=1000 Default=10
         chanceToSucceedBreakPadlockAction = 10,
+    },
+    RVInterior = {
+        -- Minimum=0 Maximum=100 Default=20
+        SafeZombieDistance = 20,
+        NotWhenChased = true,
+    },
+    TIHFPOptions = {
+        SpawnInMilitary = true,
+        SpawnInPolice = true,
+        Thompsons = false,
+        SpawnInMilitaryNATO = false,
     },
 }
