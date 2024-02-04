@@ -225,7 +225,7 @@ SandboxVars = {
     -- 3 = Rare
     -- 4 = Sometimes
     -- 5 = Often
-    Alarm = 4,
+    Alarm = 1,
     -- How frequently homes and buildings will be discovered locked Default=Very Often
     -- 1 = Never
     -- 2 = Extremely Rare
@@ -598,9 +598,9 @@ SandboxVars = {
         -- The day when the population reaches it's peak. Minimum=1 Maximum=365 Default=28
         PopulationPeakDay = 28,
         -- The number of hours that must pass before zombies may respawn in a cell. If zero, spawning is disabled. Minimum=0.00 Maximum=8760.00 Default=72.00
-        RespawnHours = 0.0,
+        RespawnHours = 72.0,
         -- The number of hours that a chunk must be unseen before zombies may respawn in it. Minimum=0.00 Maximum=8760.00 Default=16.00
-        RespawnUnseenHours = 0.0,
+        RespawnUnseenHours = 12.0,
         -- The fraction of a cell's desired population that may respawn every RespawnHours. Minimum=0.00 Maximum=1.00 Default=0.10
         RespawnMultiplier = 1.0,
         -- The number of hours that must pass before zombies migrate to empty parts of the same cell. If zero, migration is disabled. Minimum=0.00 Maximum=8760.00 Default=12.00
@@ -616,6 +616,18 @@ SandboxVars = {
         -- How close members of a group stay to the group's leader. Minimum=1 Maximum=10 Default=3
         RallyGroupRadius = 3,
     },
+    UndeadSurvivor = {
+        -- Minimum=0.00 Maximum=100.00 Default=0.04
+        StalkerChance = 0.04,
+        -- Minimum=0.00 Maximum=100.00 Default=0.04
+        NomadChance = 0.04,
+        -- Minimum=0.00 Maximum=100.00 Default=0.04
+        PrepperChance = 0.04,
+        -- Minimum=0.00 Maximum=100.00 Default=0.04
+        HeadhunterChance = 0.04,
+        -- Minimum=0.00 Maximum=100.00 Default=0.08
+        AmazonaChance = 0.08,
+    },
     SapphCooking = {
         NonPerishableChance = 3,
         PerishableChance = 3,
@@ -624,6 +636,177 @@ SandboxVars = {
         KitchenUtensilsChance = 3,
         AlcoholChance = 3,
         ZombieLootSpawn = 3,
+    },
+    MoreBrews = {
+        Loot = 1,
+        TotalAmount = 3,
+        KitSpawnOption = true,
+        KegSpawnOption = true,
+        ForageHops = false,
+        -- Minimum=1 Maximum=20 Default=5
+        ForageHopsRate = 5,
+        HopsOption = false,
+        SuppliesSpawnOption = true,
+        MagazineSpawnOption = true,
+        BookSpawnOption = true,
+        BeerSpawnOption = true,
+        -- Minimum=1 Maximum=10 Default=2
+        BrewingKits = 2,
+        -- Minimum=1 Maximum=10 Default=2
+        Kegs = 2,
+        -- Minimum=1 Maximum=10 Default=2
+        Hops = 2,
+        -- Minimum=1 Maximum=10 Default=2
+        Recipes = 2,
+        -- Minimum=1 Maximum=10 Default=2
+        Books = 2,
+        -- Minimum=1 Maximum=10 Default=2
+        FillingSupplies = 2,
+        -- Minimum=1 Maximum=10 Default=2
+        Cans = 2,
+        -- Minimum=1 Maximum=10 Default=2
+        Bottles = 2,
+        -- Minimum=0 Maximum=5 Default=0
+        BrewingBonus = 0,
+        -- Minimum=1 Maximum=20 Default=10
+        FermentChange = 10,
+        -- Minimum=1 Maximum=20 Default=10
+        RottenChange = 10,
+        -- Minimum=1 Maximum=20 Default=10
+        CalorieChange = 10,
+        Expired = false,
+        -- Minimum=1 Maximum=20 Default=10
+        ExpireChange = 10,
+    },
+    MoreBrewsWineMeUp = {
+        Loot = 1,
+        TotalAmount = 3,
+        WineKitSpawnOption = true,
+        SuppliesSpawnOption = true,
+        MagazinesSpawnOption = true,
+        BookSpawnOption = true,
+        WineSpawnOption = true,
+        -- Minimum=1 Maximum=10 Default=2
+        WineMakingKits = 2,
+        -- Minimum=1 Maximum=10 Default=2
+        Supplies = 2,
+        -- Minimum=1 Maximum=10 Default=2
+        Recipes = 2,
+        -- Minimum=1 Maximum=10 Default=2
+        Books = 2,
+        -- Minimum=1 Maximum=10 Default=2
+        Wine = 2,
+        -- Minimum=0 Maximum=5 Default=0
+        WineMakingBonus = 0,
+        -- Minimum=1 Maximum=20 Default=10
+        FermentChange = 10,
+        -- Minimum=1 Maximum=20 Default=10
+        CalorieChange = 10,
+        Expired = false,
+        -- Minimum=1 Maximum=20 Default=10
+        ExpireChange = 10,
+    },
+    MoreSmokes = {
+        Loot = 2,
+        Moodle = true,
+        -- Minimum=1 Maximum=10 Default=2
+        Kits = 2,
+        -- Minimum=1 Maximum=10 Default=2
+        Magazines = 2,
+        RareMagazines = false,
+        -- Minimum=1 Maximum=10 Default=2
+        Seeds = 2,
+        YesCannabis = true,
+        -- Minimum=1 Maximum=10 Default=2
+        Cannabis = 2,
+        YesTobacco = true,
+        -- Minimum=1 Maximum=10 Default=2
+        Tobacco = 2,
+        -- Minimum=1 Maximum=10 Default=2
+        Edibles = 2,
+        -- Minimum=1 Maximum=10 Default=2
+        Glassware = 2,
+        -- Minimum=1 Maximum=50 Default=2
+        Munchies = 2,
+        -- Minimum=1 Maximum=50 Default=2
+        StonerPerk = 2,
+        -- Minimum=1 Maximum=50 Default=2
+        Paranoid = 2,
+        -- Minimum=0 Maximum=5 Default=0
+        CultivationBonus = 0,
+        -- Minimum=1 Maximum=50 Default=2
+        StonedIncreaseMulti = 2,
+        -- Minimum=1 Maximum=50 Default=2
+        StonedDecreaseMulti = 2,
+        TimerInfo = true,
+        -- Minimum=1 Maximum=20 Default=10
+        DryCureChange = 10,
+        -- Minimum=0 Maximum=10 Default=2
+        HarvestAdd = 2,
+        -- Minimum=12 Maximum=250 Default=90
+        GrowTimer = 90,
+        -- Minimum=12 Maximum=250 Default=90
+        RotTimer = 90,
+    },
+    SkillRecoveryJournal = {
+        -- Minimum=1 Maximum=100 Default=100
+        RecoveryPercentage = 100,
+        -- Minimum=0.00 Maximum=1000.00 Default=1.00
+        TranscribeSpeed = 1.0,
+        -- Minimum=0.00 Maximum=1000.00 Default=1.00
+        ReadTimeSpeed = 1.0,
+        RecoverProfessionAndTraitsBonuses = false,
+        TranscribeTVXP = false,
+        RecoverPassiveSkills = false,
+        RecoverCombatSkills = true,
+        RecoverFirearmSkills = true,
+        RecoverCraftingSkills = true,
+        RecoverSurvivalistSkills = true,
+        RecoverAgilitySkills = true,
+        RecoverRecipes = true,
+        RecoveryJournalUsed = false,
+        Craftable = true,
+    },
+    SkillLimiter = {
+        -- Minimum=0 Maximum=3 Default=2
+        AgilityBonus = 3,
+        -- Minimum=0 Maximum=3 Default=1
+        CombatBonus = 3,
+        -- Minimum=0 Maximum=3 Default=0
+        CraftingBonus = 3,
+        -- Minimum=0 Maximum=3 Default=1
+        FirearmBonus = 3,
+        -- Minimum=0 Maximum=3 Default=0
+        SurvivalistBonus = 3,
+        -- Minimum=0 Maximum=3 Default=3
+        PassivesBonus = 3,
+        -- Minimum=0 Maximum=10 Default=5
+        PerkLvl0Cap = 5,
+        -- Minimum=0 Maximum=10 Default=7
+        PerkLvl1Cap = 7,
+        -- Minimum=0 Maximum=10 Default=9
+        PerkLvl2Cap = 9,
+        -- Minimum=0 Maximum=10 Default=10
+        PerkLvl3Cap = 10,
+        PerkBonuses = "metalwelding:0;mechanics:0;plantscavenging:0",
+    },
+    CommonSense = {
+        PryingMechanic = true,
+        PryAllDoors = false,
+        PartsHighlighter = true,
+        ColorFilter = false,
+        -- Minimum=0.00 Maximum=5.00 Default=1.00
+        PryingChanceMultiplier = 1.0,
+    },
+    FancyHandwork = {
+        -- Minimum=0 Maximum=11 Default=3
+        ExperiencedAim = 3,
+        -- Minimum=0.01 Maximum=60.00 Default=1.00
+        TurnDelaySec = 1.0,
+        DisableTurn = 2,
+        TurnBehavior = 2,
+        HideDoorProgressBar = false,
+        HideVehicleWalkProgressBar = false,
     },
     zReV = {
         -- Minimum=300 Maximum=20000 Default=500
@@ -648,5 +831,380 @@ SandboxVars = {
         chanceToRare = 10,
         -- Minimum=20 Maximum=60 Default=30
         chanceToNormal = 30,
+    },
+    BLTRandomZombies = {
+        -- Minimum=0.00 Maximum=100.00 Default=2.00
+        Crawler = 2.0,
+        -- Minimum=0.00 Maximum=100.00 Default=15.00
+        Shambler = 15.0,
+        -- Minimum=0.00 Maximum=100.00 Default=78.00
+        FastShambler = 58.0,
+        -- Minimum=0.00 Maximum=100.00 Default=5.00
+        Sprinter = 25.0,
+        -- Minimum=0.00 Maximum=100.00 Default=0.00
+        Fragile = 0.0,
+        -- Minimum=0.00 Maximum=100.00 Default=100.00
+        NormalTough = 100.0,
+        -- Minimum=0.00 Maximum=100.00 Default=0.00
+        Tough = 0.0,
+        -- Minimum=0.00 Maximum=100.00 Default=0.00
+        Smart = 0.0,
+        -- Minimum=1000 Maximum=60000 Default=7500
+        Frequency = 7500,
+    },
+    ScreecherZ = {
+        -- Minimum=1 Maximum=100 Default=100
+        ScreechChance = 20,
+        -- Minimum=1 Maximum=36000 Default=15
+        TickRate = 15,
+        DayOnly = false,
+        NightOnly = false,
+    },
+    SOMW = {
+        CondLowerChanceMultiplier = 1,
+    },
+    SleepWithFriends = {
+        RTorIG = 1,
+        SleepLength = "2.0",
+        EndurMulti = "2.0",
+        AutoWake = 1,
+    },
+    WriteOnWorld = {
+        AdminsOnly = true,
+    },
+    ImmersiveMedicine = {
+        IsBloodSystemActive = true,
+        IsBloodTypeSystemActive = true,
+        IsHeartbeatEnabled = true,
+        -- Minimum=25 Maximum=100 Default=25
+        BloodVolumeReduceModifier = 25,
+        -- Minimum=1 Maximum=4 Default=1
+        BloodVolumeIncreaseModifier = 1,
+    },
+    AVCS = {
+        AllowFaction = true,
+        AllowSafehouse = true,
+        -- Minimum=1 Maximum=999 Default=5
+        MaxVehicle = 5,
+        RequireTicket = true,
+        ReturnTicket = false,
+        UdderlyRespawn = false,
+        ServerSideChecking = false,
+        -- Minimum=1 Maximum=999 Default=240
+        ClaimTimeout = 240,
+        MuleParts = "GloveBox;TruckBed;TruckBedOpen;TrailerTrunk;M101A3Trunk;Engine",
+        TrunkParts = "TrunkDoor;DoorRear",
+        RebuildDB = false,
+    },
+    Text = {
+        DividerMusic = false,
+        DividerDancing = false,
+        DividerMeditation = false,
+        DividerDebug = false,
+    },
+    Music = {
+        StrengthMultiplier = 2,
+    },
+    Dancing = {
+        StrengthMultiplier = 2,
+    },
+    Meditation = {
+        StrengthMultiplier = 2,
+        MindfulnessDuration = 2,
+        -- Minimum=0.00 Maximum=10.00 Default=2.00
+        HealFactor = 2.0,
+        EffectMultiplier = 2,
+    },
+    Debug = {
+        MoodlePriority = false,
+        Expressions = false,
+        DanceAnim = false,
+    },
+    MorePlushies = {
+        Loot = 1,
+        -- Minimum=1 Maximum=10 Default=2
+        SpawnRate = 2,
+    },
+    MoreBuilds = {
+        -- Minimum=1 Maximum=10000 Default=1200
+        MaxWaterWallStorageAmount = 1200,
+        BuildingPermission = 1,
+    },
+    bikinitools = {
+        EnableGetKeyContext = false,
+        EnableOpenSesame = false,
+        EnableVehicleRemover = false,
+        EnableCellVehicleRemover = false,
+        EnableRepairContext = false,
+        EnableSkinSwitcher = false,
+        EnableVehicleSpawner = false,
+        EnableTrunkUnlocker = false,
+        EnableGravelBuddy = true,
+        EnableGardener = true,
+        AllowTYLPlantRemoval = true,
+        EnableLumberjack = true,
+        EnableFarmer = true,
+        EnableContainerUnloader = true,
+        EnableHomeWrecker = false,
+        EnableCorpseStacker = true,
+        EnableVehicleItemHide = true,
+    },
+    BTSE = {
+        LogMovableActions = true,
+        AllowKnownKPDestruction = true,
+        MakeKeypadUnbreakable = true,
+        LogTPWhitelistDestroy = true,
+        LogTPSledgeBreaking = true,
+        TileProtectUserWhitelist = "",
+        ProtectionBypassInSH = true,
+        ProtectionBypassInSHLevel = 1,
+        ThrottleSHDestruction = true,
+        -- Minimum=1 Maximum=1440 Default=60
+        SHDestructionMins = 60,
+        TileProtectBlacklist = "",
+        TileProtectWhitelist = "",
+        BreakSledgeOnWhitelistScrap = true,
+        DisableAllPickups = false,
+        DisableAllDestruction = false,
+        AllowContainerDestruction = false,
+        AllowContainerPickup = false,
+        AllowPickupFridge = true,
+        AllowPickupFreezer = true,
+        AllowPickupMicrowave = true,
+        AllowPickupStove = true,
+        AllowPickupWoodstove = true,
+        AllowPickupBarbecue = true,
+        AllowPickupClothingwasher = true,
+        AllowPickupClothingdryer = true,
+        AllowPickupBin = true,
+        AllowPickupCashregister = true,
+        AllowPickupWardrobe = false,
+        AllowPickupMannequin = true,
+    },
+    PARP = {
+        -- Minimum=3 Maximum=32 Default=5
+        KeypadCodeMinLength = 5,
+        MigrateSKKeypadSettings = false,
+        SecureLocksWithWalls = true,
+        UseJailCellWalls = false,
+        CustomKPSprites = "",
+        TryGarageDoorRepair = true,
+        TryDoorRepairOnLoad = true,
+        LogGarageDoorRepairs = true,
+        ReturnKeypadAfterRemoval = true,
+        OpenDoorOnUnlock = true,
+        KeypadKnownToLock = false,
+        -- Minimum=1 Maximum=500 Default=100
+        KeypadInstallTime = 100,
+        -- Minimum=1 Maximum=500 Default=66
+        KeypadSetPasswordTime = 66,
+        -- Minimum=1 Maximum=500 Default=66
+        KeypadLockTime = 66,
+        -- Minimum=1 Maximum=500 Default=33
+        KeypadUnlockTime = 33,
+    },
+    PDFTZ = {
+        HordesEnabled = true,
+        SpookyScarySkeletons = true,
+        -- Minimum=10 Maximum=2880 Default=720
+        MaxTimeToEatBody = 720,
+        -- Minimum=1 Maximum=50 Default=20
+        CorpseDrawWeight = 25,
+        -- Minimum=50 Maximum=215 Default=60
+        MinHordeDrawWeight = 55,
+        -- Minimum=10 Maximum=2880 Default=360
+        MinHordeDrawWaitTime = 10,
+        -- Minimum=10 Maximum=2880 Default=720
+        MaxHordeDrawWaitTime = 20,
+        -- Minimum=10 Maximum=2880 Default=60
+        HordeGlobalCooldown = 2880,
+    },
+    PocketKitten = {
+        -- Minimum=0 Maximum=100 Default=12
+        ReduceBoredom = 12,
+        -- Minimum=0 Maximum=100 Default=12
+        ReduceUnhappiness = 12,
+        -- Minimum=0 Maximum=100 Default=5
+        ReduceStress = 5,
+    },
+    ImprovedProjectile = {
+        IPPJRemoveProjectile = 2,
+        -- Minimum=0 Maximum=500 Default=100
+        IPPJClientCommandDist = 100,
+        IPPJRestrictAngleVehicle = true,
+        IPPJMoodleEffectHC = false,
+        -- Minimum=0 Maximum=20 Default=10
+        IPPJTiredAimingTimeLvl = 10,
+        -- Minimum=0 Maximum=20 Default=5
+        IPPJTiredRecoilLvl = 5,
+        -- Minimum=0 Maximum=20 Default=6
+        IPPJEnduranceRecoilLvl = 6,
+        -- Minimum=0 Maximum=20 Default=5
+        IPPJFoodEatenRecoilLvl = 5,
+        -- Minimum=0 Maximum=35 Default=10
+        IPPJDrunkMissChance = 10,
+        -- Minimum=0 Maximum=25 Default=3
+        IPPJDrunkMissChanceLvl = 3,
+        -- Minimum=0.00 Maximum=3.00 Default=1.00
+        IPPJPanicAimMinMult = 1.0,
+        -- Minimum=0 Maximum=10 Default=3
+        IPPJPanicAimMinMultLvl = 3,
+        -- Minimum=0.00 Maximum=15.00 Default=6.00
+        IPPJSneezeAim = 6.0,
+        -- Minimum=0.00 Maximum=15.00 Default=4.00
+        IPPJCoughAim = 4.0,
+        -- Minimum=0 Maximum=50 Default=12
+        IPPJAimMinLimit = 12,
+        -- Minimum=0 Maximum=50 Default=4
+        IPPJAimMinLimitLvl = 4,
+        IPPJDistancePenalty = 2,
+        -- Minimum=20 Maximum=80 Default=25
+        IPPJDistancePenaltyMax = 25,
+        IPPJAccPenalty = 1,
+        -- Minimum=0 Maximum=100 Default=25
+        IPPJAccPenaltyA = 25,
+        -- Minimum=0 Maximum=100 Default=35
+        IPPJAccPenaltyB = 35,
+        -- Minimum=0 Maximum=100 Default=45
+        IPPJAccPenaltyC = 45,
+        IPPJAccPenaltyPVP = 1,
+        -- Minimum=0 Maximum=100 Default=30
+        IPPJAccPenaltyPVPA = 30,
+        -- Minimum=0 Maximum=100 Default=40
+        IPPJAccPenaltyPVPB = 40,
+        -- Minimum=0 Maximum=100 Default=50
+        IPPJAccPenaltyPVPC = 50,
+        IPPJEnableZombieHitReact = true,
+        IPPJZombieHitReactCond = 1,
+        -- Minimum=0.00 Maximum=10.00 Default=1.80
+        IPPJAimingSpeed = 1.8,
+        -- Minimum=0.00 Maximum=10.00 Default=1.80
+        IPPJMovingPenalty = 1.8,
+        -- Minimum=0.00 Maximum=10.00 Default=1.80
+        IPPJTurningPenalty = 1.8,
+        -- Minimum=0 Maximum=90 Default=40
+        IPPJCrouchPenalty = 40,
+        -- Minimum=0.00 Maximum=20.00 Default=2.00
+        IPPJRecoilMult = 2.0,
+        -- Minimum=0.00 Maximum=3.00 Default=1.00
+        IPPJRangeMult = 1.0,
+        -- Minimum=0.00 Maximum=4.00 Default=1.60
+        IPPJSpeedMult = 1.6,
+        IPPJDamageAdjustment = false,
+        -- Minimum=0.00 Maximum=20.00 Default=0.45
+        IPPJDamageMult = 0.45,
+        -- Minimum=0 Maximum=90 Default=0
+        IPPJDmgReduction = 0,
+        -- Minimum=0.00 Maximum=2.00 Default=1.00
+        IPPJBuffBowSlingshot = 1.0,
+        -- Minimum=0 Maximum=12 Default=6
+        IPPJShotgunPellet = 6,
+        -- Minimum=0 Maximum=180 Default=20
+        IPPJShotgunDivision = 20,
+        IPPJShotgunEvenDistribution = false,
+        IPPJLargerHitboxPVE = false,
+        -- Minimum=0 Maximum=100 Default=40
+        IPPJHitBoxHighRatio = 40,
+        -- Minimum=0 Maximum=100 Default=40
+        IPPJHitBoxMidRatio = 40,
+        -- Minimum=0 Maximum=100 Default=20
+        IPPJHitBoxLowRatio = 20,
+        -- Minimum=0.10 Maximum=10.00 Default=1.00
+        IPPJHitBoxHighMult = 1.0,
+        -- Minimum=0.10 Maximum=10.00 Default=0.50
+        IPPJHitBoxMidMult = 0.5,
+        -- Minimum=0.10 Maximum=10.00 Default=0.20
+        IPPJHitBoxLowMult = 0.2,
+        IPPJIgnoreVehicle = false,
+        -- Minimum=0.00 Maximum=30.00 Default=0.30
+        IPPJVehicleDamage = 0.3,
+        IPPJSafeHouseProt = false,
+        -- Minimum=0.00 Maximum=10.00 Default=1.00
+        IPPJBarricadeDamageMult = 1.0,
+        -- Minimum=0.00 Maximum=10.00 Default=1.00
+        IPPJDoorDamageMult = 1.0,
+        -- Minimum=0.00 Maximum=10.00 Default=1.00
+        IPPJTreeDamageMult = 1.0,
+        IPPJPenetrationSetting = 1,
+        IPPJPntOnKill = false,
+        -- Minimum=0.00 Maximum=1.00 Default=0.10
+        IPPJDmgReductionOnPnt = 0.1,
+        -- Minimum=0 Maximum=100 Default=0
+        IPPJBullets9mm = 0,
+        -- Minimum=0 Maximum=100 Default=0
+        IPPJBullets38 = 0,
+        -- Minimum=0 Maximum=100 Default=0
+        IPPJBullets45 = 0,
+        -- Minimum=0 Maximum=100 Default=0
+        IPPJBullets44 = 0,
+        -- Minimum=0 Maximum=100 Default=0
+        IPPJ223Bullets = 0,
+        -- Minimum=0 Maximum=100 Default=0
+        IPPJ556Bullets = 0,
+        IPPJCustomAmmo = "",
+        IPPJSniperScope = 1,
+        -- Minimum=0.00 Maximum=30.00 Default=14.00
+        IPPJSniperScopeRange = 14.0,
+        IPPJVisualRecoil = 1,
+        -- Minimum=0.10 Maximum=5.00 Default=1.00
+        IPPJVisualRecoilMult = 1.0,
+        IPPJMoodleEffectPanic = 1,
+        IPPJMoodleEffectTired = 1,
+        IPPJMoodleEffectCold = 1,
+        IPPJFriendlyFire = false,
+        IPPJIgnoreSafety = false,
+        IPPJIgnoreFactionPVP = false,
+        IPPJEnableNonPVPZone = true,
+        IPPJPVPLog = false,
+        -- Minimum=0.00 Maximum=100.00 Default=10.00
+        IPPJPVPDamageMult = 10.0,
+        IPPJPVPEnableWound = false,
+        IPPJLargerHitboxPVP = false,
+        -- Minimum=0 Maximum=100 Default=40
+        IPPJPVPHitBoxHighRatio = 40,
+        -- Minimum=0 Maximum=100 Default=40
+        IPPJPVPHitBoxMidRatio = 40,
+        -- Minimum=0 Maximum=100 Default=20
+        IPPJPVPHitBoxLowRatio = 20,
+        -- Minimum=0.10 Maximum=10.00 Default=1.00
+        IPPJPVPHitBoxHighMult = 1.0,
+        -- Minimum=0.10 Maximum=10.00 Default=0.60
+        IPPJPVPHitBoxMidMult = 0.6,
+        -- Minimum=0.10 Maximum=10.00 Default=0.30
+        IPPJPVPHitBoxLowMult = 0.3,
+        IPPJEnableExplo = true,
+        IPPJExploTrajectory = true,
+        IPPJFlatTrajectory = "",
+    },
+    BasementAddOptions = {
+        AdminCanBuildHatchesEverywhere = false,
+        buildHatchIfNotIsAdminIsForbidden = false,
+        buildHatchfromRVinteriorIsForbidden = true,
+        unlockInsideWithoutKey = true,
+        lockInsideWithoutKey = true,
+        -- Minimum=0 Maximum=99999 Default=2
+        timeElapsedToAllowTraveling = 2,
+        -- Minimum=0 Maximum=10 Default=4
+        statsConsumptionToTraveling = 4,
+        padlockvanillaBasement = true,
+        padlockplayerBasement = true,
+        padlockSewer = true,
+        padlockTravel = false,
+        padlockBasement = true,
+        CrowbarvanillaBasement = true,
+        CrowbarplayerBasement = true,
+        CrowbarSewer = true,
+        CrowbarTravel = false,
+        CrowbarBasement = true,
+        -- Minimum=250 Maximum=999999 Default=2000
+        timeActionToBreakPadlock = 2000,
+        -- Minimum=0 Maximum=500 Default=50
+        attractZombies = 50,
+        -- Minimum=0 Maximum=15 Default=1
+        crowbarDamageConditionMultiplier = 1,
+        -- Minimum=0 Maximum=100 Default=3
+        chanceToLoseCrowbarIfIsBroken = 3,
+        -- Minimum=0 Maximum=1000 Default=10
+        chanceToSucceedBreakPadlockAction = 10,
     },
 }
