@@ -91,7 +91,7 @@ SandboxVars = {
     -- 4 = Rare
     -- 5 = Normal
     -- 6 = Common
-    FoodLoot = 4,
+    FoodLoot = 2,
     -- Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
@@ -99,7 +99,7 @@ SandboxVars = {
     -- 4 = Rare
     -- 5 = Normal
     -- 6 = Common
-    CannedFoodLoot = 4,
+    CannedFoodLoot = 2,
     -- Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
@@ -107,7 +107,7 @@ SandboxVars = {
     -- 4 = Rare
     -- 5 = Normal
     -- 6 = Common
-    LiteratureLoot = 4,
+    LiteratureLoot = 2,
     -- Seeds, Nails, Saws, Fishing Rods, various tools, etc... Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
@@ -115,7 +115,7 @@ SandboxVars = {
     -- 4 = Rare
     -- 5 = Normal
     -- 6 = Common
-    SurvivalGearsLoot = 4,
+    SurvivalGearsLoot = 2,
     -- Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
@@ -123,7 +123,7 @@ SandboxVars = {
     -- 4 = Rare
     -- 5 = Normal
     -- 6 = Common
-    MedicalLoot = 4,
+    MedicalLoot = 2,
     -- Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
@@ -131,7 +131,7 @@ SandboxVars = {
     -- 4 = Rare
     -- 5 = Normal
     -- 6 = Common
-    WeaponLoot = 4,
+    WeaponLoot = 2,
     -- Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
@@ -139,7 +139,7 @@ SandboxVars = {
     -- 4 = Rare
     -- 5 = Normal
     -- 6 = Common
-    RangedWeaponLoot = 4,
+    RangedWeaponLoot = 2,
     -- Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
@@ -147,7 +147,7 @@ SandboxVars = {
     -- 4 = Rare
     -- 5 = Normal
     -- 6 = Common
-    AmmoLoot = 4,
+    AmmoLoot = 2,
     -- Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
@@ -155,7 +155,7 @@ SandboxVars = {
     -- 4 = Rare
     -- 5 = Normal
     -- 6 = Common
-    MechanicsLoot = 4,
+    MechanicsLoot = 2,
     -- Everything else. Also affects foraging for all items in Town/Road zones. Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
@@ -163,7 +163,7 @@ SandboxVars = {
     -- 4 = Rare
     -- 5 = Normal
     -- 6 = Common
-    OtherLoot = 4,
+    OtherLoot = 2,
     -- Controls the global temperature. Default=Normal
     -- 1 = Very Cold
     -- 2 = Cold
@@ -838,9 +838,9 @@ SandboxVars = {
         -- Minimum=0.00 Maximum=100.00 Default=15.00
         Shambler = 15.0,
         -- Minimum=0.00 Maximum=100.00 Default=78.00
-        FastShambler = 58.0,
+        FastShambler = 78.0,
         -- Minimum=0.00 Maximum=100.00 Default=5.00
-        Sprinter = 25.0,
+        Sprinter = 5.0,
         -- Minimum=0.00 Maximum=100.00 Default=0.00
         Fragile = 0.0,
         -- Minimum=0.00 Maximum=100.00 Default=100.00
@@ -1009,15 +1009,15 @@ SandboxVars = {
         -- Minimum=10 Maximum=2880 Default=720
         MaxTimeToEatBody = 720,
         -- Minimum=1 Maximum=50 Default=20
-        CorpseDrawWeight = 25,
+        CorpseDrawWeight = 20,
         -- Minimum=50 Maximum=215 Default=60
-        MinHordeDrawWeight = 55,
+        MinHordeDrawWeight = 60,
         -- Minimum=10 Maximum=2880 Default=360
         MinHordeDrawWaitTime = 10,
         -- Minimum=10 Maximum=2880 Default=720
         MaxHordeDrawWaitTime = 20,
         -- Minimum=10 Maximum=2880 Default=60
-        HordeGlobalCooldown = 2880,
+        HordeGlobalCooldown = 60,
     },
     PocketKitten = {
         -- Minimum=0 Maximum=100 Default=12
