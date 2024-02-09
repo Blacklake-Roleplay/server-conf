@@ -810,7 +810,7 @@ SandboxVars = {
     },
     zReV = {
         -- Minimum=300 Maximum=20000 Default=500
-        BlackChemZombieSpawnChance = 1000,
+        BlackChemZombieSpawnChance = 20000,
         -- Minimum=0 Maximum=100 Default=0
         NotesInBlackChemZombieSpawnChance = 100,
         -- Minimum=0 Maximum=100 Default=0
@@ -820,11 +820,11 @@ SandboxVars = {
         -- Minimum=0 Maximum=100 Default=0
         ZomboxivirSpawnChance = 0,
         -- Minimum=0 Maximum=100 Default=30
-        ScalpelTweezersSpawnChance = 30,
+        ScalpelTweezersSpawnChance = 100,
         -- Minimum=0 Maximum=100 Default=30
-        TubeOrSyringeOrFlaskSpawnChance = 30,
+        TubeOrSyringeOrFlaskSpawnChance = 100,
         -- Minimum=0 Maximum=100 Default=30
-        TigelTongsSpawnChance = 30,
+        TigelTongsSpawnChance = 100,
         -- Minimum=0.00 Maximum=2.00 Default=1.00
         BookInWorldSpawnChance = 1.0,
         -- Minimum=5 Maximum=30 Default=10
@@ -850,7 +850,7 @@ SandboxVars = {
         -- Minimum=0.00 Maximum=100.00 Default=0.00
         Smart = 0.0,
         -- Minimum=1000 Maximum=60000 Default=7500
-        Frequency = 7500,
+        Frequency = 22200,
     },
     ScreecherZ = {
         -- Minimum=1 Maximum=100 Default=100
@@ -1002,22 +1002,6 @@ SandboxVars = {
         KeypadLockTime = 66,
         -- Minimum=1 Maximum=500 Default=33
         KeypadUnlockTime = 33,
-    },
-    PDFTZ = {
-        HordesEnabled = true,
-        SpookyScarySkeletons = true,
-        -- Minimum=10 Maximum=2880 Default=720
-        MaxTimeToEatBody = 720,
-        -- Minimum=1 Maximum=50 Default=20
-        CorpseDrawWeight = 20,
-        -- Minimum=50 Maximum=215 Default=60
-        MinHordeDrawWeight = 60,
-        -- Minimum=10 Maximum=2880 Default=360
-        MinHordeDrawWaitTime = 10,
-        -- Minimum=10 Maximum=2880 Default=720
-        MaxHordeDrawWaitTime = 20,
-        -- Minimum=10 Maximum=2880 Default=60
-        HordeGlobalCooldown = 60,
     },
     PocketKitten = {
         -- Minimum=0 Maximum=100 Default=12
