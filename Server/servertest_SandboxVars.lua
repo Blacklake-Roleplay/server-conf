@@ -820,11 +820,11 @@ SandboxVars = {
         -- Minimum=0 Maximum=100 Default=0
         ZomboxivirSpawnChance = 0,
         -- Minimum=0 Maximum=100 Default=30
-        ScalpelTweezersSpawnChance = 100,
+        ScalpelTweezersSpawnChance = 30,
         -- Minimum=0 Maximum=100 Default=30
-        TubeOrSyringeOrFlaskSpawnChance = 100,
+        TubeOrSyringeOrFlaskSpawnChance = 30,
         -- Minimum=0 Maximum=100 Default=30
-        TigelTongsSpawnChance = 100,
+        TigelTongsSpawnChance = 30,
         -- Minimum=0.00 Maximum=2.00 Default=1.00
         BookInWorldSpawnChance = 1.0,
         -- Minimum=5 Maximum=30 Default=10
@@ -1002,6 +1002,22 @@ SandboxVars = {
         KeypadLockTime = 66,
         -- Minimum=1 Maximum=500 Default=33
         KeypadUnlockTime = 33,
+    },
+    PDFTZ = {
+        HordesEnabled = true,
+        SpookyScarySkeletons = false,
+        -- Minimum=10 Maximum=2880 Default=720
+        MaxTimeToEatBody = 720,
+        -- Minimum=1 Maximum=50 Default=20
+        CorpseDrawWeight = 20,
+        -- Minimum=50 Maximum=215 Default=60
+        MinHordeDrawWeight = 60,
+        -- Minimum=10 Maximum=2880 Default=360
+        MinHordeDrawWaitTime = 360,
+        -- Minimum=10 Maximum=2880 Default=720
+        MaxHordeDrawWaitTime = 720,
+        -- Minimum=10 Maximum=2880 Default=60
+        HordeGlobalCooldown = 60,
     },
     PocketKitten = {
         -- Minimum=0 Maximum=100 Default=12
@@ -1201,5 +1217,9 @@ SandboxVars = {
         SpawnInPolice = true,
         Thompsons = false,
         SpawnInMilitaryNATO = false,
+    },
+    Shops = {
+        PurchaseLog = false,
+        SellLog = false,
     },
 }
