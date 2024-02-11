@@ -544,7 +544,7 @@ SandboxVars = {
         -- 1 = Navigate + Use Doors
         -- 2 = Navigate
         -- 3 = Basic Navigation
-        Cognition = 2,
+        Cognition = 3,
         -- Controls which zombies can crawl under vehicles. Default=Often
         -- 1 = Crawlers Only
         -- 2 = Extremely Rare
@@ -978,6 +978,57 @@ SandboxVars = {
         KeypadLockTime = 66,
         -- Minimum=1 Maximum=500 Default=33
         KeypadUnlockTime = 33,
+    },
+    AirbobbelzLoot = {
+        -- Minimum=0 Maximum=100000000 Default=100
+        GlobalMultiplier = 100,
+        -- Minimum=0 Maximum=100 Default=20
+        ChanceMaxCondition = 20,
+        -- Minimum=0 Maximum=100 Default=10
+        MinimumCondition = 10,
+        -- Minimum=0 Maximum=100 Default=20
+        ChanceMaxDrainable = 20,
+        -- Minimum=0 Maximum=100 Default=20
+        MinimumDrainable = 20,
+        -- Minimum=0 Maximum=100000000 Default=100
+        OutfitMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Default=100
+        BagContentsMultiplier = 100,
+        -- Minimum=0 Maximum=1000 Default=12
+        GunLooseBulletsRolls = 12,
+        -- Minimum=0 Maximum=1000 Default=100
+        GunLooseBulletsMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Default=100
+        AmmoMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Default=100
+        AmmoBoxMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Default=100
+        MeleeMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Default=100
+        PistolMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Default=100
+        LongGunMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Default=100
+        OtherGunsMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Default=100
+        CannedFoodMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Default=100
+        OtherFoodMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Default=100
+        ResourceMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Default=100
+        BagMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Default=100
+        GunBagMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Default=100
+        JunkMultiplier = 100,
+        -- Minimum=0 Maximum=100000000 Default=100
+        ExtraMultiplier = 100,
+        ExtraRollEach = "Poker chips:1",
+        ExtraRollOne1 = "",
+        ExtraRollOne2 = "",
+        ExtraRollOne3 = "",
+        RemoveItems = "",
     },
     PocketKitten = {
         -- Minimum=0 Maximum=100 Default=12
