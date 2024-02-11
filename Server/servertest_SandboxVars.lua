@@ -594,7 +594,7 @@ SandboxVars = {
         -- Adjusts the desired population at the start of the game. Minimum=0.00 Maximum=4.00 Default=1.00
         PopulationStartMultiplier = 1.0,
         -- Adjusts the desired population on the peak day. Minimum=0.00 Maximum=4.00 Default=1.50
-        PopulationPeakMultiplier = 2.0,
+        PopulationPeakMultiplier = 1.5,
         -- The day when the population reaches it's peak. Minimum=1 Maximum=365 Default=28
         PopulationPeakDay = 40,
         -- The number of hours that must pass before zombies may respawn in a cell. If zero, spawning is disabled. Minimum=0.00 Maximum=8760.00 Default=72.00
@@ -1117,21 +1117,21 @@ SandboxVars = {
         IPPJEnableNonPVPZone = true,
         IPPJPVPLog = false,
         -- Minimum=0.00 Maximum=100.00 Default=10.00
-        IPPJPVPDamageMult = 10.0,
-        IPPJPVPEnableWound = false,
+        IPPJPVPDamageMult = 22.0,
+        IPPJPVPEnableWound = true,
         IPPJLargerHitboxPVP = false,
         -- Minimum=0 Maximum=100 Default=40
-        IPPJPVPHitBoxHighRatio = 40,
+        IPPJPVPHitBoxHighRatio = 15,
         -- Minimum=0 Maximum=100 Default=40
-        IPPJPVPHitBoxMidRatio = 40,
+        IPPJPVPHitBoxMidRatio = 60,
         -- Minimum=0 Maximum=100 Default=20
-        IPPJPVPHitBoxLowRatio = 20,
+        IPPJPVPHitBoxLowRatio = 25,
         -- Minimum=0.10 Maximum=10.00 Default=1.00
-        IPPJPVPHitBoxHighMult = 1.0,
+        IPPJPVPHitBoxHighMult = 1.25,
         -- Minimum=0.10 Maximum=10.00 Default=0.60
-        IPPJPVPHitBoxMidMult = 0.6,
+        IPPJPVPHitBoxMidMult = 1.0,
         -- Minimum=0.10 Maximum=10.00 Default=0.30
-        IPPJPVPHitBoxLowMult = 0.3,
+        IPPJPVPHitBoxLowMult = 0.6,
         IPPJEnableExplo = true,
         IPPJExploTrajectory = true,
         IPPJFlatTrajectory = "",
