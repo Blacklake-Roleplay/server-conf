@@ -544,7 +544,7 @@ SandboxVars = {
         -- 1 = Navigate + Use Doors
         -- 2 = Navigate
         -- 3 = Basic Navigation
-        Cognition = 3,
+        Cognition = 2,
         -- Controls which zombies can crawl under vehicles. Default=Often
         -- 1 = Crawlers Only
         -- 2 = Extremely Rare
@@ -983,33 +983,33 @@ SandboxVars = {
         -- Minimum=0 Maximum=100000000 Default=100
         GlobalMultiplier = 100,
         -- Minimum=0 Maximum=100 Default=20
-        ChanceMaxCondition = 20,
+        ChanceMaxCondition = 10,
         -- Minimum=0 Maximum=100 Default=10
-        MinimumCondition = 10,
+        MinimumCondition = 1,
         -- Minimum=0 Maximum=100 Default=20
-        ChanceMaxDrainable = 20,
+        ChanceMaxDrainable = 15,
         -- Minimum=0 Maximum=100 Default=20
-        MinimumDrainable = 20,
+        MinimumDrainable = 1,
         -- Minimum=0 Maximum=100000000 Default=100
         OutfitMultiplier = 100,
         -- Minimum=0 Maximum=100000000 Default=100
         BagContentsMultiplier = 100,
         -- Minimum=0 Maximum=1000 Default=12
-        GunLooseBulletsRolls = 12,
+        GunLooseBulletsRolls = 4,
         -- Minimum=0 Maximum=1000 Default=100
         GunLooseBulletsMultiplier = 100,
         -- Minimum=0 Maximum=100000000 Default=100
         AmmoMultiplier = 100,
         -- Minimum=0 Maximum=100000000 Default=100
-        AmmoBoxMultiplier = 100,
+        AmmoBoxMultiplier = 50,
         -- Minimum=0 Maximum=100000000 Default=100
-        MeleeMultiplier = 100,
+        MeleeMultiplier = 50,
         -- Minimum=0 Maximum=100000000 Default=100
-        PistolMultiplier = 100,
+        PistolMultiplier = 50,
         -- Minimum=0 Maximum=100000000 Default=100
-        LongGunMultiplier = 100,
+        LongGunMultiplier = 50,
         -- Minimum=0 Maximum=100000000 Default=100
-        OtherGunsMultiplier = 100,
+        OtherGunsMultiplier = 50,
         -- Minimum=0 Maximum=100000000 Default=100
         CannedFoodMultiplier = 100,
         -- Minimum=0 Maximum=100000000 Default=100
@@ -1019,12 +1019,12 @@ SandboxVars = {
         -- Minimum=0 Maximum=100000000 Default=100
         BagMultiplier = 100,
         -- Minimum=0 Maximum=100000000 Default=100
-        GunBagMultiplier = 100,
+        GunBagMultiplier = 80,
         -- Minimum=0 Maximum=100000000 Default=100
         JunkMultiplier = 100,
         -- Minimum=0 Maximum=100000000 Default=100
         ExtraMultiplier = 100,
-        ExtraRollEach = "Base.PokerChips:1",
+        ExtraRollEach = "PokerChips:1",
         ExtraRollOne1 = "",
         ExtraRollOne2 = "",
         ExtraRollOne3 = "",
@@ -1168,15 +1168,15 @@ SandboxVars = {
         IPPJEnableNonPVPZone = true,
         IPPJPVPLog = false,
         -- Minimum=0.00 Maximum=100.00 Default=10.00
-        IPPJPVPDamageMult = 22.0,
+        IPPJPVPDamageMult = 20.0,
         IPPJPVPEnableWound = true,
         IPPJLargerHitboxPVP = false,
         -- Minimum=0 Maximum=100 Default=40
-        IPPJPVPHitBoxHighRatio = 15,
+        IPPJPVPHitBoxHighRatio = 10,
         -- Minimum=0 Maximum=100 Default=40
         IPPJPVPHitBoxMidRatio = 60,
         -- Minimum=0 Maximum=100 Default=20
-        IPPJPVPHitBoxLowRatio = 25,
+        IPPJPVPHitBoxLowRatio = 30,
         -- Minimum=0.10 Maximum=10.00 Default=1.00
         IPPJPVPHitBoxHighMult = 1.25,
         -- Minimum=0.10 Maximum=10.00 Default=0.60
