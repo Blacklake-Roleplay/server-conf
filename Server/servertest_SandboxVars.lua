@@ -1189,7 +1189,7 @@ SandboxVars = {
     },
     BasementAddOptions = {
         AdminCanBuildHatchesEverywhere = false,
-        buildHatchIfNotIsAdminIsForbidden = false,
+        buildHatchIfNotIsAdminIsForbidden = true,
         buildHatchfromRVinteriorIsForbidden = true,
         unlockInsideWithoutKey = true,
         lockInsideWithoutKey = true,
