@@ -1218,11 +1218,6 @@ SandboxVars = {
         -- Minimum=0 Maximum=1000 Default=10
         chanceToSucceedBreakPadlockAction = 10,
     },
-    RVInterior = {
-        -- Minimum=0 Maximum=100 Default=20
-        SafeZombieDistance = 20,
-        NotWhenChased = true,
-    },
     TIHFPOptions = {
         SpawnInMilitary = true,
         SpawnInPolice = true,
