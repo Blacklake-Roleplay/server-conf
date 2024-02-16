@@ -544,7 +544,7 @@ SandboxVars = {
         -- 1 = Navigate + Use Doors
         -- 2 = Navigate
         -- 3 = Basic Navigation
-        Cognition = 3,
+        Cognition = 2,
         -- Controls which zombies can crawl under vehicles. Default=Often
         -- 1 = Crawlers Only
         -- 2 = Extremely Rare
@@ -590,13 +590,13 @@ SandboxVars = {
     },
     ZombieConfig = {
         -- Set by the "Zombie Count" population option. 4.0 = Insane, Very High = 3.0, 2.0 = High, 1.0 = Normal, 0.35 = Low, 0.0 = None. Minimum=0.00 Maximum=4.00 Default=1.00
-        PopulationMultiplier = 1.6,
+        PopulationMultiplier = 1.5,
         -- Adjusts the desired population at the start of the game. Minimum=0.00 Maximum=4.00 Default=1.00
         PopulationStartMultiplier = 1.0,
         -- Adjusts the desired population on the peak day. Minimum=0.00 Maximum=4.00 Default=1.50
         PopulationPeakMultiplier = 1.5,
         -- The day when the population reaches it's peak. Minimum=1 Maximum=365 Default=28
-        PopulationPeakDay = 40,
+        PopulationPeakDay = 60,
         -- The number of hours that must pass before zombies may respawn in a cell. If zero, spawning is disabled. Minimum=0.00 Maximum=8760.00 Default=72.00
         RespawnHours = 72.0,
         -- The number of hours that a chunk must be unseen before zombies may respawn in it. Minimum=0.00 Maximum=8760.00 Default=16.00
@@ -854,7 +854,7 @@ SandboxVars = {
     },
     ScreecherZ = {
         -- Minimum=1 Maximum=100 Default=100
-        ScreechChance = 10,
+        ScreechChance = 5,
         -- Minimum=1 Maximum=36000 Default=15
         TickRate = 15,
         DayOnly = false,
@@ -1153,7 +1153,7 @@ SandboxVars = {
         -- Minimum=0 Maximum=100 Default=0
         IPPJ556Bullets = 0,
         IPPJCustomAmmo = "",
-        IPPJSniperScope = 2,
+        IPPJSniperScope = 1,
         -- Minimum=0.00 Maximum=30.00 Default=14.00
         IPPJSniperScopeRange = 14.0,
         IPPJVisualRecoil = 1,
