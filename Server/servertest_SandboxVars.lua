@@ -544,7 +544,7 @@ SandboxVars = {
         -- 1 = Navigate + Use Doors
         -- 2 = Navigate
         -- 3 = Basic Navigation
-        Cognition = 3,
+        Cognition = 2,
         -- Controls which zombies can crawl under vehicles. Default=Often
         -- 1 = Crawlers Only
         -- 2 = Extremely Rare
@@ -783,7 +783,7 @@ SandboxVars = {
         -- Minimum=0 Maximum=10 Default=5
         PerkLvl0Cap = 4,
         -- Minimum=0 Maximum=10 Default=7
-        PerkLvl1Cap = 5,
+        PerkLvl1Cap = 6,
         -- Minimum=0 Maximum=10 Default=9
         PerkLvl2Cap = 8,
         -- Minimum=0 Maximum=10 Default=10
@@ -800,7 +800,7 @@ SandboxVars = {
     },
     FancyHandwork = {
         -- Minimum=0 Maximum=11 Default=3
-        ExperiencedAim = 3,
+        ExperiencedAim = 5,
         -- Minimum=0.01 Maximum=60.00 Default=1.00
         TurnDelaySec = 1.0,
         DisableTurn = 2,
@@ -856,7 +856,7 @@ SandboxVars = {
         -- Minimum=1 Maximum=100 Default=100
         ScreechChance = 10,
         -- Minimum=1 Maximum=36000 Default=15
-        TickRate = 20,
+        TickRate = 15,
         DayOnly = false,
         NightOnly = false,
     },
@@ -915,15 +915,15 @@ SandboxVars = {
         EnableSkinSwitcher = false,
         EnableVehicleSpawner = false,
         EnableTrunkUnlocker = false,
-        EnableGravelBuddy = false,
-        EnableGardener = false,
-        AllowTYLPlantRemoval = false,
-        EnableLumberjack = false,
-        EnableFarmer = false,
-        EnableContainerUnloader = false,
+        EnableGravelBuddy = true,
+        EnableGardener = true,
+        AllowTYLPlantRemoval = true,
+        EnableLumberjack = true,
+        EnableFarmer = true,
+        EnableContainerUnloader = true,
         EnableHomeWrecker = false,
-        EnableCorpseStacker = false,
-        EnableVehicleItemHide = false,
+        EnableCorpseStacker = true,
+        EnableVehicleItemHide = true,
     },
     BTSE = {
         LogMovableActions = true,
@@ -1024,7 +1024,7 @@ SandboxVars = {
         JunkMultiplier = 100,
         -- Minimum=0 Maximum=100000000 Default=100
         ExtraMultiplier = 100,
-        ExtraRollEach = "PokerChips:1",
+        ExtraRollEach = "PokerChips:1.5",
         ExtraRollOne1 = "",
         ExtraRollOne2 = "",
         ExtraRollOne3 = "",
