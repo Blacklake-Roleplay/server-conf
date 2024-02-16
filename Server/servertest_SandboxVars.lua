@@ -544,7 +544,7 @@ SandboxVars = {
         -- 1 = Navigate + Use Doors
         -- 2 = Navigate
         -- 3 = Basic Navigation
-        Cognition = 2,
+        Cognition = 3,
         -- Controls which zombies can crawl under vehicles. Default=Often
         -- 1 = Crawlers Only
         -- 2 = Extremely Rare
@@ -1153,7 +1153,7 @@ SandboxVars = {
         -- Minimum=0 Maximum=100 Default=0
         IPPJ556Bullets = 0,
         IPPJCustomAmmo = "",
-        IPPJSniperScope = 1,
+        IPPJSniperScope = 2,
         -- Minimum=0.00 Maximum=30.00 Default=14.00
         IPPJSniperScopeRange = 14.0,
         IPPJVisualRecoil = 1,
