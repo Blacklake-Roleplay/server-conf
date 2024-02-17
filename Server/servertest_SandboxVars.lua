@@ -616,6 +616,12 @@ SandboxVars = {
         -- How close members of a group stay to the group's leader. Minimum=1 Maximum=10 Default=3
         RallyGroupRadius = 4,
     },
+    TIHFPOptions = {
+        SpawnInMilitary = true,
+        SpawnInPolice = true,
+        Thompsons = false,
+        SpawnInMilitaryNATO = false,
+    },
     UndeadSurvivor = {
         -- Minimum=0.00 Maximum=100.00 Default=0.04
         StalkerChance = 0.04,
@@ -1217,12 +1223,6 @@ SandboxVars = {
         chanceToLoseCrowbarIfIsBroken = 3,
         -- Minimum=0 Maximum=1000 Default=10
         chanceToSucceedBreakPadlockAction = 10,
-    },
-    TIHFPOptions = {
-        SpawnInMilitary = true,
-        SpawnInPolice = true,
-        Thompsons = false,
-        SpawnInMilitaryNATO = false,
     },
     Shops = {
         PurchaseLog = false,
