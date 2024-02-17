@@ -1272,4 +1272,12 @@ SandboxVars = {
         Expressions = false,
         DanceAnim = false,
     },
+    BecomeDesensitized = {
+        -- Minimum=1 Maximum=10000 Default=500
+        MinimumZombieKills = 500,
+        -- Minimum=1 Maximum=10000 Default=2000
+        MaximumZombieKills = 2000,
+        ConsiderTraits = true,
+        ConsiderOccupations = true,
+    },
 }
