@@ -580,7 +580,7 @@ SandboxVars = {
         -- Allows zombies to trigger house alarms when breaking through windows and doors.
         TriggerHouseAlarm = false,
         -- When enabled if multiple zombies are attacking they can drag you down to feed. Dependent on zombie strength.
-        ZombiesDragDown = true,
+        ZombiesDragDown = false,
         -- When enabled zombies will have a chance to lunge after climbing over a fence if you're too close.
         ZombiesFenceLunge = true,
         -- Default=Some zombies in the world will pretend to be dead
