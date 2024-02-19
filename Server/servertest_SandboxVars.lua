@@ -81,9 +81,9 @@ SandboxVars = {
     -- 7 = 2-6 Months
     ElecShut = 1,
     -- Minimum=-1 Maximum=2147483647 Default=14
-    WaterShutModifier = 14,
+    WaterShutModifier = 1,
     -- Minimum=-1 Maximum=2147483647 Default=14
-    ElecShutModifier = 14,
+    ElecShutModifier = 1,
     -- Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
@@ -921,19 +921,19 @@ SandboxVars = {
         EnableSkinSwitcher = false,
         EnableVehicleSpawner = false,
         EnableTrunkUnlocker = false,
-        EnableGravelBuddy = true,
-        EnableGardener = true,
-        AllowTYLPlantRemoval = true,
-        EnableLumberjack = true,
-        EnableFarmer = true,
-        EnableContainerUnloader = true,
+        EnableGravelBuddy = false,
+        EnableGardener = false,
+        AllowTYLPlantRemoval = false,
+        EnableLumberjack = false,
+        EnableFarmer = false,
+        EnableContainerUnloader = false,
         EnableHomeWrecker = false,
-        EnableCorpseStacker = true,
-        EnableVehicleItemHide = true,
+        EnableCorpseStacker = false,
+        EnableVehicleItemHide = false,
     },
     BTSE = {
         LogMovableActions = true,
-        AllowKnownKPDestruction = true,
+        AllowKnownKPDestruction = false,
         MakeKeypadUnbreakable = true,
         LogTPWhitelistDestroy = true,
         LogTPSledgeBreaking = true,
@@ -974,8 +974,8 @@ SandboxVars = {
         TryDoorRepairOnLoad = true,
         LogGarageDoorRepairs = true,
         ReturnKeypadAfterRemoval = true,
-        OpenDoorOnUnlock = true,
-        KeypadKnownToLock = false,
+        OpenDoorOnUnlock = false,
+        KeypadKnownToLock = true,
         -- Minimum=1 Maximum=500 Default=100
         KeypadInstallTime = 100,
         -- Minimum=1 Maximum=500 Default=66
