@@ -303,7 +303,7 @@ SandboxVars = {
     -- How often zombie attracting metagame events like distant gunshots will occur. Default=Sometimes
     -- 1 = Never
     -- 2 = Sometimes
-    MetaEvent = 2,
+    MetaEvent = 1,
     -- Governs night-time metagame events during the player's sleep. Default=Never
     -- 1 = Never
     -- 2 = Sometimes
@@ -498,7 +498,7 @@ SandboxVars = {
     -- The higher the value, the longer lightbulbs last before breaking. If 0, lightbulbs will never break. Does not affect vehicle headlights. Minimum=0.00 Maximum=1000.00 Default=1.00
     LightBulbLifespan = 1000.0,
     -- Minimum=1.38 Maximum=4.00 Default=2.00
-    lgd_antibodies_150_general_baseAntibodyGrowth = 2.0,
+    lgd_antibodies_150_general_baseAntibodyGrowth = 1.45,
     Map = {
         AllowMiniMap = false,
         AllowWorldMap = true,
@@ -644,7 +644,7 @@ SandboxVars = {
         ZombieLootSpawn = 3,
     },
     MoreBrews = {
-        Loot = 1,
+        Loot = 2,
         TotalAmount = 3,
         KitSpawnOption = true,
         KegSpawnOption = true,
@@ -685,7 +685,7 @@ SandboxVars = {
         ExpireChange = 10,
     },
     MoreBrewsWineMeUp = {
-        Loot = 1,
+        Loot = 2,
         TotalAmount = 3,
         WineKitSpawnOption = true,
         SuppliesSpawnOption = true,
