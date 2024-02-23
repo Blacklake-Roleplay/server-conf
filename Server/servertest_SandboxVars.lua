@@ -598,11 +598,11 @@ SandboxVars = {
         -- The day when the population reaches it's peak. Minimum=1 Maximum=365 Default=28
         PopulationPeakDay = 35,
         -- The number of hours that must pass before zombies may respawn in a cell. If zero, spawning is disabled. Minimum=0.00 Maximum=8760.00 Default=72.00
-        RespawnHours = 72.0,
+        RespawnHours = 190.0,
         -- The number of hours that a chunk must be unseen before zombies may respawn in it. Minimum=0.00 Maximum=8760.00 Default=16.00
-        RespawnUnseenHours = 4.0,
+        RespawnUnseenHours = 12.0,
         -- The fraction of a cell's desired population that may respawn every RespawnHours. Minimum=0.00 Maximum=1.00 Default=0.10
-        RespawnMultiplier = 1.0,
+        RespawnMultiplier = 0.1,
         -- The number of hours that must pass before zombies migrate to empty parts of the same cell. If zero, migration is disabled. Minimum=0.00 Maximum=8760.00 Default=12.00
         RedistributeHours = 24.0,
         -- The distance a zombie will try to walk towards the last sound it heard. Minimum=10 Maximum=1000 Default=100
@@ -648,18 +648,18 @@ SandboxVars = {
         TotalAmount = 3,
         KitSpawnOption = true,
         KegSpawnOption = true,
-        ForageHops = false,
+        ForageHops = true,
         -- Minimum=1 Maximum=20 Default=5
-        ForageHopsRate = 5,
+        ForageHopsRate = 3,
         HopsOption = false,
         SuppliesSpawnOption = true,
         MagazineSpawnOption = true,
         BookSpawnOption = true,
         BeerSpawnOption = true,
         -- Minimum=1 Maximum=10 Default=2
-        BrewingKits = 2,
+        BrewingKits = 4,
         -- Minimum=1 Maximum=10 Default=2
-        Kegs = 2,
+        Kegs = 3,
         -- Minimum=1 Maximum=10 Default=2
         Hops = 2,
         -- Minimum=1 Maximum=10 Default=2
@@ -693,9 +693,9 @@ SandboxVars = {
         BookSpawnOption = true,
         WineSpawnOption = true,
         -- Minimum=1 Maximum=10 Default=2
-        WineMakingKits = 2,
+        WineMakingKits = 4,
         -- Minimum=1 Maximum=10 Default=2
-        Supplies = 2,
+        Supplies = 3,
         -- Minimum=1 Maximum=10 Default=2
         Recipes = 2,
         -- Minimum=1 Maximum=10 Default=2
@@ -859,12 +859,15 @@ SandboxVars = {
         Frequency = 7500,
     },
     ScreecherZ = {
+        DayOnly = false,
+        NightOnly = false,
         -- Minimum=1 Maximum=100 Default=100
         ScreechChance = 5,
         -- Minimum=1 Maximum=36000 Default=15
         TickRate = 15,
-        DayOnly = false,
-        NightOnly = false,
+        AlertNearbyZombies = true,
+        -- Minimum=0 Maximum=300 Default=21
+        AlertRadius = 43,
     },
     SOMW = {
         CondLowerChanceMultiplier = 1,
