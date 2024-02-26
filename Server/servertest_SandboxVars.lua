@@ -590,19 +590,19 @@ SandboxVars = {
     },
     ZombieConfig = {
         -- Set by the "Zombie Count" population option. 4.0 = Insane, Very High = 3.0, 2.0 = High, 1.0 = Normal, 0.35 = Low, 0.0 = None. Minimum=0.00 Maximum=4.00 Default=1.00
-        PopulationMultiplier = 1.6,
+        PopulationMultiplier = 1.7,
         -- Adjusts the desired population at the start of the game. Minimum=0.00 Maximum=4.00 Default=1.00
         PopulationStartMultiplier = 1.0,
         -- Adjusts the desired population on the peak day. Minimum=0.00 Maximum=4.00 Default=1.50
-        PopulationPeakMultiplier = 1.5,
+        PopulationPeakMultiplier = 1.7,
         -- The day when the population reaches it's peak. Minimum=1 Maximum=365 Default=28
         PopulationPeakDay = 35,
         -- The number of hours that must pass before zombies may respawn in a cell. If zero, spawning is disabled. Minimum=0.00 Maximum=8760.00 Default=72.00
-        RespawnHours = 190.0,
+        RespawnHours = 120.0,
         -- The number of hours that a chunk must be unseen before zombies may respawn in it. Minimum=0.00 Maximum=8760.00 Default=16.00
-        RespawnUnseenHours = 12.0,
+        RespawnUnseenHours = 8.0,
         -- The fraction of a cell's desired population that may respawn every RespawnHours. Minimum=0.00 Maximum=1.00 Default=0.10
-        RespawnMultiplier = 0.1,
+        RespawnMultiplier = 0.9,
         -- The number of hours that must pass before zombies migrate to empty parts of the same cell. If zero, migration is disabled. Minimum=0.00 Maximum=8760.00 Default=12.00
         RedistributeHours = 24.0,
         -- The distance a zombie will try to walk towards the last sound it heard. Minimum=10 Maximum=1000 Default=100
@@ -816,7 +816,7 @@ SandboxVars = {
     },
     zReV = {
         -- Minimum=300 Maximum=20000 Default=500
-        BlackChemZombieSpawnChance = 500,
+        BlackChemZombieSpawnChance = 300,
         -- Minimum=0 Maximum=100 Default=0
         NotesInBlackChemZombieSpawnChance = 0,
         -- Minimum=0 Maximum=100 Default=0
@@ -844,9 +844,9 @@ SandboxVars = {
         -- Minimum=0.00 Maximum=100.00 Default=15.00
         Shambler = 5.0,
         -- Minimum=0.00 Maximum=100.00 Default=78.00
-        FastShambler = 89.0,
+        FastShambler = 88.0,
         -- Minimum=0.00 Maximum=100.00 Default=5.00
-        Sprinter = 5.0,
+        Sprinter = 6.0,
         -- Minimum=0.00 Maximum=100.00 Default=0.00
         Fragile = 0.0,
         -- Minimum=0.00 Maximum=100.00 Default=100.00
@@ -862,7 +862,7 @@ SandboxVars = {
         DayOnly = false,
         NightOnly = false,
         -- Minimum=1 Maximum=100 Default=100
-        ScreechChance = 5,
+        ScreechChance = 6,
         -- Minimum=1 Maximum=36000 Default=15
         TickRate = 15,
         AlertNearbyZombies = true,
@@ -1277,9 +1277,9 @@ SandboxVars = {
     },
     BecomeDesensitized = {
         -- Minimum=1 Maximum=10000 Default=500
-        MinimumZombieKills = 500,
+        MinimumZombieKills = 5000,
         -- Minimum=1 Maximum=10000 Default=2000
-        MaximumZombieKills = 2000,
+        MaximumZombieKills = 6666,
         ConsiderTraits = true,
         ConsiderOccupations = true,
     },
