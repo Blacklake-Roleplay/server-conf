@@ -498,7 +498,7 @@ SandboxVars = {
     -- The higher the value, the longer lightbulbs last before breaking. If 0, lightbulbs will never break. Does not affect vehicle headlights. Minimum=0.00 Maximum=1000.00 Default=1.00
     LightBulbLifespan = 1000.0,
     -- Minimum=1.38 Maximum=4.00 Default=2.00
-    lgd_antibodies_150_general_baseAntibodyGrowth = 1.45,
+    lgd_antibodies_150_general_baseAntibodyGrowth = 2.0,
     Map = {
         AllowMiniMap = false,
         AllowWorldMap = true,
@@ -816,7 +816,7 @@ SandboxVars = {
     },
     zReV = {
         -- Minimum=300 Maximum=20000 Default=500
-        BlackChemZombieSpawnChance = 300,
+        BlackChemZombieSpawnChance = 500,
         -- Minimum=0 Maximum=100 Default=0
         NotesInBlackChemZombieSpawnChance = 0,
         -- Minimum=0 Maximum=100 Default=0
