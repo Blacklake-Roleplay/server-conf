@@ -370,7 +370,7 @@ SandboxVars = {
     -- Enable or disable broken limbs when survivors receive injuries from impacts, zombie damage and falls.
     BoneFracture = true,
     -- How long before zombie bodies disappear. Minimum=-1.00 Maximum=2147483647.00 Default=216.00
-    HoursForCorpseRemoval = 216.0,
+    HoursForCorpseRemoval = 96.0,
     -- Governs impact that nearby decaying bodies has on the player's health and emotions. Default=Normal
     -- 1 = None
     -- 2 = Low
@@ -651,7 +651,7 @@ SandboxVars = {
         ForageHops = true,
         -- Minimum=1 Maximum=20 Default=5
         ForageHopsRate = 3,
-        HopsOption = false,
+        HopsOption = true,
         SuppliesSpawnOption = true,
         MagazineSpawnOption = true,
         BookSpawnOption = true,
@@ -888,7 +888,7 @@ SandboxVars = {
         -- Minimum=25 Maximum=100 Default=25
         BloodVolumeReduceModifier = 25,
         -- Minimum=1 Maximum=4 Default=1
-        BloodVolumeIncreaseModifier = 1,
+        BloodVolumeIncreaseModifier = 2,
     },
     AVCS = {
         AllowFaction = true,
