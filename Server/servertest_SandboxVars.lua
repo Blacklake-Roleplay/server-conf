@@ -937,7 +937,7 @@ SandboxVars = {
     BTSE = {
         LogMovableActions = true,
         AllowKnownKPDestruction = false,
-        MakeKeypadUnbreakable = true,
+        MakeKeypadUnbreakable = false,
         LogTPWhitelistDestroy = true,
         LogTPSledgeBreaking = true,
         TileProtectUserWhitelist = "",
@@ -978,7 +978,7 @@ SandboxVars = {
         LogGarageDoorRepairs = true,
         ReturnKeypadAfterRemoval = true,
         OpenDoorOnUnlock = false,
-        KeypadKnownToLock = true,
+        KeypadKnownToLock = false,
         -- Minimum=1 Maximum=500 Default=100
         KeypadInstallTime = 100,
         -- Minimum=1 Maximum=500 Default=66
