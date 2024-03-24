@@ -1173,8 +1173,8 @@ SandboxVars = {
         IPPJMoodleEffectCold = 1,
         IPPJFriendlyFire = false,
         IPPJIgnoreSafety = false,
-        IPPJIgnoreFactionPVP = false,
-        IPPJEnableNonPVPZone = true,
+        IPPJIgnoreFactionPVP = true,
+        IPPJEnableNonPVPZone = false,
         IPPJPVPLog = false,
         -- Minimum=0.00 Maximum=100.00 Default=10.00
         IPPJPVPDamageMult = 20.0,
