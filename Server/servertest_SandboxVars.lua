@@ -258,7 +258,7 @@ SandboxVars = {
     -- When > 0, loot will not respawn in zones that have been visited within this number of in-game hours. Minimum=0 Maximum=2147483647 Default=0
     SeenHoursPreventLootRespawn = 22,
     -- A comma-separated list of item types that will be removed after HoursForWorldItemRemoval hours.
-    WorldItemRemovalList = "Base.Hat,Base.Glasses,Base.Maggots,SMUIClothing.Hat_PatrolCap,SMUIClothing.Hat",
+    WorldItemRemovalList = "Base.Hat,Base.Glasses,Base.Maggots,SMUIClothing.Hat_PatrolCap,SMUIClothing.Hat,Base.SpearCrafted,Base.RippedSheets,AuthenticZClothing.Hat,Base.TreeBranch,Base.Twigs",
     -- Number of hours since an item was dropped on the ground before it is removed.  Items are removed the next time that part of the map is loaded.  Zero means items are not removed. Minimum=0.00 Maximum=2147483647.00 Default=24.00
     HoursForWorldItemRemoval = 24.0,
     -- If true, any items *not* in WorldItemRemovalList will be removed.
@@ -844,9 +844,9 @@ SandboxVars = {
         -- Minimum=0.00 Maximum=100.00 Default=15.00
         Shambler = 5.0,
         -- Minimum=0.00 Maximum=100.00 Default=78.00
-        FastShambler = 88.0,
+        FastShambler = 86.0,
         -- Minimum=0.00 Maximum=100.00 Default=5.00
-        Sprinter = 6.0,
+        Sprinter = 8.0,
         -- Minimum=0.00 Maximum=100.00 Default=0.00
         Fragile = 0.0,
         -- Minimum=0.00 Maximum=100.00 Default=100.00
@@ -862,7 +862,7 @@ SandboxVars = {
         DayOnly = false,
         NightOnly = false,
         -- Minimum=1 Maximum=100 Default=100
-        ScreechChance = 6,
+        ScreechChance = 10,
         -- Minimum=1 Maximum=36000 Default=15
         TickRate = 15,
         AlertNearbyZombies = true,
